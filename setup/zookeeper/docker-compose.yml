@@ -1,0 +1,22 @@
+version: "2.2"
+
+networks:
+  analytics-net:
+    external: true
+
+services:
+  zook:
+    image: zookeeper:3.4.9
+    hostname: zook
+    ports:
+      - "2181:2181"
+    environment:
+      ZOO_MY_ID: 2
+      ZOO_PORT: 2181
+      ZOO_SERVERS: server.1=zook:2888:3888
+    volumes:
+      - ./zk-single-kafka-single/zook/data:/data
+      - ./zk-single-kafka-single/zook/datalog:/datalog
+    networks: 
+      - analytics-net
+
