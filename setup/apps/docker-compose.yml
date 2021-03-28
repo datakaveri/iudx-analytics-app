@@ -1,0 +1,33 @@
+version: "2.2"
+
+networks:
+  analytics-net:
+    external: true
+
+services:
+
+  kafkainit:
+    build: 
+      dockerfile: ./Dockerfile
+      context: .
+    volumes: 
+      - ${TOPICS_PATH}:/topics.json
+    environment:
+      KAFKA_HOST: "kafka"
+      KAFKA_PORT: 9092
+    networks: 
+      - analytics-net
+    command: "python3 create_topics.py"
+
+  druidinit:
+    build: 
+      dockerfile: ./Dockerfile
+      context: .
+    volumes: 
+      - ${SPEC_PATH}:/specs/
+      - ./scripts:/scripts/
+    environment:
+      DRUID_URL: "coordinator:8081"
+    networks: 
+      - analytics-net
+    command: "python3 create_supervisors.py"
