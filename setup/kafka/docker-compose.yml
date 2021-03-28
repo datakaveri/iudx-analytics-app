@@ -25,18 +25,3 @@ services:
       - analytics-net
     volumes:
       - ./zk-single-kafka-single/kafka/data:/var/lib/kafka/data
-
-  kafkainit:
-    build: 
-      dockerfile: ./Dockerfile
-      context: .
-    volumes: 
-      - /tmp/topics.json:/topics.json
-    environment:
-      KAFKA_HOST: "kafka"
-      KAFKA_PORT: 9092
-      KAFKA_TOPICS: /topics.json
-    networks: 
-      - analytics-net
-    command: "tail -f /dev/null"
-

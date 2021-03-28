@@ -113,4 +113,3 @@ services:
       - environment
     networks: 
       - analytics-net
-
