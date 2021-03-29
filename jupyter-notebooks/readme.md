@@ -8,12 +8,12 @@
 
 - #### *pune-flood-sensors.ipynb*
   Visualizing the data from flood sensors across Pune.
-  <img src="screenshots/fs-bubble.png">
-  <img src="screenshots/fs-current-all.png">
-  <img src="screenshots/fs-ref-dist.png">
+<img src="screenshots/fs-bubble.png">
+<img src="screenshots/fs-current-all.png">
+<img src="screenshots/fs-ref-dist.png">
   
 - #### *Pune-WS.ipynb*
   Visualizing the data from weather stations across Pune and comparing it with that of AQM sensors.
-  <img src="screenshots/ws-bubble.png">
-  <img src="screenshots/ws-temp-all.png">
-  <img src="screenshots/ws-compare-aqm.png">
+<img src="screenshots/ws-bubble.png">
+<img src="screenshots/ws-temp-all.png">
+<img src="screenshots/ws-compare-aqm.png">
