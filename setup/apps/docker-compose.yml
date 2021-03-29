@@ -8,7 +8,7 @@ services:
 
   kafkainit:
     build: 
-      dockerfile: ./Dockerfile
+      dockerfile: ../images/Dockerfile
       context: .
     volumes: 
       - ${TOPICS_PATH}:/topics.json
@@ -21,13 +21,26 @@ services:
 
   druidinit:
     build: 
-      dockerfile: ./Dockerfile
+      dockerfile: ../images/Dockerfile
       context: .
     volumes: 
       - ${SPEC_PATH}:/specs/
-      - ./scripts:/scripts/
     environment:
       DRUID_URL: "coordinator:8081"
     networks: 
       - analytics-net
     command: "python3 create_supervisors.py"
+
+  adaptors:
+    build: 
+      dockerfile: ../images/Dockerfile
+      context: .
+    volumes: 
+      - ${ADAPTORS_PATH}:/adaptors/
+    environment:
+      ADAPTORS_PATH: "/adaptors"
+    networks: 
+      - analytics-net
+    command: "sh start_adaptors.sh"
+
+
