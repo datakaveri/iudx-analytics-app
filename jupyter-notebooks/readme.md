@@ -5,10 +5,10 @@
 <img src="screenshots/aqm-pune.png">
 <div class="row">
   <div clas="column">
-    <img src="screenshots/aqm-vadodara.png" height=650 width=475>
+    <img src="screenshots/aqm-vadodara.png" height=650 width=470>
   </div>
   <div clas="column">
-    <img src="screenshots/aqm-varanasi.png" height=650 width=475>
+    <img src="screenshots/aqm-varanasi.png" height=650 width=470>
   </div>
 </div>
 
