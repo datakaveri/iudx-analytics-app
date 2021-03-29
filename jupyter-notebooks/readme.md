@@ -3,14 +3,8 @@
 - #### *airQualityMonitoring.ipynb*
   A Jupyter Notebook dashboard for visualising data from the Air Quality Monitoring (AQM) sensors across Pune, Vadodara and Varanasi.
 <img src="screenshots/aqm-pune.png">
-<div class="row">
-  <div clas="column">
-    <img src="screenshots/aqm-vadodara.png" height=650 width=470>
-  </div>
-  <div clas="column">
-    <img src="screenshots/aqm-varanasi.png" height=650 width=470>
-  </div>
-</div>
+<img src="screenshots/aqm-vadodara.png">
+<img src="screenshots/aqm-varanasi.png">
 
 - #### *pune-flood-sensors.ipynb*
   Visualizing the data from flood sensors across Pune.
