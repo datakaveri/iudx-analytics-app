@@ -1,0 +1,10 @@
+{
+    "topics": [
+        {
+            "name": "itms-live",
+            "num.partitions": 1,
+            "replication": 1,
+            "retention.ms": 172800000
+        }
+    ]
+}

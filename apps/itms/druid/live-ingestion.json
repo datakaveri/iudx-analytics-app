@@ -1,0 +1,369 @@
+{
+  "type": "kafka",
+  "spec": {
+    "dataSchema": {
+      "dataSource": "surat-itms",
+      "timestampSpec": {
+        "column": "observationDateTime",
+        "format": "iso",
+        "missingValue": null
+      },
+      "dimensionsSpec": {
+        "dimensions": [
+          {
+            "type": "string",
+            "name": "actual_trip_start_time",
+            "multiValueHandling": "SORTED_ARRAY",
+            "createBitmapIndex": true
+          },
+          {
+            "type": "string",
+            "name": "id",
+            "multiValueHandling": "SORTED_ARRAY",
+            "createBitmapIndex": true
+          },
+          {
+            "type": "string",
+            "name": "last_stop_arrival_time",
+            "multiValueHandling": "SORTED_ARRAY",
+            "createBitmapIndex": true
+          },
+          {
+            "type": "long",
+            "name": "last_stop_id",
+            "multiValueHandling": "SORTED_ARRAY",
+            "createBitmapIndex": false
+          },
+          {
+            "type": "double",
+            "name": "latitude",
+            "multiValueHandling": "SORTED_ARRAY",
+            "createBitmapIndex": false
+          },
+          {
+            "type": "string",
+            "name": "license_plate",
+            "multiValueHandling": "SORTED_ARRAY",
+            "createBitmapIndex": true
+          },
+          {
+            "type": "double",
+            "name": "longitude",
+            "multiValueHandling": "SORTED_ARRAY",
+            "createBitmapIndex": false
+          },
+          {
+            "type": "string",
+            "name": "route_id",
+            "multiValueHandling": "SORTED_ARRAY",
+            "createBitmapIndex": true
+          },
+          {
+            "type": "double",
+            "name": "speed",
+            "multiValueHandling": "SORTED_ARRAY",
+            "createBitmapIndex": false
+          },
+          {
+            "type": "long",
+            "name": "trip_delay",
+            "multiValueHandling": "SORTED_ARRAY",
+            "createBitmapIndex": false
+          },
+          {
+            "type": "string",
+            "name": "trip_direction",
+            "multiValueHandling": "SORTED_ARRAY",
+            "createBitmapIndex": true
+          },
+          {
+            "type": "string",
+            "name": "trip_id",
+            "multiValueHandling": "SORTED_ARRAY",
+            "createBitmapIndex": true
+          },
+          {
+            "type": "string",
+            "name": "vehicle_label",
+            "multiValueHandling": "SORTED_ARRAY",
+            "createBitmapIndex": true
+          }
+        ],
+        "dimensionExclusions": [
+          "observationDateTime"
+        ]
+      },
+      "metricsSpec": [],
+      "granularitySpec": {
+        "type": "uniform",
+        "segmentGranularity": "HOUR",
+        "queryGranularity": {
+          "type": "none"
+        },
+        "rollup": false,
+        "intervals": null
+      },
+      "transformSpec": {
+        "filter": null,
+        "transforms": []
+      }
+    },
+    "ioConfig": {
+      "topic": "surat-itms",
+      "inputFormat": {
+        "type": "json",
+        "flattenSpec": {
+          "useFieldDiscovery": true,
+          "fields": []
+        },
+        "featureSpec": {}
+      },
+      "replicas": 1,
+      "taskCount": 1,
+      "taskDuration": "PT3600S",
+      "consumerProperties": {
+        "bootstrap.servers": "localhost:9092"
+      },
+      "pollTimeout": 100,
+      "startDelay": "PT5S",
+      "period": "PT30S",
+      "useEarliestOffset": false,
+      "completionTimeout": "PT1800S",
+      "lateMessageRejectionPeriod": null,
+      "earlyMessageRejectionPeriod": null,
+      "lateMessageRejectionStartDateTime": null,
+      "stream": "surat-itms",
+      "useEarliestSequenceNumber": false
+    },
+    "tuningConfig": {
+      "type": "kafka",
+      "maxRowsInMemory": 1000000,
+      "maxBytesInMemory": 0,
+      "maxRowsPerSegment": 5000000,
+      "maxTotalRows": null,
+      "intermediatePersistPeriod": "PT10M",
+      "basePersistDirectory": "/home/ana/druid/apache-druid-0.20.1/var/tmp/druid-realtime-persist589108157853403873",
+      "maxPendingPersists": 0,
+      "indexSpec": {
+        "bitmap": {
+          "type": "roaring",
+          "compressRunOnSerialization": true
+        },
+        "dimensionCompression": "lz4",
+        "metricCompression": "lz4",
+        "longEncoding": "longs",
+        "segmentLoader": null
+      },
+      "indexSpecForIntermediatePersists": {
+        "bitmap": {
+          "type": "roaring",
+          "compressRunOnSerialization": true
+        },
+        "dimensionCompression": "lz4",
+        "metricCompression": "lz4",
+        "longEncoding": "longs",
+        "segmentLoader": null
+      },
+      "buildV9Directly": true,
+      "reportParseExceptions": false,
+      "handoffConditionTimeout": 0,
+      "resetOffsetAutomatically": false,
+      "segmentWriteOutMediumFactory": null,
+      "workerThreads": null,
+      "chatThreads": null,
+      "chatRetries": 8,
+      "httpTimeout": "PT10S",
+      "shutdownTimeout": "PT80S",
+      "offsetFetchPeriod": "PT30S",
+      "intermediateHandoffPeriod": "P2147483647D",
+      "logParseExceptions": false,
+      "maxParseExceptions": 2147483647,
+      "maxSavedParseExceptions": 0,
+      "skipSequenceNumberAvailabilityCheck": false,
+      "repartitionTransitionDuration": "PT120S"
+    }
+  },
+  "dataSchema": {
+    "dataSource": "surat-itms",
+    "timestampSpec": {
+      "column": "observationDateTime",
+      "format": "iso",
+      "missingValue": null
+    },
+    "dimensionsSpec": {
+      "dimensions": [
+        {
+          "type": "string",
+          "name": "actual_trip_start_time",
+          "multiValueHandling": "SORTED_ARRAY",
+          "createBitmapIndex": true
+        },
+        {
+          "type": "string",
+          "name": "id",
+          "multiValueHandling": "SORTED_ARRAY",
+          "createBitmapIndex": true
+        },
+        {
+          "type": "string",
+          "name": "last_stop_arrival_time",
+          "multiValueHandling": "SORTED_ARRAY",
+          "createBitmapIndex": true
+        },
+        {
+          "type": "long",
+          "name": "last_stop_id",
+          "multiValueHandling": "SORTED_ARRAY",
+          "createBitmapIndex": false
+        },
+        {
+          "type": "double",
+          "name": "latitude",
+          "multiValueHandling": "SORTED_ARRAY",
+          "createBitmapIndex": false
+        },
+        {
+          "type": "string",
+          "name": "license_plate",
+          "multiValueHandling": "SORTED_ARRAY",
+          "createBitmapIndex": true
+        },
+        {
+          "type": "double",
+          "name": "longitude",
+          "multiValueHandling": "SORTED_ARRAY",
+          "createBitmapIndex": false
+        },
+        {
+          "type": "string",
+          "name": "route_id",
+          "multiValueHandling": "SORTED_ARRAY",
+          "createBitmapIndex": true
+        },
+        {
+          "type": "double",
+          "name": "speed",
+          "multiValueHandling": "SORTED_ARRAY",
+          "createBitmapIndex": false
+        },
+        {
+          "type": "long",
+          "name": "trip_delay",
+          "multiValueHandling": "SORTED_ARRAY",
+          "createBitmapIndex": false
+        },
+        {
+          "type": "string",
+          "name": "trip_direction",
+          "multiValueHandling": "SORTED_ARRAY",
+          "createBitmapIndex": true
+        },
+        {
+          "type": "string",
+          "name": "trip_id",
+          "multiValueHandling": "SORTED_ARRAY",
+          "createBitmapIndex": true
+        },
+        {
+          "type": "string",
+          "name": "vehicle_label",
+          "multiValueHandling": "SORTED_ARRAY",
+          "createBitmapIndex": true
+        }
+      ],
+      "dimensionExclusions": [
+        "observationDateTime"
+      ]
+    },
+    "metricsSpec": [],
+    "granularitySpec": {
+      "type": "uniform",
+      "segmentGranularity": "HOUR",
+      "queryGranularity": {
+        "type": "none"
+      },
+      "rollup": false,
+      "intervals": null
+    },
+    "transformSpec": {
+      "filter": null,
+      "transforms": []
+    }
+  },
+  "tuningConfig": {
+    "type": "kafka",
+    "maxRowsInMemory": 1000000,
+    "maxBytesInMemory": 0,
+    "maxRowsPerSegment": 5000000,
+    "maxTotalRows": null,
+    "intermediatePersistPeriod": "PT10M",
+    "basePersistDirectory": "/home/ana/druid/apache-druid-0.20.1/var/tmp/druid-realtime-persist589108157853403873",
+    "maxPendingPersists": 0,
+    "indexSpec": {
+      "bitmap": {
+        "type": "roaring",
+        "compressRunOnSerialization": true
+      },
+      "dimensionCompression": "lz4",
+      "metricCompression": "lz4",
+      "longEncoding": "longs",
+      "segmentLoader": null
+    },
+    "indexSpecForIntermediatePersists": {
+      "bitmap": {
+        "type": "roaring",
+        "compressRunOnSerialization": true
+      },
+      "dimensionCompression": "lz4",
+      "metricCompression": "lz4",
+      "longEncoding": "longs",
+      "segmentLoader": null
+    },
+    "buildV9Directly": true,
+    "reportParseExceptions": false,
+    "handoffConditionTimeout": 0,
+    "resetOffsetAutomatically": false,
+    "segmentWriteOutMediumFactory": null,
+    "workerThreads": null,
+    "chatThreads": null,
+    "chatRetries": 8,
+    "httpTimeout": "PT10S",
+    "shutdownTimeout": "PT80S",
+    "offsetFetchPeriod": "PT30S",
+    "intermediateHandoffPeriod": "P2147483647D",
+    "logParseExceptions": false,
+    "maxParseExceptions": 2147483647,
+    "maxSavedParseExceptions": 0,
+    "skipSequenceNumberAvailabilityCheck": false,
+    "repartitionTransitionDuration": "PT120S"
+  },
+  "ioConfig": {
+    "topic": "surat-itms",
+    "inputFormat": {
+      "type": "json",
+      "flattenSpec": {
+        "useFieldDiscovery": true,
+        "fields": []
+      },
+      "featureSpec": {}
+    },
+    "replicas": 1,
+    "taskCount": 1,
+    "taskDuration": "PT3600S",
+    "consumerProperties": {
+      "bootstrap.servers": "localhost:9092"
+    },
+    "pollTimeout": 100,
+    "startDelay": "PT5S",
+    "period": "PT30S",
+    "useEarliestOffset": false,
+    "completionTimeout": "PT1800S",
+    "lateMessageRejectionPeriod": null,
+    "earlyMessageRejectionPeriod": null,
+    "lateMessageRejectionStartDateTime": null,
+    "stream": "surat-itms",
+    "useEarliestSequenceNumber": false
+  },
+  "context": null,
+  "suspended": false
+}
