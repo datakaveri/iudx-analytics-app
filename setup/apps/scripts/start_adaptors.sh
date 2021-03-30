@@ -1,6 +1,6 @@
 #/bin/sh
 
-ADAPTORS_PATH=$ADAPTORS_PATH
+ADAPTORS_PATH="/adaptors"
 
 
 
