@@ -26,11 +26,11 @@ class Adaptor():
 
         self.bootstrap_server = ''
 
-        self.producer = Producer({'bootstrap.servers': "localhost:9092"})
+        self.producer = None
 
     """RMQ Config Getter and Setter functions
     """
-    def create_producer():
+    def create_producer(self):
         self.producer = Producer({'bootstrap.servers': self.bootstrap_server})
 
     def set_bootstrap_server(self, server: str):
@@ -101,7 +101,7 @@ class Adaptor():
 
 
     """ Kafka publish callback """
-    def delivery_report(err, msg):
+    def delivery_report(self, err, msg):
         if err is not None:
             print('Message delivery failed: {}'.format(err))
 

@@ -5,7 +5,7 @@ import json
 kafka_host = os.environ["KAFKA_HOST"]
 kafka_port = os.environ["KAFKA_PORT"]
 
-kafka_topic_cfg = "/topics.json"
+kafka_topic_cfg = "topics.json"
 
 kafka_topics = {}
 
