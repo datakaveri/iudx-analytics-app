@@ -28,20 +28,32 @@ depending on the scale and number of datasources.
 
 ### Setup order
 Zookeeper -> Kafka -> Druid -> Adaptors -> Superset -> Apps
+
+
+### Ingestion setup
+This setup takes care of setting the ingestion pipeline, i.e, bringing up Zookeeper, Kafka, Druid and setting up the adaptors.
+
+
+1. Build all the required docker images 
+   `cd ./setup/apps/ && docker-compose build`
+2. Add a configuration file in `./scripts/configs/config.json` with IUDX subscription secrets
+3. Add adaptors in `./apps/<app-name>/adaptors/`. Ensure that the adaptor_id in the python scripts are same as those in the config file
+4. Edit `./scripts/setup_ingestion.sh` for any further configurations.
+5. Execute the ingestion script `cd ./scripts && ./setup_ingestion.sh`
   
-### Zookeeper Setup 
+#### Zookeeper fine tuning
 1. `cd ./setup/zookeeper`
 2. Edit zookeeper settings as required in `./setup/zookeeper/docker-compose.yml` and 
    `docker-compose up -d`
 
-### Kafka Setup
+#### Kafka fine tuning
 1. Ensure `zookeeper` is visible in the docker network
 2. `cd ./setup/kafka/`
 3. Edit configuration in `docker-compose.yml` such as zookeeper service name and address, and `KAFKA_ADVERTISED_LISTENERS` for visibility outside the container.  
 4. `docker-compose up -d`
 
 
-### Druid Setup
+### Druid fine tuning
 1. Ensure `zookeeper` is visible in the docker network
 2. `cd ./setup/druid`
 3. Edit `./setup/druid/environment` in accordance to the system configuration. configuration (Especially Java XMX and XMS settings).
@@ -49,23 +61,15 @@ Zookeeper -> Kafka -> Druid -> Adaptors -> Superset -> Apps
 5. Bring up different druid services in different vms if required (especially `historical`) or in a single vm 
    `docker-compose up -d`
 
-
-
 ### Superset
-
-### Adaptors and Apps
-#### Adaptors
-#### Apps
-`cd ./setup/apps/`
-1. Create topics in kafka 
-   `export TOPICS_PATH=<Path to topic config file, usually ./apps/<app-name>/kafka/` 
-   `docker-compose up -d kafkainit`
-2. Create ingestion supervisors in druid 
-   `export SPEC_PATH=<Path to ingestion spec folder, usually ./apps/<app-name>/druid/` 
-   `docker-compose up -d druidinit`
-
-
-
+**Note**: This section is work in progress
+**Note**: Nginx setup and automatically bringing up the dashboards is work in progress.
+1. `cd ./setup/superset/ && docker-compose up`
+2. Add database pointing to your database host address 
+   `druid://<host>:8082/druid/v2/sql`
+3. Import the dashboard yaml 
+   `docker exec -it superset 'superset import_datasources -p <path or filename>'`
+   
 
 ## <a name="dashboards"></a> Live Dashboards
 
@@ -75,4 +79,10 @@ Zookeeper -> Kafka -> Druid -> Adaptors -> Superset -> Apps
   - [Varanasi](https://analytics.iudx.org.in/r/48)
 
 - Intelligent Transit Management System 
-  - [Surat](https://analytics.iudx.org.in/r/50) (Note: data may not be flowing from city)
+  - [Surat](https://analytics.iudx.org.in/r/50) (Coming soon)
+
+
+## Future works
+1. Apache airflow based orchestration
+2. Fully configurable apps (frontend) based on single configuration file
+3. Swarm/Kubernets based setup
