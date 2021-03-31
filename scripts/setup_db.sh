@@ -1,6 +1,6 @@
 #/bin/bash
 
-PROJECT_ROOT="/home/rraks/Work/gitrepos/iudx-analytics-app/"
+PROJECT_ROOT="$PWD/../"
 
 export SPEC_PATH="$PROJECT_ROOT/apps/aqm/druid/"
 

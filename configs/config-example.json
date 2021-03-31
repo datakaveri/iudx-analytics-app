@@ -1,0 +1,20 @@
+{
+    "pune-aqm-ingestion": {
+        "queueName": "",
+        "routingKey": "",
+        "username": "",
+        "password": ""
+    },
+    "varanasi-aqm-ingestion": {
+        "username": "",
+        "password": "",
+        "queueName": "",
+        "routingKey": ""
+    },
+    "vadodara-aqm-ingestion": {
+        "username": "",
+        "password": "",
+        "queueName": "",
+        "routingKey": ""
+    }
+}
