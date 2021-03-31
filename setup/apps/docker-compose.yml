@@ -40,6 +40,5 @@ services:
       - ${CONFIG_FILE}:/config.json
     networks: 
       - analytics-net
-    command: "pm2 logs"
 
 
