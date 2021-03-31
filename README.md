@@ -40,6 +40,9 @@ Usual deployments will have
 
 ### Ingestion setup
 This setup takes care of setting the ingestion pipeline, i.e, bringing up Zookeeper, Kafka, Druid and setting up the adaptors.
+You will need access to streaming data from IUDX.
+This involves registration and consent from providers of the datasources.
+Please contact [us](mailto:rakshit.ramesh@datakaveri.org?subject=[Analytics%20App%20Support]%20Request%20Access) for support on this.
 
 1. Add a configuration file in `./configs/config.json` with IUDX subscription secrets
 2. Execute the ingestion script `cd ./scripts && ./setup_ingestion.sh`
@@ -91,3 +94,7 @@ This setup takes care of bringing up superset configured to the datasources inge
 1. Apache airflow based orchestration
 2. Fully configurable apps (frontend) based on single configuration file
 3. Swarm/Kubernets based setup
+
+
+## Support
+Please contact [us](mailto:rakshit.ramesh@datakaveri.org?subject=[Analytics%20App%20Support]%20Request%20Access) for any support.
