@@ -1,0 +1,665 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "Pune AQM Dashboard",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": null, \"filter_scopes\": {\"406\": {\"id\": {\"scope\": [\"ROOT_ID\"], \"immune\": [302, 304, 305, 307]}}}, \"remote_id\": 13}",
+                "position_json": "{\"CHART-7IwI_zIpMs\":{\"children\":[],\"id\":\"CHART-7IwI_zIpMs\",\"meta\":{\"chartId\":307,\"height\":36,\"sliceName\":\"Major Pollutant (Pune)\",\"uuid\":\"70d33e39-36f6-4c08-9d81-76344acfa937\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-I-2RdAieI\"],\"type\":\"CHART\"},\"CHART-UOi9IZmsWk\":{\"children\":[],\"id\":\"CHART-UOi9IZmsWk\",\"meta\":{\"chartId\":406,\"height\":33,\"sliceName\":\"Heatmap Filter (By ID) (Pune)\",\"sliceNameOverride\":\"Select device id\",\"uuid\":\"bfdeb83c-83f9-4fdf-a361-79bed1b432c9\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-h6Oigy6HC\"],\"type\":\"CHART\"},\"CHART-V3afluakIh\":{\"children\":[],\"id\":\"CHART-V3afluakIh\",\"meta\":{\"chartId\":305,\"height\":50,\"sliceName\":\"Air Quality Level (Pune)\",\"uuid\":\"d0d53df5-0425-4a7d-a5c5-76343a240fc5\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-hOXBNiTpkk\"],\"type\":\"CHART\"},\"CHART-_F6W4XGpxE\":{\"children\":[],\"id\":\"CHART-_F6W4XGpxE\",\"meta\":{\"chartId\":397,\"height\":45,\"sliceName\":\"Device Status (Previous Week)\",\"uuid\":\"7f807200-8653-4e30-a3f5-80eaeb2e6b8b\",\"width\":9},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-h6Oigy6HC\"],\"type\":\"CHART\"},\"CHART-eg_1KPTrK_\":{\"children\":[],\"id\":\"CHART-eg_1KPTrK_\",\"meta\":{\"chartId\":304,\"height\":50,\"sliceName\":\"Pune Sensor Locations\",\"uuid\":\"bf7953d8-2a00-4345-8960-596faee16862\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-hOXBNiTpkk\"],\"type\":\"CHART\"},\"CHART-mthUkO5nzN\":{\"children\":[],\"id\":\"CHART-mthUkO5nzN\",\"meta\":{\"chartId\":303,\"height\":59,\"sliceName\":\"Air Quality Index of most frequently publishing sensors\",\"sliceNameOverride\":\"Air Quality Index of most frequently publishing sensors\",\"uuid\":\"f65ef674-a080-4894-a044-a74f695c4b55\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-vjZtL3wzRj\"],\"type\":\"CHART\"},\"CHART-oPsioXPwzR\":{\"children\":[],\"id\":\"CHART-oPsioXPwzR\",\"meta\":{\"chartId\":302,\"height\":36,\"sliceName\":\"AQI Grouped by AQL (Pune)\",\"uuid\":\"d2a69dea-be54-4f4f-812a-f949da0fe508\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-I-2RdAieI\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"DIVIDER-8XFFPXzgUc\":{\"children\":[],\"id\":\"DIVIDER-8XFFPXzgUc\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-b3sYGvrYNI\":{\"children\":[],\"id\":\"DIVIDER-b3sYGvrYNI\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-lXZOU0-26T\":{\"children\":[],\"id\":\"DIVIDER-lXZOU0-26T\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-tmiJDdGI2t\":{\"children\":[],\"id\":\"DIVIDER-tmiJDdGI2t\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"GRID_ID\":{\"children\":[\"ROW-xFu2z2dgNu\",\"DIVIDER-8XFFPXzgUc\",\"ROW-hOXBNiTpkk\",\"DIVIDER-b3sYGvrYNI\",\"ROW-I-2RdAieI\",\"DIVIDER-tmiJDdGI2t\",\"HEADER-UqWLVU_CxA\",\"ROW-h6Oigy6HC\",\"DIVIDER-lXZOU0-26T\",\"HEADER-qQhyT36xdg\",\"ROW-vjZtL3wzRj\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER-UqWLVU_CxA\":{\"children\":[],\"id\":\"HEADER-UqWLVU_CxA\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Device activity\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-qQhyT36xdg\":{\"children\":[],\"id\":\"HEADER-qQhyT36xdg\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Realtime Air quality Index\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"Pune AQM Dashboard\"},\"type\":\"HEADER\"},\"MARKDOWN-84yQVRpdWr\":{\"children\":[],\"id\":\"MARKDOWN-84yQVRpdWr\",\"meta\":{\"code\":\"<img src=\\\"https://iudx.s3.ap-south-1.amazonaws.com/pune_logo.png\\\" alt=\\\"IUDX LOGO\\\" width=\\\"500\\\"/>\",\"height\":28,\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-xFu2z2dgNu\"],\"type\":\"MARKDOWN\"},\"MARKDOWN-PqYMgr3LEP\":{\"children\":[],\"id\":\"MARKDOWN-PqYMgr3LEP\",\"meta\":{\"code\":\"#\",\"height\":28,\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-xFu2z2dgNu\"],\"type\":\"MARKDOWN\"},\"MARKDOWN-oPjJOYkQcF\":{\"children\":[],\"id\":\"MARKDOWN-oPjJOYkQcF\",\"meta\":{\"code\":\"<img src=\\\"https://media-exp1.licdn.com/dms/image/C4E0BAQHSWzUegcZK2w/company-logo_200_200/0/1607674321061?e=2159024400&v=beta&t=A6LRtxE8zH5ZuTpTSNMoB09fnbhfOYMohq8vXsRB1ok\\\" alt=\\\"IUDX LOGO\\\" width=\\\"200\\\"/>\",\"height\":28,\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-xFu2z2dgNu\"],\"type\":\"MARKDOWN\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-I-2RdAieI\":{\"children\":[\"CHART-oPsioXPwzR\",\"CHART-7IwI_zIpMs\"],\"id\":\"ROW-I-2RdAieI\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-h6Oigy6HC\":{\"children\":[\"CHART-UOi9IZmsWk\",\"CHART-_F6W4XGpxE\"],\"id\":\"ROW-h6Oigy6HC\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-hOXBNiTpkk\":{\"children\":[\"CHART-eg_1KPTrK_\",\"CHART-V3afluakIh\"],\"id\":\"ROW-hOXBNiTpkk\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-vjZtL3wzRj\":{\"children\":[\"CHART-mthUkO5nzN\"],\"id\":\"ROW-vjZtL3wzRj\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-xFu2z2dgNu\":{\"children\":[\"MARKDOWN-oPjJOYkQcF\",\"MARKDOWN-PqYMgr3LEP\",\"MARKDOWN-84yQVRpdWr\"],\"id\":\"ROW-xFu2z2dgNu\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.pune-aqm",
+                            "datasource_type": "table",
+                            "id": 304,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"longitude\", \"all_columns_y\": \"latitude\", \"clustering_radius\": \"60\", \"datasource\": \"40__table\", \"global_opacity\": 1, \"granularity_sqla\": \"__time\", \"groupby\": [\"id\", \"latitude\", \"longitude\"], \"mapbox_color\": \"rgb(255, 215, 0)\", \"mapbox_label\": [], \"mapbox_style\": \"mapbox://styles/mapbox/dark-v9\", \"pandas_aggfunc\": \"sum\", \"point_radius\": \"Auto\", \"point_radius_unit\": \"Pixels\", \"render_while_dragging\": true, \"row_limit\": 10000, \"slice_id\": 304, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport_latitude\": 18.50995753249769, \"viewport_longitude\": 73.85324250000288, \"viewport_zoom\": 11.897235893313725, \"viz_type\": \"mapbox\", \"remote_id\": 304, \"datasource_name\": \"pune-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\"}",
+                            "slice_name": "Pune Sensor Locations",
+                            "viz_type": "mapbox"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.pune-aqm",
+                            "datasource_type": "table",
+                            "id": 303,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"area\": true, \"color_scheme\": \"supersetColors\", \"contributionMode\": null, \"datasource\": \"40__table\", \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"__time\", \"groupby\": [\"id\"], \"label_colors\": {\"AVG(airQualityIndex)\": \"#D1C6BC\", \"CO\": \"#454E7C\", \"GOOD\": \"#A868B7\", \"MODERATE\": \"#FCC700\", \"NO2\": \"#1FA8C9\", \"O3\": \"#FF7F44\", \"PM10\": \"#5AC189\", \"PM2.5\": \"#666666\", \"POOR\": \"#3CCCCB\", \"SATISFACTORY\": \"#E04355\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/0541f9dd-2787-d791-9340-c30da7750de7\": \"#A38F79\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/12bd3b5b-a189-0d10-3a1f-20a0ba699d7f\": \"#8FD3E4\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/169af06f-bfee-3513-56e5-b9ddd7b863f0\": \"#A1A6BD\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/2353b250-df9a-4108-8e2c-240955969d7e\": \"#ACE1C4\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/2922b6ff-0271-cde4-9378-bd00f1a6ea3c\": \"#FEC0A1\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/67ae0343-59e4-e88f-bc4a-f55e7789df44\": \"#B2B2B2\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/83cdf03d-5787-7052-08aa-143cfbfb807d\": \"#EFA1AA\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/8cff12b2-b8be-1230-c5f6-ca96b4e4e441\": \"#FDE380\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/a70a062d-1bc8-ba77-a530-af9b5d4f2145\": \"#D3B3DA\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/f40c0b8e-248f-9f62-414e-7e2a7065d53e\": \"#9EE5E5\"}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"limit\": 10, \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"airQualityIndex\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 1314, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"LONG\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(airQualityIndex)\", \"optionName\": \"metric_dsl8f59tb5_2ev93qhe4bo\", \"sqlExpression\": null}], \"opacity\": 0.2, \"order_desc\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"show_legend\": false, \"slice_id\": 303, \"stack\": false, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": \"count\", \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"xAxisShowMaxLabel\": true, \"xAxisShowMinLabel\": true, \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 303, \"datasource_name\": \"pune-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\"}",
+                            "slice_name": "Air Quality Index of most frequently publishing sensors",
+                            "viz_type": "echarts_timeseries"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.pune-aqm",
+                            "datasource_type": "table",
+                            "id": 305,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"40__table\", \"granularity_sqla\": \"__time\", \"groupby\": [\"airQualityLevel\"], \"innerRadius\": 30, \"labels_outside\": true, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"metric\": \"count\", \"number_format\": \"SMART_NUMBER\", \"outerRadius\": 70, \"pie_label_type\": \"key\", \"row_limit\": 50000, \"show_labels\": true, \"slice_id\": 305, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"pie\", \"remote_id\": 305, \"datasource_name\": \"pune-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\"}",
+                            "slice_name": "Air Quality Level (Pune)",
+                            "viz_type": "pie"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.pune-aqm",
+                            "datasource_type": "table",
+                            "id": 307,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"40__table\", \"granularity_sqla\": \"__time\", \"label_colors\": {\"AVG(airQualityIndex)\": \"#D3B3DA\", \"CO\": \"#E04355\", \"GOOD\": \"#5AC189\", \"MODERATE\": \"#454E7C\", \"NO2\": \"#666666\", \"O3\": \"#A868B7\", \"PM10\": \"#FCC700\", \"PM2.5\": \"#3CCCCB\", \"POOR\": \"#FF7F44\", \"SATISFACTORY\": \"#1FA8C9\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/02b868e6-59f7-9359-3ae3-6feaf0e6bd9f\": \"#A38F79\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/02f7e7ee-29d6-c1c1-4d98-8f74981d9683\": \"#8FD3E4\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/0541f9dd-2787-d791-9340-c30da7750de7\": \"#A1A6BD\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/05fbae93-d3f7-0bbe-dd5d-2c2b4180edc7\": \"#ACE1C4\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/0ede317b-62b5-86e2-de37-604271f37d73\": \"#FEC0A1\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/10b6d0f8-ae93-6622-5d1b-76af4bebc11e\": \"#B2B2B2\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/12bd3b5b-a189-0d10-3a1f-20a0ba699d7f\": \"#EFA1AA\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/145bacfd-da11-d35f-ed80-ce7475d9bf3d\": \"#FDE380\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/146a3c4f-c6e4-959f-e967-f0cfd5b03dcb\": \"#D3B3DA\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/169af06f-bfee-3513-56e5-b9ddd7b863f0\": \"#9EE5E5\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/17429134-c3d7-da41-0057-388a28723913\": \"#D1C6BC\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/184ba502-22a8-ad15-a8f1-c966cd3aa7a7\": \"#1FA8C9\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/21ece4ba-0dcf-843a-16e0-35e0082277dd\": \"#454E7C\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/2353b250-df9a-4108-8e2c-240955969d7e\": \"#5AC189\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/2922b6ff-0271-cde4-9378-bd00f1a6ea3c\": \"#FF7F44\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/2a072b6c-ec0b-d307-bdc6-86a8b585f5df\": \"#666666\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/388977ff-210f-b2f4-19e6-c619669708a2\": \"#E04355\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/390a5098-1616-60ca-955e-ce9b5d3ee5f9\": \"#FCC700\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/3c84ae0f-dcca-fd9b-1f09-bc0f0e092b63\": \"#A868B7\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/3d3a569a-1a89-c3b6-671c-5675e4132c32\": \"#3CCCCB\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/503328c5-a2ac-bfae-fd08-cf2630f51a7b\": \"#A38F79\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/52e11fbe-2458-987f-b756-8c5cab1f051e\": \"#8FD3E4\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/57c0323e-4cf7-2b22-0e54-e9c043d235cb\": \"#A1A6BD\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/64131670-4db5-8b9b-6a81-7ddc23f176fd\": \"#ACE1C4\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/67ae0343-59e4-e88f-bc4a-f55e7789df44\": \"#FEC0A1\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/6e5c898e-23ee-f77a-82f5-ebc4998f5f4a\": \"#B2B2B2\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/763f8470-1fca-6f8b-3a8b-ee883a0c5f06\": \"#EFA1AA\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/7bd8af4f-99bf-2f69-996c-5fde241fb29a\": \"#FDE380\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/8011a665-ea2b-dd08-4c49-667bb2256545\": \"#D3B3DA\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/83cdf03d-5787-7052-08aa-143cfbfb807d\": \"#9EE5E5\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/8cff12b2-b8be-1230-c5f6-ca96b4e4e441\": \"#D1C6BC\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/978ed964-88ee-fbc8-2092-5e41065c6405\": \"#1FA8C9\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/98bf83b7-a2b8-ea70-88aa-7d1d9f33dbe0\": \"#454E7C\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/a1198ebc-db62-1c31-28c6-09d51441f153\": \"#5AC189\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/a70a062d-1bc8-ba77-a530-af9b5d4f2145\": \"#FF7F44\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/a841398a-4739-72ff-497a-a439364f459a\": \"#666666\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/ae767590-445c-4079-14a6-6a954239d7c7\": \"#E04355\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/b075ef08-a5cc-e920-6be3-f57e5b7731c5\": \"#FCC700\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/b3ec32ff-fa7d-64fa-c0af-272e25d314e9\": \"#A868B7\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/b4b9e3b8-fcfa-08c2-a9c5-2093748a116c\": \"#3CCCCB\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/c37c6979-6802-4a1c-c852-609b7706f5ba\": \"#A38F79\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/c7b8f786-2f89-116f-d98d-8c54bfc7caaf\": \"#8FD3E4\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/d3f2fcf3-24de-0fb6-7b74-0d7b3fa0467d\": \"#A1A6BD\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/d824fa46-223b-f248-493e-80bb5bdeda68\": \"#ACE1C4\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/d90466f6-a69a-6989-e54a-eddb4dc47fd4\": \"#FEC0A1\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/db3d6ea0-a84a-b3d6-7ec9-71ae66736273\": \"#B2B2B2\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/f36b4669-628b-ad93-9970-f9d424afbf75\": \"#EFA1AA\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/f40c0b8e-248f-9f62-414e-7e2a7065d53e\": \"#FDE380\"}, \"metric\": {\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"deviceStatus\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 1322, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"STRING\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT(deviceStatus)\", \"optionName\": \"metric_tpmg1a97y2j_e8wotgndu8t\", \"sqlExpression\": null}, \"rotation\": \"square\", \"row_limit\": 50000, \"series\": \"aqiMajorPollutant\", \"size_from\": 10, \"size_to\": 70, \"slice_id\": 307, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"word_cloud\", \"remote_id\": 307, \"datasource_name\": \"pune-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\"}",
+                            "slice_name": "Major Pollutant (Pune)",
+                            "viz_type": "word_cloud"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.pune-aqm",
+                            "datasource_type": "table",
+                            "id": 397,
+                            "params": "{\"adhoc_filters\": [], \"cell_padding\": 8, \"cell_size\": 30, \"datasource\": \"40__table\", \"domain_granularity\": \"day\", \"granularity_sqla\": \"__time\", \"linear_color_scheme\": \"red_yellow_blue\", \"metrics\": [{\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 1323, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"STRING\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT(id)\", \"optionName\": \"metric_wsn89mzha3_jc7vagh772r\", \"sqlExpression\": null}], \"show_legend\": true, \"show_metric_name\": true, \"show_values\": true, \"slice_id\": 397, \"steps\": 10, \"subdomain_granularity\": \"hour\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"cal_heatmap\", \"x_axis_time_format\": \"smart_date\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 397, \"datasource_name\": \"pune-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\"}",
+                            "slice_name": "Device Status (Previous Week)",
+                            "viz_type": "cal_heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.pune-aqm",
+                            "datasource_type": "table",
+                            "id": 406,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"40__table\", \"date_filter\": false, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"id\", \"key\": \"3GKBqKGCv\", \"multiple\": false, \"searchAllOptions\": false}], \"granularity_sqla\": \"__time\", \"slice_id\": 406, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 406, \"datasource_name\": \"pune-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\"}",
+                            "slice_name": "Heatmap Filter (By ID) (Pune)",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.pune-aqm",
+                            "datasource_type": "table",
+                            "id": 302,
+                            "params": "{\"adhoc_filters\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [], \"datasource\": \"40__table\", \"granularity_sqla\": \"__time\", \"groupby\": [\"airQualityLevel\"], \"label_colors\": {\"AVG(airQualityIndex)\": \"#D3B3DA\", \"CO\": \"#E04355\", \"GOOD\": \"#5AC189\", \"MODERATE\": \"#454E7C\", \"NO2\": \"#666666\", \"O3\": \"#A868B7\", \"PM10\": \"#FCC700\", \"PM2.5\": \"#3CCCCB\", \"POOR\": \"#FF7F44\", \"SATISFACTORY\": \"#1FA8C9\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/02b868e6-59f7-9359-3ae3-6feaf0e6bd9f\": \"#A38F79\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/02f7e7ee-29d6-c1c1-4d98-8f74981d9683\": \"#8FD3E4\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/0541f9dd-2787-d791-9340-c30da7750de7\": \"#A1A6BD\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/05fbae93-d3f7-0bbe-dd5d-2c2b4180edc7\": \"#ACE1C4\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/0ede317b-62b5-86e2-de37-604271f37d73\": \"#FEC0A1\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/10b6d0f8-ae93-6622-5d1b-76af4bebc11e\": \"#B2B2B2\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/12bd3b5b-a189-0d10-3a1f-20a0ba699d7f\": \"#EFA1AA\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/145bacfd-da11-d35f-ed80-ce7475d9bf3d\": \"#FDE380\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/146a3c4f-c6e4-959f-e967-f0cfd5b03dcb\": \"#D3B3DA\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/169af06f-bfee-3513-56e5-b9ddd7b863f0\": \"#9EE5E5\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/17429134-c3d7-da41-0057-388a28723913\": \"#D1C6BC\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/184ba502-22a8-ad15-a8f1-c966cd3aa7a7\": \"#1FA8C9\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/21ece4ba-0dcf-843a-16e0-35e0082277dd\": \"#454E7C\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/2353b250-df9a-4108-8e2c-240955969d7e\": \"#5AC189\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/2922b6ff-0271-cde4-9378-bd00f1a6ea3c\": \"#FF7F44\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/2a072b6c-ec0b-d307-bdc6-86a8b585f5df\": \"#666666\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/388977ff-210f-b2f4-19e6-c619669708a2\": \"#E04355\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/390a5098-1616-60ca-955e-ce9b5d3ee5f9\": \"#FCC700\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/3c84ae0f-dcca-fd9b-1f09-bc0f0e092b63\": \"#A868B7\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/3d3a569a-1a89-c3b6-671c-5675e4132c32\": \"#3CCCCB\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/503328c5-a2ac-bfae-fd08-cf2630f51a7b\": \"#A38F79\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/52e11fbe-2458-987f-b756-8c5cab1f051e\": \"#8FD3E4\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/57c0323e-4cf7-2b22-0e54-e9c043d235cb\": \"#A1A6BD\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/64131670-4db5-8b9b-6a81-7ddc23f176fd\": \"#ACE1C4\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/67ae0343-59e4-e88f-bc4a-f55e7789df44\": \"#FEC0A1\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/6e5c898e-23ee-f77a-82f5-ebc4998f5f4a\": \"#B2B2B2\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/763f8470-1fca-6f8b-3a8b-ee883a0c5f06\": \"#EFA1AA\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/7bd8af4f-99bf-2f69-996c-5fde241fb29a\": \"#FDE380\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/8011a665-ea2b-dd08-4c49-667bb2256545\": \"#D3B3DA\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/83cdf03d-5787-7052-08aa-143cfbfb807d\": \"#9EE5E5\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/8cff12b2-b8be-1230-c5f6-ca96b4e4e441\": \"#D1C6BC\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/978ed964-88ee-fbc8-2092-5e41065c6405\": \"#1FA8C9\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/98bf83b7-a2b8-ea70-88aa-7d1d9f33dbe0\": \"#454E7C\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/a1198ebc-db62-1c31-28c6-09d51441f153\": \"#5AC189\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/a70a062d-1bc8-ba77-a530-af9b5d4f2145\": \"#FF7F44\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/a841398a-4739-72ff-497a-a439364f459a\": \"#666666\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/ae767590-445c-4079-14a6-6a954239d7c7\": \"#E04355\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/b075ef08-a5cc-e920-6be3-f57e5b7731c5\": \"#FCC700\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/b3ec32ff-fa7d-64fa-c0af-272e25d314e9\": \"#A868B7\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/b4b9e3b8-fcfa-08c2-a9c5-2093748a116c\": \"#3CCCCB\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/c37c6979-6802-4a1c-c852-609b7706f5ba\": \"#A38F79\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/c7b8f786-2f89-116f-d98d-8c54bfc7caaf\": \"#8FD3E4\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/d3f2fcf3-24de-0fb6-7b74-0d7b3fa0467d\": \"#A1A6BD\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/d824fa46-223b-f248-493e-80bb5bdeda68\": \"#ACE1C4\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/d90466f6-a69a-6989-e54a-eddb4dc47fd4\": \"#FEC0A1\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/db3d6ea0-a84a-b3d6-7ec9-71ae66736273\": \"#B2B2B2\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/f36b4669-628b-ad93-9970-f9d424afbf75\": \"#EFA1AA\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm/f40c0b8e-248f-9f62-414e-7e2a7065d53e\": \"#FDE380\"}, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"airQualityIndex\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 1314, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"LONG\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(airQualityIndex)\", \"optionName\": \"metric_gbclpt6s38p_e2j6etlo49r\", \"sqlExpression\": null}], \"row_limit\": 10000, \"slice_id\": 302, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 302, \"datasource_name\": \"pune-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\"}",
+                            "slice_name": "AQI Grouped by AQL (Pune)",
+                            "viz_type": "dist_bar"
+                        }
+                    }
+                ],
+                "slug": "pune-aqm-analytics"
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "__time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1313,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "LONG",
+                            "uuid": "b9c75500-284a-4e34-b1e3-f92cd9e30957",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "airQualityIndex",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1314,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "LONG",
+                            "uuid": "bc9e9cd8-96a0-48d8-aba2-f28f9f10dcc5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "airQualityLevel",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1315,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "STRING",
+                            "uuid": "74f7fa3d-a386-49de-818c-cad09e0bd587",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "airTemperature",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1316,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "FLOAT",
+                            "uuid": "3c0b02d7-c94a-49fb-bb01-24d94f51136f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "ambientNoise",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1317,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "FLOAT",
+                            "uuid": "8cdb8f15-d4db-48b7-a554-86d505862383",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "aqiMajorPollutant",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1318,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "STRING",
+                            "uuid": "60c75282-73d4-4528-9d95-9a81f108e218",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "atmosphericPressure",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1319,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "FLOAT",
+                            "uuid": "845126d6-9b7f-4c60-b85b-452ec2af9472",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "co",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1320,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "FLOAT",
+                            "uuid": "456eb737-13aa-4c41-b061-8f98f25db44f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "co2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1321,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "FLOAT",
+                            "uuid": "61e1ea58-a2b6-4a4a-84cb-45764643ce11",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "deviceStatus",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1322,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "STRING",
+                            "uuid": "7dc77abc-22fc-48a1-9aed-a10e296bfb0b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1323,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "STRING",
+                            "uuid": "0790568b-cbae-40a4-9991-b3b9b81aad6f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "illuminance",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1324,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "FLOAT",
+                            "uuid": "e3edcba3-6d00-42eb-aa4b-8dcdffccb6bc",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1325,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "FLOAT",
+                            "uuid": "657e9bd4-a800-4d39-b24e-3eb81450d29e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1326,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "FLOAT",
+                            "uuid": "e6d0a6cb-5058-482a-960b-5577aa218c6b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "no2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1327,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "FLOAT",
+                            "uuid": "cd09c3ae-2e71-4d81-8f76-b3692d0a1e20",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "o3",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1328,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "FLOAT",
+                            "uuid": "b3e469de-d19f-478a-845d-7c88cb02b061",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "pm10",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1329,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "FLOAT",
+                            "uuid": "079eb494-854c-466b-bc24-482e1f2ab761",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "pm2p5",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1330,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "FLOAT",
+                            "uuid": "e7229e80-dc23-40c7-be14-a2fd96d09c86",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "relativeHumidity",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1331,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "FLOAT",
+                            "uuid": "6a982210-4140-4d46-8640-ea0b4fd809e8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "so2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1332,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "FLOAT",
+                            "uuid": "90612c43-fb95-4710-bda2-59443e0a2c92",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "column_name": "uv",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1333,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "FLOAT",
+                            "uuid": "87613736-d0c9-4dc9-9ac1-5e3338bd8c9e",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 4,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "__time",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-03-11T05:55:05"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 56,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 40,
+                            "uuid": "83caf717-3f7c-448c-b5a6-90cab87b9d7c",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 40, \"database_name\": \"aqm\", \"import_time\": 1616736424}",
+                "schema": "druid",
+                "sql": "",
+                "table_name": "pune-aqm",
+                "template_params": null
+            }
+        }
+    ]
+}

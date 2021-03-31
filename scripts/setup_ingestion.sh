@@ -1,10 +1,10 @@
 #/bin/bash
 
-PROJECT_ROOT="/home/rraks/Work/gitrepos/iudx-analytics-app"
+PROJECT_ROOT="$PWD/../"
 
 export TOPICS_FILE="$PROJECT_ROOT/apps/aqm/kafka/topics.json"
 export ADAPTORS_PATH="$PROJECT_ROOT/apps/aqm/adaptors/"
-export CONFIG_FILE="$PROJECT_ROOT/scripts/configs/config.json"
+export CONFIG_FILE="$PROJECT_ROOT/configs/config.json"
 
 
 docker network create analytics-net
