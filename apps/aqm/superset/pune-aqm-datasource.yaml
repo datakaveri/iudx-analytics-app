@@ -1,0 +1,54 @@
+- columns:
+  - column_name: __time
+    is_dttm: true
+    type: LONG
+  - column_name: pm10
+    type: FLOAT
+  - column_name: pm2p5
+    type: FLOAT
+  - column_name: co2
+    type: FLOAT
+  - column_name: no2
+    type: FLOAT
+  - column_name: so2
+    type: FLOAT
+  - column_name: o3
+    type: FLOAT
+  - column_name: relativeHumidity
+    type: FLOAT
+  - column_name: ambientNoise
+    type: FLOAT
+  - column_name: atmosphericPressure
+    type: FLOAT
+  - column_name: airTemperature
+    type: FLOAT
+  - column_name: illuminance
+    type: FLOAT
+  - column_name: latitude
+    type: FLOAT
+  - column_name: co
+    type: FLOAT
+  - column_name: longitude
+    type: FLOAT
+  - column_name: uv
+    type: FLOAT
+  - column_name: airQualityIndex
+    type: LONG
+  - column_name: airQualityLevel
+    type: STRING
+  - column_name: aqiMajorPollutant
+    type: STRING
+  - column_name: deviceStatus
+    type: STRING
+  - column_name: id
+    type: STRING
+  main_dttm_col: __time
+  metrics:
+  - expression: COUNT(*)
+    metric_name: count
+    metric_type: count
+    verbose_name: COUNT(*)
+  params: '{"remote_id": 40, "database_name": "aqm", "import_time": 1616736424}'
+  schema: druid
+  sql: ''
+  table_name: pune-aqm

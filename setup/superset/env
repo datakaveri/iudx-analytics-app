@@ -28,9 +28,5 @@ SUPERSET_ENV=development
 SUPERSET_LOAD_EXAMPLES=yes
 CYPRESS_CONFIG=false
 
-
-WTF_CSRF_ENABLED = False
-
-
 MAPBOX_API_KEY=<mapbox-key>
 
