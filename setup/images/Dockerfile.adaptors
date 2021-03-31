@@ -11,3 +11,5 @@ RUN pip install confluent-kafka \
     && pip install retry \
     && cd adaptor \
     && pip install .
+
+CMD bash -c "./scripts/start_adaptors.sh && pm2 logs"
