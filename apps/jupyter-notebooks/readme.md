@@ -25,6 +25,7 @@
   The following are screenshots of the notebook.
   
 <img src="screenshots/fs-bubble.png">
+<img src="screenshots/fs-diff.png">
 <img src="screenshots/fs-current-all.png">
 <img src="screenshots/fs-ref-dist.png">
   
@@ -32,6 +33,7 @@
   Visualizing the data from weather stations across Pune and comparing it with that of AQM sensors. The notebook fetches data for *n* days and visualizes it. It also compares the common properties between the Weather Statiosn data and AQM data from Pune and plots the correlation contours spatially. It includes:
   * a bubble map that shows the latest values of the chosen property across the resources in Pune.
   * a line chart that visualizes the variations in values of all reosurces over *n* days.
+  * a box plot to visualize the data points across different days of the week at the last updates resource.
   * a bar chart of the latest values.
   * a spatial map that locates the closest AQM sensor for a given Weather Station.
   * a line chart to compare the values of the common properties between the chosen weather station and the closest AQM sesor to it over *n* days.
@@ -40,4 +42,6 @@
   The following are screeshots of the notebook.
 <img src="screenshots/ws-bubble.png">
 <img src="screenshots/ws-temp-all.png">
+<img src="screenshots/ws-bar.png">
 <img src="screenshots/ws-compare-aqm.png">
+<img src="screenshots/ws-correlation-aqm.png">
