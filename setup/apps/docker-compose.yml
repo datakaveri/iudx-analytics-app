@@ -8,26 +8,37 @@ services:
 
   kafkainit:
     build: 
-      dockerfile: ./Dockerfile
+      dockerfile: ../images/Dockerfile
       context: .
     volumes: 
-      - ${TOPICS_PATH}:/topics.json
+      - ${TOPICS_FILE}:/usr/share/apps/scripts/topics.json
     environment:
       KAFKA_HOST: "kafka"
-      KAFKA_PORT: 9092
+      KAFKA_PORT: 19092
     networks: 
       - analytics-net
     command: "python3 create_topics.py"
 
   druidinit:
     build: 
-      dockerfile: ./Dockerfile
+      dockerfile: ../images/Dockerfile
       context: .
     volumes: 
       - ${SPEC_PATH}:/specs/
-      - ./scripts:/scripts/
     environment:
       DRUID_URL: "coordinator:8081"
     networks: 
       - analytics-net
     command: "python3 create_supervisors.py"
+
+  adaptors:
+    build: 
+      dockerfile: ../images/Dockerfile.adaptors
+      context: .
+    volumes: 
+      - ${ADAPTORS_PATH}:/adaptors/
+      - ${CONFIG_FILE}:/config.json
+    networks: 
+      - analytics-net
+
+

@@ -17,6 +17,9 @@ services:
       - ./superset_config.py:/etc/superset/superset_config.py
       - ./env:/etc/superset/.env
       - superset-vol:/var/lib/superset
+      - ${APPS_PATH}:/apps
+    environment:
+      DB_URL: ${DB_URL}
     env_file: ./env
     networks: 
       - analytics-net

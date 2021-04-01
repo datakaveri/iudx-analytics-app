@@ -4,6 +4,10 @@ networks:
   analytics-net:
     external: true
 
+volumes:
+  zkdata:
+  zkdatalog:
+
 services:
   zook:
     image: zookeeper:3.4.9
@@ -15,8 +19,8 @@ services:
       ZOO_PORT: 2181
       ZOO_SERVERS: server.1=zook:2888:3888
     volumes:
-      - ./zk-single-kafka-single/zook/data:/data
-      - ./zk-single-kafka-single/zook/datalog:/datalog
+      - zkdata:/data
+      - zkdatalog:/datalog
     networks: 
       - analytics-net
 
