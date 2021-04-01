@@ -1,0 +1,22 @@
+{
+    "topics": [
+        {
+            "name": "pune-aqm",
+            "num.partitions": 1,
+            "replication": 1,
+            "retention.ms": 172800000
+        },
+        {
+            "name": "varanasi-aqm",
+            "num.partitions": 1,
+            "replication": 1,
+            "retention.ms": 172800000
+        },
+        {
+            "name": "vadodara-aqm",
+            "num.partitions": 1,
+            "replication": 1,
+            "retention.ms": 172800000
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "pune-aqm-ingestion": {
+        "queueName": "datakaveri.org/e3a0cd8b7cfcf2fdf065b4b0cb13131a174be66c/puneAQM",
+        "routingKey": "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm",
+        "username": "datakaveri.org/e3a0cd8b7cfcf2fdf065b4b0cb13131a174be66c",
+        "password": "jTaIO4SO1wiiHUxY"
+    },
+    "varanasi-aqm-ingestion": {
+        "username": "datakaveri.org/e3a0cd8b7cfcf2fdf065b4b0cb13131a174be66c",
+        "password": "jTaIO4SO1wiiHUxY",
+        "queueName": "datakaveri.org/e3a0cd8b7cfcf2fdf065b4b0cb13131a174be66c/varanasiAQM",
+        "routingKey": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55/rs.iudx.org.in/varanasi-env-aqm"
+    },
+    "vadodara-aqm-ingestion": {
+        "username": "datakaveri.org/e3a0cd8b7cfcf2fdf065b4b0cb13131a174be66c",
+        "password": "jTaIO4SO1wiiHUxY",
+        "queueName": "datakaveri.org/e3a0cd8b7cfcf2fdf065b4b0cb13131a174be66c/vadodaraAQM",
+        "routingKey": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-env-aqm"
+    }
+}
+
