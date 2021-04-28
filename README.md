@@ -72,9 +72,10 @@ This setup takes care of bringing up superset configured to the datasources inge
 ##### Druid fine tuning
 1. Ensure `zookeeper` is visible in the docker network
 2. `cd ./setup/druid`
-3. Edit `./setup/druid/environment` in accordance to the system configuration. configuration (Especially Java XMX and XMS settings).
-4. Edit `./setup/druid/docker-compose.yml` with proper env variables, network settings etc.
-5. Bring up different druid services in different vms if required (especially `historical`) or in a single vm 
+3. Edit `./setup/druid/environment` for common java properties
+4. Edit `./setup/druid/*.env` for druid component specific jvm properties 
+5. Edit `./setup/druid/docker-compose.yml` with proper env variables, network settings etc.
+6. Bring up different druid services in different vms if required (especially `historical`) or in a single vm 
    `docker-compose up -d`
 
 
