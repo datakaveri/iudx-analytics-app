@@ -1,393 +1,93 @@
 {
   "type": "kafka",
   "spec": {
+    "ioConfig": {
+      "type": "kafka",
+      "consumerProperties": {
+        "bootstrap.servers": "kafka:19092"
+      },
+      "topic": "vadodara-aqm",
+      "inputFormat": {
+        "type": "json"
+      },
+      "useEarliestOffset": true
+    },
+    "tuningConfig": {
+      "type": "kafka"
+    },
     "dataSchema": {
       "dataSource": "vadodara-aqm",
+      "granularitySpec": {
+        "type": "uniform",
+        "queryGranularity": "NONE",
+        "segmentGranularity": "WEEK",
+        "rollup": false
+      },
       "timestampSpec": {
         "column": "observationDateTime",
-        "format": "iso",
-        "missingValue": null
+        "format": "iso"
       },
       "dimensionsSpec": {
         "dimensions": [
           {
             "type": "double",
-            "name": "airTemperature",
-            "multiValueHandling": "SORTED_ARRAY",
-            "createBitmapIndex": false
+            "name": "airTemperature"
           },
           {
             "type": "double",
-            "name": "ambientNoise",
-            "multiValueHandling": "SORTED_ARRAY",
-            "createBitmapIndex": false
+            "name": "ambientNoise"
           },
           {
             "type": "double",
-            "name": "co",
-            "multiValueHandling": "SORTED_ARRAY",
-            "createBitmapIndex": false
+            "name": "co"
           },
           {
             "type": "double",
-            "name": "co2",
-            "multiValueHandling": "SORTED_ARRAY",
-            "createBitmapIndex": false
+            "name": "co2"
           },
+          "id",
           {
-            "type": "string",
-            "name": "id",
-            "multiValueHandling": "SORTED_ARRAY",
-            "createBitmapIndex": true
+            "type": "double",
+            "name": "illuminance"
           },
           {
             "type": "double",
-            "name": "illuminance",
-            "multiValueHandling": "SORTED_ARRAY",
-            "createBitmapIndex": false
+            "name": "latitude"
           },
           {
             "type": "double",
-            "name": "latitude",
-            "multiValueHandling": "SORTED_ARRAY",
-            "createBitmapIndex": false
+            "name": "longitude"
           },
           {
             "type": "double",
-            "name": "longitude",
-            "multiValueHandling": "SORTED_ARRAY",
-            "createBitmapIndex": false
+            "name": "no2"
           },
           {
             "type": "double",
-            "name": "no2",
-            "multiValueHandling": "SORTED_ARRAY",
-            "createBitmapIndex": false
+            "name": "o3"
           },
           {
             "type": "double",
-            "name": "o3",
-            "multiValueHandling": "SORTED_ARRAY",
-            "createBitmapIndex": false
+            "name": "pm2p5"
           },
           {
             "type": "double",
-            "name": "pm2p5",
-            "multiValueHandling": "SORTED_ARRAY",
-            "createBitmapIndex": false
+            "name": "pm10"
           },
           {
             "type": "double",
-            "name": "pm10",
-            "multiValueHandling": "SORTED_ARRAY",
-            "createBitmapIndex": false
+            "name": "relativeHumidity"
           },
           {
             "type": "double",
-            "name": "relativeHumidity",
-            "multiValueHandling": "SORTED_ARRAY",
-            "createBitmapIndex": false
+            "name": "so2"
           },
           {
-            "type": "double",
-            "name": "so2",
-            "multiValueHandling": "SORTED_ARRAY",
-            "createBitmapIndex": false
-          },
-          {
-            "type": "double",
-            "name": "uv",
-            "multiValueHandling": "SORTED_ARRAY",
-            "createBitmapIndex": false
+            "type": "long",
+            "name": "uv"
           }
-        ],
-        "dimensionExclusions": [
-          "observationDateTime"
         ]
-      },
-      "metricsSpec": [],
-      "granularitySpec": {
-        "type": "uniform",
-        "segmentGranularity": "HOUR",
-        "queryGranularity": {
-          "type": "none"
-        },
-        "rollup": false,
-        "intervals": null
-      },
-      "transformSpec": {
-        "filter": null,
-        "transforms": []
       }
-    },
-    "ioConfig": {
-      "topic": "vadodara-aqm",
-      "inputFormat": {
-        "type": "json",
-        "flattenSpec": {
-          "useFieldDiscovery": true,
-          "fields": []
-        },
-        "featureSpec": {}
-      },
-      "replicas": 1,
-      "taskCount": 1,
-      "taskDuration": "PT3600S",
-      "consumerProperties": {
-        "bootstrap.servers": "kafka:19092"
-      },
-      "pollTimeout": 100,
-      "startDelay": "PT5S",
-      "period": "PT30S",
-      "useEarliestOffset": false,
-      "completionTimeout": "PT1800S",
-      "lateMessageRejectionPeriod": null,
-      "earlyMessageRejectionPeriod": null,
-      "lateMessageRejectionStartDateTime": null,
-      "stream": "vadodara-aqm",
-      "useEarliestSequenceNumber": false
-    },
-    "tuningConfig": {
-      "type": "kafka",
-      "maxRowsInMemory": 1000000,
-      "maxBytesInMemory": 0,
-      "maxRowsPerSegment": 5000000,
-      "maxTotalRows": null,
-      "intermediatePersistPeriod": "PT10M",
-      "basePersistDirectory": "/var/tmp/druid-realtime-persist7539594095663302623",
-      "maxPendingPersists": 0,
-      "indexSpec": {
-        "bitmap": {
-          "type": "roaring",
-          "compressRunOnSerialization": true
-        },
-        "dimensionCompression": "lz4",
-        "metricCompression": "lz4",
-        "longEncoding": "longs",
-        "segmentLoader": null
-      },
-      "indexSpecForIntermediatePersists": {
-        "bitmap": {
-          "type": "roaring",
-          "compressRunOnSerialization": true
-        },
-        "dimensionCompression": "lz4",
-        "metricCompression": "lz4",
-        "longEncoding": "longs",
-        "segmentLoader": null
-      },
-      "buildV9Directly": true,
-      "reportParseExceptions": false,
-      "handoffConditionTimeout": 0,
-      "resetOffsetAutomatically": false,
-      "segmentWriteOutMediumFactory": null,
-      "workerThreads": null,
-      "chatThreads": null,
-      "chatRetries": 8,
-      "httpTimeout": "PT10S",
-      "shutdownTimeout": "PT80S",
-      "offsetFetchPeriod": "PT30S",
-      "intermediateHandoffPeriod": "P2147483647D",
-      "logParseExceptions": false,
-      "maxParseExceptions": 2147483647,
-      "maxSavedParseExceptions": 0,
-      "skipSequenceNumberAvailabilityCheck": false,
-      "repartitionTransitionDuration": "PT120S"
     }
-  },
-  "dataSchema": {
-    "dataSource": "vadodara-aqm",
-    "timestampSpec": {
-      "column": "observationDateTime",
-      "format": "iso",
-      "missingValue": null
-    },
-    "dimensionsSpec": {
-      "dimensions": [
-        {
-          "type": "double",
-          "name": "airTemperature",
-          "multiValueHandling": "SORTED_ARRAY",
-          "createBitmapIndex": false
-        },
-        {
-          "type": "double",
-          "name": "ambientNoise",
-          "multiValueHandling": "SORTED_ARRAY",
-          "createBitmapIndex": false
-        },
-        {
-          "type": "double",
-          "name": "co",
-          "multiValueHandling": "SORTED_ARRAY",
-          "createBitmapIndex": false
-        },
-        {
-          "type": "double",
-          "name": "co2",
-          "multiValueHandling": "SORTED_ARRAY",
-          "createBitmapIndex": false
-        },
-        {
-          "type": "string",
-          "name": "id",
-          "multiValueHandling": "SORTED_ARRAY",
-          "createBitmapIndex": true
-        },
-        {
-          "type": "double",
-          "name": "illuminance",
-          "multiValueHandling": "SORTED_ARRAY",
-          "createBitmapIndex": false
-        },
-        {
-          "type": "double",
-          "name": "latitude",
-          "multiValueHandling": "SORTED_ARRAY",
-          "createBitmapIndex": false
-        },
-        {
-          "type": "double",
-          "name": "longitude",
-          "multiValueHandling": "SORTED_ARRAY",
-          "createBitmapIndex": false
-        },
-        {
-          "type": "double",
-          "name": "no2",
-          "multiValueHandling": "SORTED_ARRAY",
-          "createBitmapIndex": false
-        },
-        {
-          "type": "double",
-          "name": "o3",
-          "multiValueHandling": "SORTED_ARRAY",
-          "createBitmapIndex": false
-        },
-        {
-          "type": "double",
-          "name": "pm2p5",
-          "multiValueHandling": "SORTED_ARRAY",
-          "createBitmapIndex": false
-        },
-        {
-          "type": "double",
-          "name": "pm10",
-          "multiValueHandling": "SORTED_ARRAY",
-          "createBitmapIndex": false
-        },
-        {
-          "type": "double",
-          "name": "relativeHumidity",
-          "multiValueHandling": "SORTED_ARRAY",
-          "createBitmapIndex": false
-        },
-        {
-          "type": "double",
-          "name": "so2",
-          "multiValueHandling": "SORTED_ARRAY",
-          "createBitmapIndex": false
-        },
-        {
-          "type": "double",
-          "name": "uv",
-          "multiValueHandling": "SORTED_ARRAY",
-          "createBitmapIndex": false
-        }
-      ],
-      "dimensionExclusions": [
-        "observationDateTime"
-      ]
-    },
-    "metricsSpec": [],
-    "granularitySpec": {
-      "type": "uniform",
-      "segmentGranularity": "HOUR",
-      "queryGranularity": {
-        "type": "none"
-      },
-      "rollup": false,
-      "intervals": null
-    },
-    "transformSpec": {
-      "filter": null,
-      "transforms": []
-    }
-  },
-  "tuningConfig": {
-    "type": "kafka",
-    "maxRowsInMemory": 1000000,
-    "maxBytesInMemory": 0,
-    "maxRowsPerSegment": 5000000,
-    "maxTotalRows": null,
-    "intermediatePersistPeriod": "PT10M",
-    "basePersistDirectory": "/var/tmp/druid-realtime-persist7539594095663302623",
-    "maxPendingPersists": 0,
-    "indexSpec": {
-      "bitmap": {
-        "type": "roaring",
-        "compressRunOnSerialization": true
-      },
-      "dimensionCompression": "lz4",
-      "metricCompression": "lz4",
-      "longEncoding": "longs",
-      "segmentLoader": null
-    },
-    "indexSpecForIntermediatePersists": {
-      "bitmap": {
-        "type": "roaring",
-        "compressRunOnSerialization": true
-      },
-      "dimensionCompression": "lz4",
-      "metricCompression": "lz4",
-      "longEncoding": "longs",
-      "segmentLoader": null
-    },
-    "buildV9Directly": true,
-    "reportParseExceptions": false,
-    "handoffConditionTimeout": 0,
-    "resetOffsetAutomatically": false,
-    "segmentWriteOutMediumFactory": null,
-    "workerThreads": null,
-    "chatThreads": null,
-    "chatRetries": 8,
-    "httpTimeout": "PT10S",
-    "shutdownTimeout": "PT80S",
-    "offsetFetchPeriod": "PT30S",
-    "intermediateHandoffPeriod": "P2147483647D",
-    "logParseExceptions": false,
-    "maxParseExceptions": 2147483647,
-    "maxSavedParseExceptions": 0,
-    "skipSequenceNumberAvailabilityCheck": false,
-    "repartitionTransitionDuration": "PT120S"
-  },
-  "ioConfig": {
-    "topic": "vadodara-aqm",
-    "inputFormat": {
-      "type": "json",
-      "flattenSpec": {
-        "useFieldDiscovery": true,
-        "fields": []
-      },
-      "featureSpec": {}
-    },
-    "replicas": 1,
-    "taskCount": 1,
-    "taskDuration": "PT3600S",
-    "consumerProperties": {
-      "bootstrap.servers": "kafka:19092"
-    },
-    "pollTimeout": 100,
-    "startDelay": "PT5S",
-    "period": "PT30S",
-    "useEarliestOffset": false,
-    "completionTimeout": "PT1800S",
-    "lateMessageRejectionPeriod": null,
-    "earlyMessageRejectionPeriod": null,
-    "lateMessageRejectionStartDateTime": null,
-    "stream": "vadodara-aqm",
-    "useEarliestSequenceNumber": false
-  },
-  "context": null,
-  "suspended": false
+  }
 }

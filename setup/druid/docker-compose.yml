@@ -39,7 +39,8 @@ services:
     command:
       - coordinator
     env_file:
-      - environment
+      - ./coord.env
+      - ./environment
     networks: 
       - analytics-net
 
@@ -56,6 +57,7 @@ services:
     command:
       - broker
     env_file:
+      - ./broker.env
       - environment
     networks: 
       - analytics-net
@@ -74,6 +76,7 @@ services:
     command:
       - historical
     env_file:
+      - ./historical.env
       - environment
     networks: 
       - analytics-net
@@ -93,7 +96,8 @@ services:
     command:
       - middleManager
     env_file:
-      - environment
+      - ./mm.env
+      - ./environment
     networks: 
       - analytics-net
 
@@ -110,6 +114,7 @@ services:
     command:
       - router
     env_file:
+      - ./router.env
       - environment
     networks: 
       - analytics-net
