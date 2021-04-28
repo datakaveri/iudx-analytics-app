@@ -46,6 +46,7 @@ Please contact [us](mailto:rakshit.ramesh@datakaveri.org?subject=[Analytics%20Ap
 
 1. Add a configuration file in `./configs/config.json` with IUDX subscription secrets
 2. Execute the ingestion script `cd ./scripts && ./setup_ingestion.sh`
+2. Execute the database script `cd ./scripts && ./setup_db.sh`
 
 ### Consumption setup
 This setup takes care of bringing up superset configured to the datasources ingested previously.
