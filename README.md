@@ -77,7 +77,10 @@ This setup takes care of bringing up superset configured to the datasources inge
 5. Edit `./setup/druid/docker-compose.yml` with proper env variables, network settings etc.
 6. Bring up different druid services in different vms if required (especially `historical`) or in a single vm 
    `docker-compose up -d`
-
+---
+**NOTE**
+Check the group ownership of all configuration files, environment files and `storage` folder. Make sure they are not root.
+---
 
 
 
