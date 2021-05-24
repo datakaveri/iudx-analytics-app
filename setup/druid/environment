@@ -9,3 +9,6 @@ druid_metadata_storage_type=postgresql
 druid_metadata_storage_connector_connectURI=jdbc:postgresql://postgres:5432/druid
 druid_metadata_storage_connector_user=druid
 druid_metadata_storage_connector_password=somepassword
+
+druid_storage_type=local
+druid_storage_storageDirectory=/opt/data/segments
