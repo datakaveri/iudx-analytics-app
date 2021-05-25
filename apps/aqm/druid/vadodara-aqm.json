@@ -20,7 +20,7 @@
       "granularitySpec": {
         "type": "uniform",
         "queryGranularity": "NONE",
-        "segmentGranularity": "WEEK",
+        "segmentGranularity": "MONTH",
         "rollup": false
       },
       "timestampSpec": {

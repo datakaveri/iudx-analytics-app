@@ -138,7 +138,7 @@
       "metricsSpec": [],
       "granularitySpec": {
         "type": "uniform",
-        "segmentGranularity": "DAY",
+        "segmentGranularity": "MONTH",
         "queryGranularity": {
           "type": "none"
         },
