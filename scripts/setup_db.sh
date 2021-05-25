@@ -7,6 +7,9 @@ export SPEC_PATH="$PROJECT_ROOT/apps/aqm/druid/"
 docker network create analytics-net
 
 (cd ../setup/druid/ \
+    && docker-compose -f docker-compose-create.yml create)
+
+(cd ../setup/druid/ \
     && docker-compose up -d)
 
 
