@@ -2,4 +2,4 @@
 
 
 (cd ../setup/superset/ \
-    && docker-compose down -v)
+    && docker-compose down)
