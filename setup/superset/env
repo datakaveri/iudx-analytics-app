@@ -22,7 +22,7 @@ POSTGRES_PASSWORD=superset
 PYTHONPATH=/app/pythonpath:/app/docker/pythonpath_dev
 REDIS_HOST=redis
 REDIS_PORT=6379
-
+TZ="Asia/Kolkata"
 FLASK_ENV=development
 SUPERSET_ENV=development
 SUPERSET_LOAD_EXAMPLES=yes
