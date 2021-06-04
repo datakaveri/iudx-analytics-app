@@ -48,7 +48,7 @@
     metric_name: count
     metric_type: count
     verbose_name: COUNT(*)
-  params: '{"remote_id": 40, "database_name": "aqm", "import_time": 1616736424}'
+  params: '{"remote_id": 40, "database_name": "aqm", "import_time": 1622544435}'
   schema: druid
   sql: ''
   table_name: pune-aqm

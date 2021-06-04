@@ -1,0 +1,15 @@
+- columns:
+  - column_name: __time
+    is_dttm: true
+    type: STRING
+  - column_name: license_plate
+    type: STRING
+  - column_name: message_count
+    type: INT
+  metrics:
+  - expression: count(*)
+    metric_name: count
+  schema: druid
+  sql: "SELECT \n__time, license_plate, COUNT(*) as message_count\nFROM \nitms_eta_1\
+    \ \nGROUP BY __time, license_plate"
+  table_name: vehicle_heatmap

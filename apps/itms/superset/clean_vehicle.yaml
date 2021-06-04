@@ -1,0 +1,25 @@
+- columns:
+  - column_name: __time
+    is_dttm: true
+    type: STRING
+  - column_name: license_plate
+    type: STRING
+  - column_name: trip_id
+    type: STRING
+  - column_name: last_stop_id
+    type: INT
+  - column_name: standing_capacity
+    type: INT
+  - column_name: seating_capacity
+    type: INT
+  metrics:
+  - expression: count(*)
+    metric_name: count
+  params: '{"remote_id": 5, "database_name": "ITMS", "import_time": 1622547112}'
+  schema: druid
+  sql: "SELECT e.__time, trip_id, e.license_plate, e.last_stop_id, seating_capacity,\
+    \ standing_capacity \nFROM \nitms_eta_1 as e\nINNER JOIN\nitms_vehicle as v\n\
+    ON e.license_plate = v.license_plate \nwhere\ntrip_id IS NOT NULL\nand e.__time\
+    \ IS NOT NULL\nand e.license_plate IS NOT NULL\nand e.last_stop_id IS NOT NULL\n\
+    and seating_capacity IS NOT NULL\nand standing_capacity IS NOT NULL"
+  table_name: clean_vehicle

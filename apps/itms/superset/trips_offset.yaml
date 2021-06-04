@@ -1,0 +1,42 @@
+- columns:
+  - column_name: eta_time
+    is_dttm: true
+    type: STRING
+  - column_name: sch_time
+    is_dttm: true
+    type: STRING
+  - column_name: trip_id0
+    type: STRING
+  - column_name: license_plate
+    type: STRING
+  - column_name: trip_id
+    type: STRING
+  - column_name: eta_total_time
+    type: INT
+  - column_name: eta_start_time
+    type: INT
+  - column_name: sch_total_time
+    type: INT
+  - column_name: sch_start_time
+    type: INT
+  - column_name: eta_end_time
+    type: INT
+  - column_name: sch_end_time
+    type: INT
+  metrics:
+  - expression: count(*)
+    metric_name: count
+  params: '{"remote_id": 14, "database_name": "ITMS", "import_time": 1622547112}'
+  schema: druid
+  sql: "SELECT \n*\nFROM \n  (\n  SELECT \n  __time as sch_time,\n  trip_id, \n  max(arrival_time)\
+    \ as sch_end_time, \n  min(departure_time) as sch_start_time, \n  (max(arrival_time)-min(departure_time))/60\
+    \ as sch_total_time\n  FROM itms_sch_1\n  GROUP BY __time, trip_id \n  ORDER BY\
+    \ __time, trip_id  DESC  \n  ) as sch_trip_time\n\nINNER JOIN \n\n  (\n  SELECT\
+    \ \n  __time as eta_time, \n  trip_id, license_plate,\n  max(last_stop_arrival_time)\
+    \ as eta_end_time, \n  min(actual_trip_start_time) as eta_start_time, \n  (max(last_stop_arrival_time)-min(actual_trip_start_time))/60\
+    \ as eta_total_time\n  FROM itms_eta_1 \n  GROUP BY __time, trip_id, license_plate\
+    \ \n  ORDER BY __time, trip_id  DESC \n  ) as eta_trip_time\n  \non sch_trip_time.trip_id\
+    \ = eta_trip_time.trip_id\nwhere eta_trip_time.trip_id in\n(\n  select e.trip_id\
+    \ from\n  (select DISTINCT trip_id from itms_sch_1) as s\n  inner join \n  (select\
+    \ DISTINCT trip_id from itms_eta_1) as e\n  on e.trip_id = s.trip_id \n)"
+  table_name: trips_offset

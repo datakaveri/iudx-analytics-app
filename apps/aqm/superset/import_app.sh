@@ -8,6 +8,7 @@ superset set-database-uri --database_name aqm --uri "$DB_URL"
 
 # Pune AQM
 superset import-datasources -p ./pune-aqm-datasource.yaml
+superset import-datasources -p ./sensor_grouped_average.yaml
 superset import-dashboards -p ./pune-aqm-dashboard.json
 
 

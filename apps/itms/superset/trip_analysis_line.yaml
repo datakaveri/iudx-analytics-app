@@ -1,0 +1,30 @@
+- columns:
+  - column_name: __time
+    is_dttm: true
+    type: STRING
+  - column_name: total_scheduled_trips
+    type: INT
+  - column_name: total_live_trips
+    type: INT
+  - column_name: late_percentage
+    type: INT
+  - column_name: live_percentage
+    type: INT
+  - column_name: trips_late
+    type: INT
+  metrics:
+  - expression: count(*)
+    metric_name: count
+  params: '{"remote_id": 17, "database_name": "ITMS", "import_time": 1622547112}'
+  schema: druid
+  sql: "SELECT \nee.__time,\ntotal_live_trips,\ntotal_scheduled_trips,\n\ntotal_live_trips*100/total_scheduled_trips\
+    \ as live_percentage,\ntotal_scheduled_trips - total_live_trips as trips_late,\n\
+    (total_scheduled_trips - total_live_trips)*100/total_scheduled_trips as late_percentage\n\
+    \nFROM \n  (\n    SELECT __time, count(distinct(trip_id)) as total_scheduled_trips\
+    \ \n    from itms_sch_1 \n    WHERE __time >= TIMESTAMP '2021-01-02 00:00:00'\
+    \ AND __time <= TIMESTAMP '2021-01-03 00:00:00' \n    group by __time \n  ) as\
+    \ ss\n  \n  join\n\n  (\n    SELECT __time, count(distinct(trip_id)) as total_live_trips\
+    \ \n    from itms_eta_1 \n    WHERE __time >= TIMESTAMP '2021-01-02 00:00:00'\
+    \ AND __time <= TIMESTAMP '2021-01-03 00:00:00' \n    group by __time \n  ) as\
+    \ ee\n\n  on ee.__time = ss.__time"
+  table_name: trip_analysis_line
