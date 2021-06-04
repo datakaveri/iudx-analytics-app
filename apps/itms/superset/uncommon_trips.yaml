@@ -1,0 +1,39 @@
+- columns:
+  - column_name: __time
+    is_dttm: true
+    type: STRING
+  - column_name: trip_id
+    type: STRING
+  - column_name: stop_id
+    type: STRING
+  - column_name: id
+    type: STRING
+  - column_name: arrival_time
+    type: INT
+  - column_name: departure_time
+    type: INT
+  - column_name: stop_sequence
+    type: INT
+  metrics: []
+  params: '{"remote_id": 4, "database_name": "ITMS", "import_time": 1622547112}'
+  schema: druid
+  sql: 'SELECT
+
+    *
+
+    FROM
+
+    itms_sch_1
+
+
+    WHERE trip_id NOT IN
+
+
+    (SELECT
+
+    DISTINCT (trip_id)
+
+    FROM
+
+    itms_eta_1)'
+  table_name: uncommon_trips

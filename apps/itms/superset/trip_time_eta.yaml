@@ -1,0 +1,30 @@
+- columns:
+  - column_name: __time
+    is_dttm: true
+    type: STRING
+  - column_name: license_plate
+    type: STRING
+  - column_name: trip_id
+    type: STRING
+  - column_name: max_start_time
+    type: INT
+  - column_name: last_stop_id
+    type: INT
+  - column_name: min_start_time
+    type: INT
+  - column_name: trip_time
+    type: INT
+  metrics:
+  - expression: count(*)
+    metric_name: count
+  params: '{"remote_id": 7, "database_name": "ITMS", "import_time": 1622547112}'
+  schema: druid
+  sql: "SELECT\n__time,\ntrip_id, license_plate, last_stop_id,\nmin_start_time,\n\
+    max_start_time,\n(max_start_time - min_start_time)/60 as trip_time\nFROM\n(\n\
+    \  SELECT\n  __time, \n  trip_id, license_plate, last_stop_id,\n  MIN(actual_trip_start_time)\
+    \ as min_start_time,\n  MAX(last_stop_arrival_time) as max_start_time\n  FROM\
+    \ itms_eta_1 \n  WHERE trip_id in\n  (\n    select e.trip_id from\n    (select\
+    \ DISTINCT trip_id from itms_sch_1) as s\n    inner join \n    (select DISTINCT\
+    \ trip_id from itms_eta_1) as e\n    on e.trip_id = s.trip_id \n  )\n  GROUP BY\
+    \ __time, trip_id, license_plate, last_stop_id \n  ORDER BY trip_id\n)\n"
+  table_name: trip_time_eta

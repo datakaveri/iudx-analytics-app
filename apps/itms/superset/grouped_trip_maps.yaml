@@ -1,0 +1,46 @@
+- columns:
+  - column_name: __time
+    is_dttm: true
+    type: STRING
+  - column_name: location.coordinates
+    type: STRING
+  - column_name: location.type
+    type: STRING
+  - column_name: latitude
+    type: FLOAT
+  - column_name: speed
+    type: FLOAT
+  - column_name: longitude
+    type: FLOAT
+  - column_name: vehicle_label
+    type: STRING
+  - column_name: license_plate
+    type: STRING
+  - column_name: trip_direction
+    type: STRING
+  - column_name: route_id
+    type: STRING
+  - column_name: trip_id
+    type: STRING
+  - column_name: id
+    type: STRING
+  - column_name: actual_trip_start_time
+    type: INT
+  - column_name: last_stop_arrival_time
+    type: INT
+  - column_name: last_stop_id
+    type: INT
+  - column_name: trip_delay
+    type: INT
+  metrics:
+  - expression: count(*)
+    metric_name: count
+  params: '{"remote_id": 18, "database_name": "ITMS", "import_time": 1622547112}'
+  schema: druid
+  sql: "SELECT \n*\nFROM \nitms_eta_1 \nWHERE trip_id in\n(\n  SELECT \n  trip_id\n\
+    \  from\n  itms_eta_1\n  where __time >= TIMESTAMP '2021-01-02 00:00:00' AND __time\
+    \ <= TIMESTAMP '2021-01-02 01:00:00' \n  GROUP BY trip_id\n)\n\n\nAND  last_stop_arrival_time\
+    \ in\n(\n  SELECT \n  max(last_stop_arrival_time) as last_time\n  from\n  itms_eta_1\n\
+    \  where __time >= TIMESTAMP '2021-01-02 00:00:00' AND __time <= TIMESTAMP '2021-01-02\
+    \ 01:00:00' \n  GROUP BY trip_id\n)"
+  table_name: grouped_trip_maps
