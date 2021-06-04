@@ -1,0 +1,42 @@
+- columns:
+  - column_name: __time
+    is_dttm: true
+    type: LONG
+  - column_name: location.coordinates
+    type: STRING
+  - column_name: location.type
+    type: STRING
+  - column_name: latitude
+    type: FLOAT
+  - column_name: speed
+    type: FLOAT
+  - column_name: longitude
+    type: FLOAT
+  - column_name: vehicle_label
+    type: STRING
+  - column_name: license_plate
+    type: STRING
+  - column_name: trip_direction
+    type: STRING
+  - column_name: route_id
+    type: STRING
+  - column_name: trip_id
+    type: STRING
+  - column_name: id
+    type: STRING
+  - column_name: actual_trip_start_time
+    type: LONG
+  - column_name: last_stop_arrival_time
+    type: LONG
+  - column_name: last_stop_id
+    type: LONG
+  - column_name: trip_delay
+    type: LONG
+  main_dttm_col: __time
+  metrics:
+  - expression: COUNT(*)
+    metric_name: count
+    metric_type: count
+    verbose_name: COUNT(*)
+  schema: druid
+  table_name: itms_eta_1

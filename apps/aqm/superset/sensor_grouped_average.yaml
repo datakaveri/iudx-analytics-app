@@ -1,0 +1,46 @@
+- columns:
+  - column_name: __time
+    is_dttm: true
+    type: STRING
+  - column_name: pm10
+    type: FLOAT
+  - column_name: pm2p5
+    type: FLOAT
+  - column_name: co2
+    type: FLOAT
+  - column_name: no2
+    type: FLOAT
+  - column_name: o3
+    type: FLOAT
+  - column_name: relativeHumidity
+    type: FLOAT
+  - column_name: aqiMajorPollutant
+    type: FLOAT
+  - column_name: ambientNoise
+    type: FLOAT
+  - column_name: atmosphericPressure
+    type: FLOAT
+  - column_name: airTemperature
+    type: FLOAT
+  - column_name: illuminance
+    type: FLOAT
+  - column_name: co
+    type: FLOAT
+  - column_name: uv
+    type: FLOAT
+  - column_name: id
+    type: STRING
+  - column_name: airQualityIndex
+    type: INT
+  metrics:
+  - expression: count(*)
+    metric_name: count
+  schema: druid
+  sql: "SELECT \nid, __time,\nAVG(airQualityIndex) as airQualityIndex,\nAVG(airTemperature)\
+    \ as airTemperature,\nAVG(ambientNoise) as ambientNoise,\nAVG(aqiMajorPollutant)\
+    \ as aqiMajorPollutant,\nAVG(atmosphericPressure) as atmosphericPressure,\nAVG(co)\
+    \ as co,\nAVG(co2) as co2,\nAVG(illuminance) as illuminance,\nAVG(no2) as no2,\n\
+    AVG(o3) as o3,\nAVG(pm10) as pm10,\nAVG(pm2p5) as pm2p5,\nAVG(relativeHumidity)\
+    \ as relativeHumidity,\nAVG(uv) as uv\nFROM \n\"pune-aqm\"\nGROUP BY __time, id\
+    \ \n"
+  table_name: sensor_grouped_average

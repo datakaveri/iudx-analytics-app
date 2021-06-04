@@ -1,0 +1,38 @@
+- columns:
+  - column_name: __time
+    is_dttm: true
+    type: STRING
+  - column_name: license_plate
+    type: STRING
+  - column_name: trip_id
+    type: STRING
+  - column_name: total_scheduled_stops
+    type: INT
+  - column_name: last_stop_id
+    type: INT
+  - column_name: total_live_stops
+    type: INT
+  - column_name: missed_percentage
+    type: INT
+  metrics:
+  - expression: count(*)
+    metric_name: count
+  params: '{"remote_id": 9, "database_name": "ITMS", "import_time": 1622547112}'
+  schema: druid
+  sql: "SELECT\n__time,\ntrip_id,\nlicense_plate,\nlast_stop_id,\ntotal_live_stops,\n\
+    total_scheduled_stops,\n(total_scheduled_stops - total_live_stops)*100/total_scheduled_stops\
+    \ as missed_percentage\nFROM\n(\n  SELECT ee.trip_id, ee.__time, ee.license_plate,\
+    \ max(last_stop_id) as last_stop_id,\n  COUNT(DISTINCT(ee.last_stop_id)) as total_live_stops,\n\
+    \  COUNT(DISTINCT(ss.stop_id)) as total_scheduled_stops\n  from \n  (SELECT *\
+    \ from itms_eta_1 WHERE __time >= TIMESTAMP '2021-01-02 00:00:00' AND __time <=\
+    \ TIMESTAMP '2021-01-02 02:00:00') as ee\n  INNER JOIN \n  (SELECT * from itms_sch_1\
+    \ WHERE __time >= TIMESTAMP '2021-01-02 00:00:00' AND __time <= TIMESTAMP '2021-01-02\
+    \ 02:00:00') as ss\n  ON ee.trip_id = ss.trip_id \n  \n  where ee.trip_id in\n\
+    \  (\n    select e.trip_id from\n    (select DISTINCT trip_id from itms_sch_1)\
+    \ as s\n    inner join \n    (select DISTINCT trip_id from itms_eta_1) as e\n\
+    \    on e.trip_id = s.trip_id \n  )\n  \n  and ee.trip_id IS NOT NULL\n  and ee.__time\
+    \ IS NOT NULL\n  and ee.license_plate IS NOT NULL\n  \n  and ee.last_stop_arrival_time\
+    \ IS NOT NULL\n  and ee.actual_trip_start_time IS NOT NULL \n\n  \n  GROUP BY\
+    \ ee.__time, ee.trip_id, ee.license_plate\n  ORDER BY ee.__time \n)\nWHERE total_scheduled_stops\
+    \ is NOT NULL \nand total_scheduled_stops > 0"
+  table_name: percentage_missed_trips

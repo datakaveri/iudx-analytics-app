@@ -1,0 +1,45 @@
+- columns:
+  - column_name: actual_trip_start_time
+    is_dttm: true
+    type: STRING
+  - column_name: last_stop_arrival_time
+    is_dttm: true
+    type: STRING
+  - column_name: __time
+    is_dttm: true
+    type: LONG
+  - column_name: location.coordinates
+    type: STRING
+  - column_name: location.type
+    type: STRING
+  - column_name: last_stop_id
+    type: STRING
+  - column_name: vehicle_label
+    type: STRING
+  - column_name: license_plate
+    type: STRING
+  - column_name: trip_direction
+    type: STRING
+  - column_name: route_id
+    type: STRING
+  - column_name: trip_id
+    type: STRING
+  - column_name: id
+    type: STRING
+  - column_name: trip_delay
+    type: LONG
+  - column_name: speed
+    type: LONG
+  main_dttm_col: __time
+  metrics:
+  - expression: COUNT(*)
+    metric_name: count
+    verbose_name: COUNT(*)
+  params: '{"remote_id": 6, "database_name": "ITMS", "import_time": 1622547112}'
+  schema: druid
+  sql: "\n-- Query to get the full data in eta based on common trips in schedule and\
+    \ eta live data    \n\nselect * from itms_eta_1 where trip_id in\n(\n  select\
+    \ e.trip_id from\n  (select DISTINCT trip_id from itms_sch_1) as s\n  inner join\
+    \ \n  (select DISTINCT trip_id from itms_eta_1) as e\n  on e.trip_id = s.trip_id\
+    \ \n)\nand trip_id IS NOT NULL\nand __time IS NOT NULL\n"
+  table_name: common_eta

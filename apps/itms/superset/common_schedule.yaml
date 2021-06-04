@@ -1,0 +1,29 @@
+- columns:
+  - column_name: __time
+    is_dttm: true
+    type: STRING
+  - column_name: arrival_time
+    is_dttm: true
+    type: INT
+  - column_name: departure_time
+    is_dttm: true
+    type: INT
+  - column_name: trip_id
+    type: STRING
+  - column_name: stop_id
+    type: STRING
+  - column_name: id
+    type: STRING
+  - column_name: stop_sequence
+    type: INT
+  metrics:
+  - expression: count(*)
+    metric_name: count
+  params: '{"remote_id": 8, "database_name": "ITMS", "import_time": 1622547112}'
+  schema: druid
+  sql: "-- Query to get the full schedule data in eta based on common trips in schedule\
+    \ and eta live data    \n\nselect * from itms_sch_1 where trip_id in\n(\n  select\
+    \ e.trip_id from\n  (select DISTINCT trip_id from itms_sch_1) as s\n  inner join\
+    \ \n  (select DISTINCT trip_id from itms_eta_1) as e\n  on e.trip_id = s.trip_id\
+    \ \n)\nand trip_id IS NOT NULL\nand __time IS NOT NULL\n"
+  table_name: common_schedule
