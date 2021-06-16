@@ -86,12 +86,12 @@ Check the group ownership of all configuration files, environment files and `sto
 ## <a name="dashboards"></a> Live Dashboards
 
 - Air Quality monitoring 
-  - [Pune](https://analytics.iudx.org.in/r/47)
-  - [Vadodara](https://analytics.iudx.org.in/r/49)
-  - [Varanasi](https://analytics.iudx.org.in/r/48)
+  - [Pune](https://analytics.iudx.org.in/r/19)
+  - [Vadodara](https://analytics.iudx.org.in/r/21)
+  - [Varanasi](https://analytics.iudx.org.in/r/22)
 
 - Intelligent Transit Management System 
-  - [Surat](https://analytics.iudx.org.in/r/50) (Coming soon)
+  - [Surat](https://analytics.iudx.org.in/r/20)
 
 
 ## Future works
