@@ -1,8 +1,6 @@
 from adaptor.Adaptor import Adaptor
 import json
-import sys
 import requests
-
 
 adaptor_id = "varanasi-aqm-ingestion"
 config_path = "/config.json"
@@ -18,7 +16,6 @@ for d in data:
     coords = d["location"]["geometry"]["coordinates"]
     lookup[d["id"]]["latitude"] = coords[1]
     lookup[d["id"]]["longitude"] = coords[0]
-
 
 
 def user_callback(body):
