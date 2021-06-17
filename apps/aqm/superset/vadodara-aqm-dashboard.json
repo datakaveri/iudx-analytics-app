@@ -5,39 +5,17 @@
                 "css": "",
                 "dashboard_title": "Vadodara AQM Dashboard",
                 "description": null,
-                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"filter_scopes\": {\"404\": {\"id\": {\"scope\": [\"ROOT_ID\"], \"immune\": [296]}}}, \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": null, \"remote_id\": 15}",
-                "position_json": "{\"CHART-3QV16yPbG-\":{\"children\":[],\"id\":\"CHART-3QV16yPbG-\",\"meta\":{\"chartId\":410,\"height\":58,\"sliceName\":\"Message Count (Hourly)\",\"uuid\":\"c757212e-69df-4795-9042-f1898a49c3a0\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-FTYkZhxOGL\"],\"type\":\"CHART\"},\"CHART-4qlXtiz98c\":{\"children\":[],\"id\":\"CHART-4qlXtiz98c\",\"meta\":{\"chartId\":404,\"height\":39,\"sliceName\":\"Heatmap Filter (By ID) (Vadodara)\",\"uuid\":\"2e34ebd0-c24c-418e-8feb-b05493a936bc\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-2WftoLDY40\"],\"type\":\"CHART\"},\"CHART-V4BL1DZFrS\":{\"children\":[],\"id\":\"CHART-V4BL1DZFrS\",\"meta\":{\"chartId\":412,\"height\":52,\"sliceName\":\"Average CO2 by ID\",\"uuid\":\"8b63c092-ff80-47ea-a0bd-fd105b2b3506\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-vS2k0u-eGf\"],\"type\":\"CHART\"},\"CHART-gHZHhvx1Ih\":{\"children\":[],\"id\":\"CHART-gHZHhvx1Ih\",\"meta\":{\"chartId\":296,\"height\":58,\"sliceName\":\"Vadodara Sensor Locations\",\"uuid\":\"50e81b28-3b45-4ad8-9c03-209acb704a2b\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-FTYkZhxOGL\"],\"type\":\"CHART\"},\"CHART-nVzw1xpb0B\":{\"children\":[],\"id\":\"CHART-nVzw1xpb0B\",\"meta\":{\"chartId\":396,\"height\":53,\"sliceName\":\"Device Status (Daily)\",\"uuid\":\"395f8333-0d8c-457b-80bd-d854ac0af27c\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-2WftoLDY40\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"DIVIDER--TzYgE3Os6\":{\"children\":[],\"id\":\"DIVIDER--TzYgE3Os6\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-Tj1YAihniu\":{\"children\":[],\"id\":\"DIVIDER-Tj1YAihniu\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-xZ0NetORky\":{\"children\":[],\"id\":\"DIVIDER-xZ0NetORky\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"GRID_ID\":{\"children\":[\"ROW-NHNM9r7CUU\",\"DIVIDER-xZ0NetORky\",\"ROW-FTYkZhxOGL\",\"DIVIDER--TzYgE3Os6\",\"HEADER-u0tgEAG0ts\",\"ROW-2WftoLDY40\",\"DIVIDER-Tj1YAihniu\",\"HEADER-rXhzPRB_jc\",\"ROW-vS2k0u-eGf\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER-rXhzPRB_jc\":{\"children\":[],\"id\":\"HEADER-rXhzPRB_jc\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Pollutant Analysis\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER-u0tgEAG0ts\":{\"children\":[],\"id\":\"HEADER-u0tgEAG0ts\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Device Activity\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"Vadodara AQM Dashboard\"},\"type\":\"HEADER\"},\"MARKDOWN-IDO1Z14Pjc\":{\"children\":[],\"id\":\"MARKDOWN-IDO1Z14Pjc\",\"meta\":{\"code\":\"<img src=\\\"https://iudx.s3.ap-south-1.amazonaws.com/vadodara_logo.png\\\" alt=\\\"Vadodara SC Logo\\\" width=\\\"300\\\"/>\",\"height\":36,\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-NHNM9r7CUU\"],\"type\":\"MARKDOWN\"},\"MARKDOWN-RBtzxqcKhF\":{\"children\":[],\"id\":\"MARKDOWN-RBtzxqcKhF\",\"meta\":{\"code\":\"<img src=\\\"https://media-exp1.licdn.com/dms/image/C4E0BAQHSWzUegcZK2w/company-logo_200_200/0/1607674321061?e=2159024400&v=beta&t=A6LRtxE8zH5ZuTpTSNMoB09fnbhfOYMohq8vXsRB1ok\\\" alt=\\\"IUDX LOGO\\\" width=\\\"200\\\"/>\",\"height\":36,\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-NHNM9r7CUU\"],\"type\":\"MARKDOWN\"},\"MARKDOWN-rwAs2_6RgP\":{\"children\":[],\"id\":\"MARKDOWN-rwAs2_6RgP\",\"meta\":{\"code\":\"# \",\"height\":36,\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-NHNM9r7CUU\"],\"type\":\"MARKDOWN\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-2WftoLDY40\":{\"children\":[\"CHART-4qlXtiz98c\",\"CHART-nVzw1xpb0B\"],\"id\":\"ROW-2WftoLDY40\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-FTYkZhxOGL\":{\"children\":[\"CHART-gHZHhvx1Ih\",\"CHART-3QV16yPbG-\"],\"id\":\"ROW-FTYkZhxOGL\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-NHNM9r7CUU\":{\"children\":[\"MARKDOWN-RBtzxqcKhF\",\"MARKDOWN-rwAs2_6RgP\",\"MARKDOWN-IDO1Z14Pjc\"],\"id\":\"ROW-NHNM9r7CUU\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-vS2k0u-eGf\":{\"children\":[\"CHART-V4BL1DZFrS\"],\"id\":\"ROW-vS2k0u-eGf\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{\\\"174\\\": {\\\"id\\\": null}, \\\"183\\\": {\\\"__time_range\\\": \\\"Last week\\\", \\\"__time_grain\\\": null}, \\\"196\\\": {\\\"id\\\": [\\\"vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-env-aqm/ES-4-sensor\\\"], \\\"__time_range\\\": \\\"Last month\\\"}}\", \"color_scheme\": null, \"filter_scopes\": {\"174\": {\"id\": {\"scope\": [\"TAB-9-dqQ8BOUJ\"], \"immune\": [233, 234]}}, \"183\": {\"airQualityLevel\": {\"scope\": [\"TAB-eEQbKeYp7\"], \"immune\": []}, \"id\": {\"scope\": [\"TAB-eEQbKeYp7\"], \"immune\": []}, \"__time_range\": {\"scope\": [\"TAB-eEQbKeYp7\"], \"immune\": []}, \"__time_grain\": {\"scope\": [\"TAB-eEQbKeYp7\"], \"immune\": []}}, \"196\": {\"id\": {\"scope\": [\"TAB-mVL8VaAgR\"], \"immune\": []}, \"__time_range\": {\"scope\": [\"TAB-mVL8VaAgR\"], \"immune\": []}}}, \"remote_id\": 6, \"import_time\": 1623230570}",
+                "position_json": "{\"CHART--Bs0YGuP7D\":{\"children\":[],\"id\":\"CHART--Bs0YGuP7D\",\"meta\":{\"chartId\":230,\"height\":50,\"sliceName\":\"aqm-1: UV Concentration per sensor\",\"uuid\":\"9948d828-8fd2-45fa-b44f-3aefaf326e1f\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-LlUWk3pGiY\"],\"type\":\"CHART\"},\"CHART-2RfHfqvDKL\":{\"children\":[],\"id\":\"CHART-2RfHfqvDKL\",\"meta\":{\"chartId\":218,\"height\":50,\"sliceName\":\"itms-1: SO2 Concentration trend overtime (hourly)\",\"uuid\":\"5bbb0316-a892-427d-8f24-63e1df147653\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-hUtN7DPc9h\"],\"type\":\"CHART\"},\"CHART-2bMONcVuhh\":{\"children\":[],\"id\":\"CHART-2bMONcVuhh\",\"meta\":{\"chartId\":191,\"height\":50,\"sliceName\":\"aqm-1: PM2p5 daily concentration(min, max & avg)\",\"uuid\":\"543e5224-fe87-4b10-b485-2ad9f9a30c91\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-mVL8VaAgR\",\"ROW-wwobyndZJF\"],\"type\":\"CHART\"},\"CHART-2tFmxhjJ2O\":{\"children\":[],\"id\":\"CHART-2tFmxhjJ2O\",\"meta\":{\"chartId\":204,\"height\":50,\"sliceName\":\"aqm-1: PM10 Concentration Index histogram\",\"uuid\":\"e58826fc-a040-460f-9e96-5a79e9a4424e\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-R-lvhMS8bG\"],\"type\":\"CHART\"},\"CHART-3QMGZSMD_f\":{\"children\":[],\"id\":\"CHART-3QMGZSMD_f\",\"meta\":{\"chartId\":203,\"height\":50,\"sliceName\":\"aqm-1: O3 Concentration histogram\",\"uuid\":\"8b8533fa-5be2-4b89-b0d6-2201348cd638\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-23C76sgRDW\"],\"type\":\"CHART\"},\"CHART-5tfkGQ6OkI\":{\"children\":[],\"id\":\"CHART-5tfkGQ6OkI\",\"meta\":{\"chartId\":175,\"height\":46,\"sliceName\":\"Device Status (Previous Week)\",\"uuid\":\"bca60e41-4736-49d3-a6bc-5277fd8471ea\",\"width\":10},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-9-dqQ8BOUJ\",\"ROW-bQKhBe8gS\"],\"type\":\"CHART\"},\"CHART-71EM07dr51\":{\"children\":[],\"id\":\"CHART-71EM07dr51\",\"meta\":{\"chartId\":232,\"height\":71,\"sliceName\":\"vadodara AQM Sensors Locations\",\"uuid\":\"c9bc798c-a19f-42f9-ac31-4a1abc0bb7ba\",\"width\":9},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-9-dqQ8BOUJ\",\"ROW-y7g9eaPGQ\"],\"type\":\"CHART\"},\"CHART-8J5HDLp-5_\":{\"children\":[],\"id\":\"CHART-8J5HDLp-5_\",\"meta\":{\"chartId\":229,\"height\":50,\"sliceName\":\"aqm-1: SO2 Concentration per sensor\",\"uuid\":\"beb3edf4-6515-4380-901c-7e7c872a6a94\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-hUtN7DPc9h\"],\"type\":\"CHART\"},\"CHART-8ZBb8RsI7e\":{\"children\":[],\"id\":\"CHART-8ZBb8RsI7e\",\"meta\":{\"chartId\":208,\"height\":50,\"sliceName\":\"aqm-1: UV Concentration histogram\",\"uuid\":\"ca2a3df8-d38f-47fc-afd7-d1fdf53af08e\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-LlUWk3pGiY\"],\"type\":\"CHART\"},\"CHART-9EiaBmeoyQ\":{\"children\":[],\"id\":\"CHART-9EiaBmeoyQ\",\"meta\":{\"chartId\":183,\"height\":50,\"sliceName\":\"Apply Filters\",\"uuid\":\"e0596c00-96d7-4d00-9089-96dad54b7366\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-E6cFcPseq\"],\"type\":\"CHART\"},\"CHART-9UI6fDbjui\":{\"children\":[],\"id\":\"CHART-9UI6fDbjui\",\"meta\":{\"chartId\":177,\"height\":51,\"sliceName\":\"itms-1: Air Temperature trend overtime (hourly)\",\"uuid\":\"9e5c09cc-4c6b-47ca-be09-5999a7ac1910\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-edcSA7KgW\"],\"type\":\"CHART\"},\"CHART-AKccOSxLmC\":{\"children\":[],\"id\":\"CHART-AKccOSxLmC\",\"meta\":{\"chartId\":216,\"height\":50,\"sliceName\":\"itms-1: PM2p5 Concentration trend overtime (hourly)\",\"uuid\":\"bcc1f80d-9f36-42c1-ba38-cda24cdc6737\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-MFiXlShN4y\"],\"type\":\"CHART\"},\"CHART-AOHwzTUw9j\":{\"children\":[],\"id\":\"CHART-AOHwzTUw9j\",\"meta\":{\"chartId\":226,\"height\":50,\"sliceName\":\"aqm-1: PM10 Concentration per sensor\",\"uuid\":\"25546c37-9118-4c2b-bfb6-eb9871414f33\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-R-lvhMS8bG\"],\"type\":\"CHART\"},\"CHART-C8mrOiAjdf\":{\"children\":[],\"id\":\"CHART-C8mrOiAjdf\",\"meta\":{\"chartId\":179,\"height\":51,\"sliceName\":\"aqm-1: Air Temperature histogram\",\"uuid\":\"d7fd08c6-18c0-4e31-ad72-65aedc1bcd72\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-edcSA7KgW\"],\"type\":\"CHART\"},\"CHART-DIwJyHt5fX\":{\"children\":[],\"id\":\"CHART-DIwJyHt5fX\",\"meta\":{\"chartId\":219,\"height\":50,\"sliceName\":\"itms-1: UV trend overtime (hourly)\",\"uuid\":\"a55f3eb7-acd8-47d2-9277-24dc912877fd\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-LlUWk3pGiY\"],\"type\":\"CHART\"},\"CHART-DZM7ti_hXT\":{\"children\":[],\"id\":\"CHART-DZM7ti_hXT\",\"meta\":{\"chartId\":211,\"height\":50,\"sliceName\":\"itms-1: CO2 Concentration trend overtime (hourly)\",\"uuid\":\"d3f9c0ab-2990-4291-9aef-559242dbccb7\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-wrnZvhilVI\"],\"type\":\"CHART\"},\"CHART-FEZsIDjkjZ\":{\"children\":[],\"id\":\"CHART-FEZsIDjkjZ\",\"meta\":{\"chartId\":228,\"height\":50,\"sliceName\":\"aqm-1: Relative Humidity per sensor\",\"uuid\":\"d3bab771-dd79-4f52-a410-2887ddf07cc2\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-Bi7GqA-nDM\"],\"type\":\"CHART\"},\"CHART-G0RaywSDxy\":{\"children\":[],\"id\":\"CHART-G0RaywSDxy\",\"meta\":{\"chartId\":212,\"height\":50,\"sliceName\":\"itms-1: Illuminance trend overtime (hourly)\",\"uuid\":\"7c0d610e-481f-40be-a2c3-2e6a654f8635\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-fziGJaI2gU\"],\"type\":\"CHART\"},\"CHART-H49NJJIqrz\":{\"children\":[],\"id\":\"CHART-H49NJJIqrz\",\"meta\":{\"chartId\":188,\"height\":55,\"sliceName\":\"Area Chart Illuminance\",\"uuid\":\"d1f2e718-3eea-400e-ac14-c34752e8250b\",\"width\":10},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-mVL8VaAgR\",\"ROW-SFtaDU4NFD\"],\"type\":\"CHART\"},\"CHART-JYwCRaWKRS\":{\"children\":[],\"id\":\"CHART-JYwCRaWKRS\",\"meta\":{\"chartId\":227,\"height\":50,\"sliceName\":\"aqm-1: PM2p5 Concentration per sensor\",\"uuid\":\"47ec23f0-f35c-4ad0-a397-ad0df1031267\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-MFiXlShN4y\"],\"type\":\"CHART\"},\"CHART-P71Tv-BrAD\":{\"children\":[],\"id\":\"CHART-P71Tv-BrAD\",\"meta\":{\"chartId\":202,\"height\":50,\"sliceName\":\"aqm-1: NO2 Concentration histogram\",\"uuid\":\"24dbcf12-047f-4b6a-9be5-8a1dba30cb03\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-i9Uw8iHxgw\"],\"type\":\"CHART\"},\"CHART-PJSJM1onY9\":{\"children\":[],\"id\":\"CHART-PJSJM1onY9\",\"meta\":{\"chartId\":180,\"height\":50,\"sliceName\":\"aqm-1: Ambient Noise histogram\",\"uuid\":\"4dced80f-4265-4ac2-b7df-e6a03f473c17\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW--BDbm31n2\"],\"type\":\"CHART\"},\"CHART-QVK3IMzUP8\":{\"children\":[],\"id\":\"CHART-QVK3IMzUP8\",\"meta\":{\"chartId\":199,\"height\":50,\"sliceName\":\"aqm-1: CO2 histogram\",\"uuid\":\"cd2e46ae-c563-4e18-b1bd-e896faa71458\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-wrnZvhilVI\"],\"type\":\"CHART\"},\"CHART-Rgqo3wjTWa\":{\"children\":[],\"id\":\"CHART-Rgqo3wjTWa\",\"meta\":{\"chartId\":223,\"height\":50,\"sliceName\":\"aqm-1: Illuminance per sensor\",\"uuid\":\"be21e2eb-aefc-4eb2-bb84-c07ffa460bcc\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-fziGJaI2gU\"],\"type\":\"CHART\"},\"CHART-Rp-ghITloX\":{\"children\":[],\"id\":\"CHART-Rp-ghITloX\",\"meta\":{\"chartId\":184,\"height\":51,\"sliceName\":\"aqm-1: Average air temperature per sensor\",\"uuid\":\"b3307ed7-f2e8-4a90-b050-6c003f1b65b2\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-edcSA7KgW\"],\"type\":\"CHART\"},\"CHART-TN2idshGv8\":{\"children\":[],\"id\":\"CHART-TN2idshGv8\",\"meta\":{\"chartId\":207,\"height\":50,\"sliceName\":\"aqm-1: SO2 Concentration  histogram\",\"uuid\":\"61ac841b-1261-471c-a0bd-46fde321912e\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-hUtN7DPc9h\"],\"type\":\"CHART\"},\"CHART-TQfdJHb3aq\":{\"children\":[],\"id\":\"CHART-TQfdJHb3aq\",\"meta\":{\"chartId\":182,\"height\":50,\"sliceName\":\"aqm-1: Average Ambient Noise per sensor\",\"uuid\":\"aae62801-f4bb-4bb8-85b0-177050622f45\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW--BDbm31n2\"],\"type\":\"CHART\"},\"CHART-UOi9IZmsWk\":{\"children\":[],\"id\":\"CHART-UOi9IZmsWk\",\"meta\":{\"chartId\":174,\"height\":42,\"sliceName\":\"Heatmap Filter (By ID) (vadodara)\",\"sliceNameOverride\":\"Select device id\",\"uuid\":\"26870a42-ed64-41c1-9b28-1741aea43743\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-9-dqQ8BOUJ\",\"ROW-y7g9eaPGQ\"],\"type\":\"CHART\"},\"CHART-VqH1Rh2dZp\":{\"children\":[],\"id\":\"CHART-VqH1Rh2dZp\",\"meta\":{\"chartId\":200,\"height\":50,\"sliceName\":\"aqm-1: CO Concentration histogram\",\"uuid\":\"0be10c1d-2a22-434c-a4e8-1b9028dd0510\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW--3fsv2gx07\"],\"type\":\"CHART\"},\"CHART-Xey-v0gVFq\":{\"children\":[],\"id\":\"CHART-Xey-v0gVFq\",\"meta\":{\"chartId\":195,\"height\":50,\"sliceName\":\"aqm-1: SO2 daily concentration(min, max & avg)\",\"uuid\":\"892d0830-2eb9-4264-a1d9-41dcc9fad7a7\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-mVL8VaAgR\",\"ROW-CQDeaKJ-6\"],\"type\":\"CHART\"},\"CHART-_8atKdho2q\":{\"children\":[],\"id\":\"CHART-_8atKdho2q\",\"meta\":{\"chartId\":210,\"height\":50,\"sliceName\":\"itms-1: CO Concentration trend overtime (hourly)\",\"uuid\":\"bb26543f-1b70-4de1-891d-0588865dd1e4\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW--3fsv2gx07\"],\"type\":\"CHART\"},\"CHART-a9bBrFGn6t\":{\"children\":[],\"id\":\"CHART-a9bBrFGn6t\",\"meta\":{\"chartId\":215,\"height\":50,\"sliceName\":\"itms-1: PM10 Concentration trend overtime (hourly)\",\"uuid\":\"1bd443f3-a16b-4811-9d21-4ceceafb56af\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-R-lvhMS8bG\"],\"type\":\"CHART\"},\"CHART-eJ304YJ2F0\":{\"children\":[],\"id\":\"CHART-eJ304YJ2F0\",\"meta\":{\"chartId\":192,\"height\":50,\"sliceName\":\"aqm-1: PM10 daily concentration(min, max & avg)\",\"uuid\":\"6b8852ff-42da-4496-bd4f-f555b681a4a2\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-mVL8VaAgR\",\"ROW-wwobyndZJF\"],\"type\":\"CHART\"},\"CHART-eYZeSaSobm\":{\"children\":[],\"id\":\"CHART-eYZeSaSobm\",\"meta\":{\"chartId\":193,\"height\":50,\"sliceName\":\"aqm-1: O3 daily concentration(min, max & avg)\",\"uuid\":\"7a5c5ebc-5837-4710-801e-9172226739a6\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-mVL8VaAgR\",\"ROW-CQDeaKJ-6\"],\"type\":\"CHART\"},\"CHART-ezisLqzgqw\":{\"children\":[],\"id\":\"CHART-ezisLqzgqw\",\"meta\":{\"chartId\":222,\"height\":50,\"sliceName\":\"aqm-1: CO2 Concentration per sensor\",\"uuid\":\"b803cfa9-f06b-4632-8788-12762714d215\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-wrnZvhilVI\"],\"type\":\"CHART\"},\"CHART-gtI3Vm9V_f\":{\"children\":[],\"id\":\"CHART-gtI3Vm9V_f\",\"meta\":{\"chartId\":231,\"height\":46,\"sliceName\":\"aqm-1: Weekly readings from each Sensor\",\"uuid\":\"03b7aff0-b3e2-404c-b331-3f55887fcc06\",\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-mVL8VaAgR\",\"ROW-f1yAFNdDJ\"],\"type\":\"CHART\"},\"CHART-h9-hlnHYQo\":{\"children\":[],\"id\":\"CHART-h9-hlnHYQo\",\"meta\":{\"chartId\":205,\"height\":50,\"sliceName\":\"aqm-1: PM2p5 Concentration histogram\",\"uuid\":\"8815d01a-ec59-4cf1-ab73-faea53bdc83c\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-MFiXlShN4y\"],\"type\":\"CHART\"},\"CHART-hN6y3gFKxb\":{\"children\":[],\"id\":\"CHART-hN6y3gFKxb\",\"meta\":{\"chartId\":201,\"height\":50,\"sliceName\":\"aqm-1: Illuminance histogram\",\"uuid\":\"14ae0371-cf53-4210-8f0d-f90f1590a27c\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-fziGJaI2gU\"],\"type\":\"CHART\"},\"CHART-hbtxgjEmm4\":{\"children\":[],\"id\":\"CHART-hbtxgjEmm4\",\"meta\":{\"chartId\":206,\"height\":50,\"sliceName\":\"aqm-1: Relative Humidity histogram\",\"uuid\":\"8802c697-70f4-461a-9d7a-b749fb925212\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-Bi7GqA-nDM\"],\"type\":\"CHART\"},\"CHART-lVtBv6_cKM\":{\"children\":[],\"id\":\"CHART-lVtBv6_cKM\",\"meta\":{\"chartId\":181,\"height\":50,\"sliceName\":\"aqm-1: Ambient noise trend over time (hourly)\",\"uuid\":\"4e3dbd53-8f42-4fc6-be50-5092eb5a329e\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW--BDbm31n2\"],\"type\":\"CHART\"},\"CHART-lfDLVqpKZI\":{\"children\":[],\"id\":\"CHART-lfDLVqpKZI\",\"meta\":{\"chartId\":217,\"height\":50,\"sliceName\":\"itms-1: Relative Humidity trend overtime (hourly)\",\"uuid\":\"f583bf25-307c-4ee7-bd99-00123743ca1a\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-Bi7GqA-nDM\"],\"type\":\"CHART\"},\"CHART-o6QyXnXmE9\":{\"children\":[],\"id\":\"CHART-o6QyXnXmE9\",\"meta\":{\"chartId\":225,\"height\":50,\"sliceName\":\"aqm-1: O3 Concentration per sensor\",\"uuid\":\"68223daa-1720-48af-84d7-ae5a2fe255ad\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-23C76sgRDW\"],\"type\":\"CHART\"},\"CHART-oCIPzR94QF\":{\"children\":[],\"id\":\"CHART-oCIPzR94QF\",\"meta\":{\"chartId\":213,\"height\":50,\"sliceName\":\"itms-1: NO2 Concentration trend overtime (hourly)\",\"uuid\":\"c8463a46-e7e2-46aa-80ac-e51cb2ecf3e6\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-i9Uw8iHxgw\"],\"type\":\"CHART\"},\"CHART-pemL5AQRsY\":{\"children\":[],\"id\":\"CHART-pemL5AQRsY\",\"meta\":{\"chartId\":234,\"height\":30,\"sliceName\":\"aqm-1: Total AQM sensors in vadodara\",\"uuid\":\"eeb53c1a-ac7d-4007-9ad5-e11903d62c3c\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-9-dqQ8BOUJ\",\"ROW-rGErDQiID\"],\"type\":\"CHART\"},\"CHART-puh8gq_QEU\":{\"children\":[],\"id\":\"CHART-puh8gq_QEU\",\"meta\":{\"chartId\":221,\"height\":50,\"sliceName\":\"aqm-1: CO Concentration per sensor\",\"uuid\":\"f2f2a6fd-6ccc-4774-8344-2153beaa6292\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW--3fsv2gx07\"],\"type\":\"CHART\"},\"CHART-rT1feSAnSM\":{\"children\":[],\"id\":\"CHART-rT1feSAnSM\",\"meta\":{\"chartId\":194,\"height\":50,\"sliceName\":\"aqm-1: NO2 daily concentration(min, max & avg)\",\"uuid\":\"5d9c0ec0-1099-47d0-9233-9e34851317a9\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-mVL8VaAgR\",\"ROW-CQDeaKJ-6\"],\"type\":\"CHART\"},\"CHART-rslKT9NRRG\":{\"children\":[],\"id\":\"CHART-rslKT9NRRG\",\"meta\":{\"chartId\":224,\"height\":50,\"sliceName\":\"aqm-1: NO2 Concentration per sensor\",\"uuid\":\"7d47ddf1-6dc4-4112-a41c-2f00aff7e288\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-i9Uw8iHxgw\"],\"type\":\"CHART\"},\"CHART-vBR_Ca34nq\":{\"children\":[],\"id\":\"CHART-vBR_Ca34nq\",\"meta\":{\"chartId\":196,\"height\":35,\"sliceName\":\"Dangerous Gases filter\",\"uuid\":\"40916686-3e70-4f81-b6c9-00eb272bfd9c\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-mVL8VaAgR\",\"ROW-f1yAFNdDJ\"],\"type\":\"CHART\"},\"CHART-zJgNjQ2JPv\":{\"children\":[],\"id\":\"CHART-zJgNjQ2JPv\",\"meta\":{\"chartId\":233,\"height\":48,\"sliceName\":\"aqm-1: Active sensors (per hour)\",\"uuid\":\"e894eb27-37e9-45c0-a1a1-06378770921b\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-9-dqQ8BOUJ\",\"ROW-rGErDQiID\"],\"type\":\"CHART\"},\"CHART-zNvTXCVj32\":{\"children\":[],\"id\":\"CHART-zNvTXCVj32\",\"meta\":{\"chartId\":214,\"height\":50,\"sliceName\":\"itms-1: O3 Concentration trend overtime (hourly)\",\"uuid\":\"ab69f431-4487-4b4c-b970-ea285c6e087d\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-23C76sgRDW\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"DIVIDER-AfOot-G7sD\":{\"children\":[],\"id\":\"DIVIDER-AfOot-G7sD\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"DIVIDER\"},\"DIVIDER-DZpa2JHBcN\":{\"children\":[],\"id\":\"DIVIDER-DZpa2JHBcN\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"DIVIDER\"},\"DIVIDER-HXfCaRoaRF\":{\"children\":[],\"id\":\"DIVIDER-HXfCaRoaRF\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"DIVIDER\"},\"DIVIDER-IozRPKVi4H\":{\"children\":[],\"id\":\"DIVIDER-IozRPKVi4H\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"DIVIDER\"},\"DIVIDER-JTWTr8g3jw\":{\"children\":[],\"id\":\"DIVIDER-JTWTr8g3jw\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"DIVIDER\"},\"DIVIDER-LyQCuSvK7d\":{\"children\":[],\"id\":\"DIVIDER-LyQCuSvK7d\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"DIVIDER\"},\"DIVIDER-WRxyeQWt7B\":{\"children\":[],\"id\":\"DIVIDER-WRxyeQWt7B\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"DIVIDER\"},\"DIVIDER-Z0-MmK0QAb\":{\"children\":[],\"id\":\"DIVIDER-Z0-MmK0QAb\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"DIVIDER\"},\"DIVIDER-b3sYGvrYNI\":{\"children\":[],\"id\":\"DIVIDER-b3sYGvrYNI\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-dJk4X9TGdm\":{\"children\":[],\"id\":\"DIVIDER-dJk4X9TGdm\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"DIVIDER\"},\"DIVIDER-fW3tX7I21U\":{\"children\":[],\"id\":\"DIVIDER-fW3tX7I21U\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"DIVIDER\"},\"DIVIDER-lXZOU0-26T\":{\"children\":[],\"id\":\"DIVIDER-lXZOU0-26T\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-l_dYrZYCnD\":{\"children\":[],\"id\":\"DIVIDER-l_dYrZYCnD\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"DIVIDER\"},\"DIVIDER-tmiJDdGI2t\":{\"children\":[],\"id\":\"DIVIDER-tmiJDdGI2t\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"DIVIDER\"},\"DIVIDER-yhrrhscpGH\":{\"children\":[],\"id\":\"DIVIDER-yhrrhscpGH\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-9-dqQ8BOUJ\"],\"type\":\"DIVIDER\"},\"DIVIDER-ytpdGMOwVc\":{\"children\":[],\"id\":\"DIVIDER-ytpdGMOwVc\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"DIVIDER\"},\"GRID_ID\":{\"children\":[\"TABS-B3kExo2xx-\",\"DIVIDER-b3sYGvrYNI\",\"DIVIDER-tmiJDdGI2t\",\"DIVIDER-lXZOU0-26T\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER-8OLaOS_Jq-\":{\"children\":[],\"id\":\"HEADER-8OLaOS_Jq-\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"PM10 Concentration\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"HEADER\"},\"HEADER-9OHf2zW4q_\":{\"children\":[],\"id\":\"HEADER-9OHf2zW4q_\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Ambient Noise\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"HEADER\"},\"HEADER-9P0kxkkTiR\":{\"children\":[],\"id\":\"HEADER-9P0kxkkTiR\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"O3 Concentration\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"HEADER\"},\"HEADER-9ch6tqj53T\":{\"children\":[],\"id\":\"HEADER-9ch6tqj53T\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Most Dangerous Pollutants captured in last one week\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-mVL8VaAgR\"],\"type\":\"HEADER\"},\"HEADER-Ga55pjJVxX\":{\"children\":[],\"id\":\"HEADER-Ga55pjJVxX\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"PM2p5 Concentration\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"HEADER\"},\"HEADER-NxZ6G6MKEM\":{\"children\":[],\"id\":\"HEADER-NxZ6G6MKEM\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"CO Concentration\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"HEADER\"},\"HEADER-Px8yjdJRK8\":{\"children\":[],\"id\":\"HEADER-Px8yjdJRK8\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Relative Humidity\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"HEADER\"},\"HEADER-Tj9PV8tTK4\":{\"children\":[],\"id\":\"HEADER-Tj9PV8tTK4\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Illuminance\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"HEADER\"},\"HEADER-UqWLVU_CxA\":{\"children\":[],\"id\":\"HEADER-UqWLVU_CxA\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Device activity\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-9-dqQ8BOUJ\"],\"type\":\"HEADER\"},\"HEADER-YESWtYYJ6l\":{\"children\":[],\"id\":\"HEADER-YESWtYYJ6l\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"NO2 Concentration\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"HEADER\"},\"HEADER-eZtOaTr_9q\":{\"children\":[],\"id\":\"HEADER-eZtOaTr_9q\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"Air Temperature\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"HEADER\"},\"HEADER-g759SLEntz\":{\"children\":[],\"id\":\"HEADER-g759SLEntz\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"UV Concentration\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"HEADER\"},\"HEADER-jIYqtD4HLw\":{\"children\":[],\"id\":\"HEADER-jIYqtD4HLw\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"CO2 Concentration\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"HEADER\"},\"HEADER-uEjI59CyUR\":{\"children\":[],\"id\":\"HEADER-uEjI59CyUR\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"SO2 Concentration\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"HEADER\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"Vadodara AQM Dashboard-2\"},\"type\":\"HEADER\"},\"MARKDOWN-br9TvyuXHD\":{\"children\":[],\"id\":\"MARKDOWN-br9TvyuXHD\",\"meta\":{\"code\":\"<p style=\\\"text-align: center\\\">\\n<img src=\\\"data:image/jpeg;base64,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\\\" height=300>\\n</p>\",\"height\":50,\"width\":8},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\",\"ROW-E6cFcPseq\"],\"type\":\"MARKDOWN\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW--3fsv2gx07\":{\"children\":[\"CHART-VqH1Rh2dZp\",\"CHART-_8atKdho2q\",\"CHART-puh8gq_QEU\"],\"id\":\"ROW--3fsv2gx07\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"ROW\"},\"ROW--BDbm31n2\":{\"children\":[\"CHART-PJSJM1onY9\",\"CHART-lVtBv6_cKM\",\"CHART-TQfdJHb3aq\"],\"id\":\"ROW--BDbm31n2\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"ROW\"},\"ROW-23C76sgRDW\":{\"children\":[\"CHART-3QMGZSMD_f\",\"CHART-zNvTXCVj32\",\"CHART-o6QyXnXmE9\"],\"id\":\"ROW-23C76sgRDW\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"ROW\"},\"ROW-Bi7GqA-nDM\":{\"children\":[\"CHART-hbtxgjEmm4\",\"CHART-lfDLVqpKZI\",\"CHART-FEZsIDjkjZ\"],\"id\":\"ROW-Bi7GqA-nDM\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"ROW\"},\"ROW-CQDeaKJ-6\":{\"children\":[\"CHART-eYZeSaSobm\",\"CHART-rT1feSAnSM\",\"CHART-Xey-v0gVFq\"],\"id\":\"ROW-CQDeaKJ-6\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-mVL8VaAgR\"],\"type\":\"ROW\"},\"ROW-E6cFcPseq\":{\"children\":[\"MARKDOWN-br9TvyuXHD\",\"CHART-9EiaBmeoyQ\"],\"id\":\"ROW-E6cFcPseq\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"ROW\"},\"ROW-LlUWk3pGiY\":{\"children\":[\"CHART-8ZBb8RsI7e\",\"CHART-DIwJyHt5fX\",\"CHART--Bs0YGuP7D\"],\"id\":\"ROW-LlUWk3pGiY\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"ROW\"},\"ROW-MFiXlShN4y\":{\"children\":[\"CHART-h9-hlnHYQo\",\"CHART-AKccOSxLmC\",\"CHART-JYwCRaWKRS\"],\"id\":\"ROW-MFiXlShN4y\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"ROW\"},\"ROW-R-lvhMS8bG\":{\"children\":[\"CHART-2tFmxhjJ2O\",\"CHART-a9bBrFGn6t\",\"CHART-AOHwzTUw9j\"],\"id\":\"ROW-R-lvhMS8bG\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"ROW\"},\"ROW-SFtaDU4NFD\":{\"children\":[\"CHART-H49NJJIqrz\"],\"id\":\"ROW-SFtaDU4NFD\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-mVL8VaAgR\"],\"type\":\"ROW\"},\"ROW-bQKhBe8gS\":{\"children\":[\"CHART-5tfkGQ6OkI\"],\"id\":\"ROW-bQKhBe8gS\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-9-dqQ8BOUJ\"],\"type\":\"ROW\"},\"ROW-edcSA7KgW\":{\"children\":[\"CHART-C8mrOiAjdf\",\"CHART-9UI6fDbjui\",\"CHART-Rp-ghITloX\"],\"id\":\"ROW-edcSA7KgW\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"ROW\"},\"ROW-f1yAFNdDJ\":{\"children\":[\"CHART-vBR_Ca34nq\",\"CHART-gtI3Vm9V_f\"],\"id\":\"ROW-f1yAFNdDJ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-mVL8VaAgR\"],\"type\":\"ROW\"},\"ROW-fziGJaI2gU\":{\"children\":[\"CHART-hN6y3gFKxb\",\"CHART-G0RaywSDxy\",\"CHART-Rgqo3wjTWa\"],\"id\":\"ROW-fziGJaI2gU\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"ROW\"},\"ROW-hUtN7DPc9h\":{\"children\":[\"CHART-TN2idshGv8\",\"CHART-2RfHfqvDKL\",\"CHART-8J5HDLp-5_\"],\"id\":\"ROW-hUtN7DPc9h\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"ROW\"},\"ROW-i9Uw8iHxgw\":{\"children\":[\"CHART-P71Tv-BrAD\",\"CHART-oCIPzR94QF\",\"CHART-rslKT9NRRG\"],\"id\":\"ROW-i9Uw8iHxgw\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"ROW\"},\"ROW-rGErDQiID\":{\"children\":[\"CHART-zJgNjQ2JPv\",\"CHART-pemL5AQRsY\"],\"id\":\"ROW-rGErDQiID\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-9-dqQ8BOUJ\"],\"type\":\"ROW\"},\"ROW-wrnZvhilVI\":{\"children\":[\"CHART-QVK3IMzUP8\",\"CHART-DZM7ti_hXT\",\"CHART-ezisLqzgqw\"],\"id\":\"ROW-wrnZvhilVI\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-eEQbKeYp7\"],\"type\":\"ROW\"},\"ROW-wwobyndZJF\":{\"children\":[\"CHART-eJ304YJ2F0\",\"CHART-2bMONcVuhh\"],\"id\":\"ROW-wwobyndZJF\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-mVL8VaAgR\"],\"type\":\"ROW\"},\"ROW-y7g9eaPGQ\":{\"children\":[\"CHART-UOi9IZmsWk\",\"CHART-71EM07dr51\"],\"id\":\"ROW-y7g9eaPGQ\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\",\"TAB-9-dqQ8BOUJ\"],\"type\":\"ROW\"},\"TAB-9-dqQ8BOUJ\":{\"children\":[\"ROW-rGErDQiID\",\"DIVIDER-yhrrhscpGH\",\"ROW-y7g9eaPGQ\",\"HEADER-UqWLVU_CxA\",\"ROW-bQKhBe8gS\"],\"id\":\"TAB-9-dqQ8BOUJ\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"Introduction\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\"],\"type\":\"TAB\"},\"TAB-eEQbKeYp7\":{\"children\":[\"ROW-E6cFcPseq\",\"HEADER-eZtOaTr_9q\",\"DIVIDER-AfOot-G7sD\",\"ROW-edcSA7KgW\",\"HEADER-9OHf2zW4q_\",\"DIVIDER-fW3tX7I21U\",\"ROW--BDbm31n2\",\"HEADER-NxZ6G6MKEM\",\"DIVIDER-DZpa2JHBcN\",\"ROW--3fsv2gx07\",\"HEADER-jIYqtD4HLw\",\"DIVIDER-HXfCaRoaRF\",\"ROW-wrnZvhilVI\",\"HEADER-Tj9PV8tTK4\",\"DIVIDER-dJk4X9TGdm\",\"ROW-fziGJaI2gU\",\"HEADER-YESWtYYJ6l\",\"DIVIDER-JTWTr8g3jw\",\"ROW-i9Uw8iHxgw\",\"HEADER-9P0kxkkTiR\",\"DIVIDER-l_dYrZYCnD\",\"ROW-23C76sgRDW\",\"HEADER-8OLaOS_Jq-\",\"DIVIDER-ytpdGMOwVc\",\"ROW-R-lvhMS8bG\",\"HEADER-Ga55pjJVxX\",\"DIVIDER-WRxyeQWt7B\",\"ROW-MFiXlShN4y\",\"HEADER-Px8yjdJRK8\",\"DIVIDER-LyQCuSvK7d\",\"ROW-Bi7GqA-nDM\",\"HEADER-uEjI59CyUR\",\"DIVIDER-Z0-MmK0QAb\",\"ROW-hUtN7DPc9h\",\"HEADER-g759SLEntz\",\"DIVIDER-IozRPKVi4H\",\"ROW-LlUWk3pGiY\"],\"id\":\"TAB-eEQbKeYp7\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"Pollutants drill down\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\"],\"type\":\"TAB\"},\"TAB-mVL8VaAgR\":{\"children\":[\"ROW-SFtaDU4NFD\",\"ROW-f1yAFNdDJ\",\"HEADER-9ch6tqj53T\",\"ROW-wwobyndZJF\",\"ROW-CQDeaKJ-6\"],\"id\":\"TAB-mVL8VaAgR\",\"meta\":{\"defaultText\":\"Tab title\",\"placeholder\":\"Tab title\",\"text\":\"Aggrigations\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-B3kExo2xx-\"],\"type\":\"TAB\"},\"TABS-B3kExo2xx-\":{\"children\":[\"TAB-9-dqQ8BOUJ\",\"TAB-eEQbKeYp7\",\"TAB-mVL8VaAgR\"],\"id\":\"TABS-B3kExo2xx-\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"TABS\"}}",
                 "slices": [
                     {
                         "__Slice__": {
                             "cache_timeout": null,
                             "datasource_name": "druid.vadodara-aqm",
                             "datasource_type": "table",
-                            "id": 396,
-                            "params": "{\"adhoc_filters\": [], \"cell_padding\": 8, \"cell_size\": 30, \"datasource\": \"17__table\", \"domain_granularity\": \"day\", \"granularity_sqla\": \"__time\", \"linear_color_scheme\": \"schemeRdBu\", \"metrics\": [{\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 635, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"STRING\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT(id)\", \"optionName\": \"metric_zwwubfedbjq_swvwp179v2\", \"sqlExpression\": null}], \"show_legend\": true, \"show_metric_name\": true, \"show_values\": true, \"slice_id\": 396, \"steps\": 10, \"subdomain_granularity\": \"hour\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"cal_heatmap\", \"x_axis_time_format\": \"smart_date\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 396, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\"}",
-                            "slice_name": "Device Status (Daily)",
-                            "viz_type": "cal_heatmap"
-                        }
-                    },
-                    {
-                        "__Slice__": {
-                            "cache_timeout": null,
-                            "datasource_name": "druid.vadodara-aqm",
-                            "datasource_type": "table",
-                            "id": 296,
-                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"longitude\", \"all_columns_y\": \"latitude\", \"clustering_radius\": null, \"datasource\": \"17__table\", \"global_opacity\": 1, \"granularity_sqla\": \"__time\", \"groupby\": [\"latitude\", \"longitude\", \"id\"], \"mapbox_color\": \"rgb(255, 215, 0)\", \"mapbox_label\": [], \"mapbox_style\": \"mapbox://styles/mapbox/dark-v9\", \"pandas_aggfunc\": \"sum\", \"point_radius\": \"Auto\", \"point_radius_unit\": \"Pixels\", \"render_while_dragging\": true, \"row_limit\": null, \"slice_id\": 296, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport_latitude\": 22.260128703737823, \"viewport_longitude\": 73.2742738086806, \"viewport_zoom\": 10.265361827843282, \"viz_type\": \"mapbox\", \"remote_id\": 296, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\"}",
-                            "slice_name": "Vadodara Sensor Locations",
-                            "viz_type": "mapbox"
-                        }
-                    },
-                    {
-                        "__Slice__": {
-                            "cache_timeout": null,
-                            "datasource_name": "druid.vadodara-aqm",
-                            "datasource_type": "table",
-                            "id": 404,
-                            "params": "{\"adhoc_filters\": [], \"datasource\": \"17__table\", \"date_filter\": false, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"id\", \"key\": \"WUvUQjJZM1\", \"multiple\": true, \"searchAllOptions\": false}], \"granularity_sqla\": \"__time\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 404, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\"}",
-                            "slice_name": "Heatmap Filter (By ID) (Vadodara)",
+                            "id": 174,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"40__table\", \"date_filter\": false, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"id\", \"key\": \"3GKBqKGCv\", \"multiple\": false, \"searchAllOptions\": false}], \"granularity_sqla\": \"__time\", \"slice_id\": 406, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 174, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "Heatmap Filter (By ID) (vadodara)",
                             "viz_type": "filter_box"
                         }
                     },
@@ -46,10 +24,10 @@
                             "cache_timeout": null,
                             "datasource_name": "druid.vadodara-aqm",
                             "datasource_type": "table",
-                            "id": 410,
-                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"area\": true, \"color_scheme\": \"supersetColors\", \"datasource\": \"17__table\", \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 635, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"STRING\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT(id)\", \"optionName\": \"metric_fxnzrsi4gom_q26pa97np1\", \"sqlExpression\": null}], \"opacity\": 0.2, \"order_desc\": true, \"row_limit\": 10000, \"seriesType\": \"line\", \"stack\": false, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": [], \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"xAxisShowMaxLabel\": true, \"xAxisShowMinLabel\": true, \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 410, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\"}",
-                            "slice_name": "Message Count (Hourly)",
-                            "viz_type": "echarts_timeseries"
+                            "id": 175,
+                            "params": "{\"adhoc_filters\": [], \"cell_padding\": 2, \"cell_size\": 28, \"datasource\": \"1__table\", \"domain_granularity\": \"day\", \"granularity_sqla\": \"__time\", \"linear_color_scheme\": \"schemeRdYlGn\", \"metrics\": [{\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"__time\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 1, \"is_dttm\": true, \"python_date_format\": null, \"type\": \"LONG\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT(__time)\", \"optionName\": \"metric_wsn89mzha3_jc7vagh772r\", \"sqlExpression\": null}], \"show_legend\": true, \"show_metric_name\": true, \"show_values\": true, \"slice_id\": 38, \"steps\": 10, \"subdomain_granularity\": \"hour\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"cal_heatmap\", \"x_axis_time_format\": \"smart_date\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 175, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "Device Status (Previous Week)",
+                            "viz_type": "cal_heatmap"
                         }
                     },
                     {
@@ -57,10 +35,527 @@
                             "cache_timeout": null,
                             "datasource_name": "druid.vadodara-aqm",
                             "datasource_type": "table",
-                            "id": 412,
-                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"area\": true, \"color_scheme\": \"SUPERSET_DEFAULT\", \"datasource\": \"17__table\", \"forecastInterval\": 0.8, \"forecastPeriods\": 10, \"granularity_sqla\": \"__time\", \"groupby\": [\"id\"], \"label_colors\": {}, \"legendOrientation\": \"top\", \"legendType\": \"scroll\", \"markerSize\": 6, \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"co2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 634, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(co2)\", \"optionName\": \"metric_h7rdqd5u8y_m5zmkunq8s9\", \"sqlExpression\": null}], \"opacity\": 0.2, \"order_desc\": true, \"row_limit\": 10000, \"seriesType\": \"smooth\", \"stack\": false, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"truncateYAxis\": true, \"url_params\": {}, \"viz_type\": \"echarts_timeseries\", \"xAxisShowMaxLabel\": true, \"xAxisShowMinLabel\": true, \"x_axis_time_format\": \"smart_date\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 412, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\"}",
-                            "slice_name": "Average CO2 by ID",
-                            "viz_type": "echarts_timeseries"
+                            "id": 177,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"googleCategory10c\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"basis\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"airTemperature\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 4, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(airTemperature)\", \"optionName\": \"metric_92uxdsix7wt_eqr3f1awznh\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"send_time_range\": false, \"show_brush\": \"auto\", \"show_markers\": true, \"slice_id\": 42, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"Datetime\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"Air Temperature\", \"remote_id\": 177, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "itms-1: Air Temperature trend overtime (hourly)",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 179,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": [\"airTemperature\"], \"color_scheme\": \"SUPERSET_DEFAULT\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"link_length\": \"50\", \"normalized\": false, \"row_limit\": null, \"show_legend\": true, \"slice_id\": 44, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"histogram\", \"x_axis_label\": \"Air Temperature\", \"y_axis_label\": \"Number of data points\", \"remote_id\": 179, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: Air Temperature histogram",
+                            "viz_type": "histogram"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 180,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": [\"ambientNoise\"], \"color_scheme\": \"SUPERSET_DEFAULT\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"link_length\": \"50\", \"row_limit\": null, \"show_legend\": false, \"slice_id\": 45, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"histogram\", \"x_axis_label\": \"Ambient Noise\", \"y_axis_label\": \"Number of data points\", \"remote_id\": 180, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: Ambient Noise histogram",
+                            "viz_type": "histogram"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 181,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"basis\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"ambientNoise\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 5, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(ambientNoise)\", \"optionName\": \"metric_m5yumd4343j_x9utak06sps\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_brush\": \"auto\", \"show_markers\": true, \"slice_id\": 46, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"Datetime\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"Ambient Noise\", \"remote_id\": 181, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: Ambient noise trend over time (hourly)",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 182,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"longitude\", \"all_columns_y\": \"latitude\", \"clustering_radius\": \"40\", \"datasource\": \"1__table\", \"global_opacity\": 1, \"granularity_sqla\": \"__time\", \"groupby\": [], \"mapbox_color\": \"rgb(0, 122, 135)\", \"mapbox_label\": [\"ambientNoise\"], \"mapbox_style\": \"mapbox://styles/mapbox/streets-v9\", \"pandas_aggfunc\": \"mean\", \"point_radius\": \"Auto\", \"point_radius_unit\": \"Kilometers\", \"render_while_dragging\": true, \"row_limit\": null, \"slice_id\": 47, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport_latitude\": 18.509957532525004, \"viewport_longitude\": 73.85324249998013, \"viewport_zoom\": 11.901924471990721, \"viz_type\": \"mapbox\", \"remote_id\": 182, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: Average Ambient Noise per sensor",
+                            "viz_type": "mapbox"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 183,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"3__table\", \"date_filter\": true, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"airQualityLevel\", \"key\": \"tOHambN-c\", \"multiple\": true, \"searchAllOptions\": false}, {\"asc\": true, \"clearable\": true, \"column\": \"id\", \"key\": \"ShgZYLXeh\", \"multiple\": true, \"searchAllOptions\": false}], \"granularity_sqla\": \"__time\", \"instant_filtering\": false, \"show_sqla_time_granularity\": true, \"slice_id\": 183, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 183, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\"}",
+                            "slice_name": "Apply Filters",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 184,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"longitude\", \"all_columns_y\": \"latitude\", \"clustering_radius\": \"40\", \"datasource\": \"1__table\", \"global_opacity\": 1, \"granularity_sqla\": \"__time\", \"groupby\": [], \"mapbox_color\": \"rgb(0, 122, 135)\", \"mapbox_label\": [\"airTemperature\"], \"mapbox_style\": \"mapbox://styles/mapbox/streets-v9\", \"pandas_aggfunc\": \"mean\", \"point_radius\": \"Auto\", \"point_radius_unit\": \"Pixels\", \"render_while_dragging\": true, \"row_limit\": null, \"slice_id\": 49, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport_latitude\": 18.509957532525004, \"viewport_longitude\": 73.85324249998013, \"viewport_zoom\": 11.901924471990721, \"viz_type\": \"mapbox\", \"remote_id\": 184, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: Average air temperature per sensor",
+                            "viz_type": "mapbox"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 188,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"illuminance\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 12, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(illuminance)\", \"optionName\": \"metric_k70adhozp7o_loaqx9pu4i\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_brush\": \"auto\", \"stacked_style\": \"stack\", \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"area\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 188, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "Area Chart Illuminance",
+                            "viz_type": "area"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 191,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"echarts5Colors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"date_time_format\": \"smart_date\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"MIN\", \"column\": {\"column_name\": \"pm2p5\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 18, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MIN(pm2p5)\", \"optionName\": \"metric_1329rsv8kcon_bwsvrrzhpif\", \"sqlExpression\": null}, {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"pm2p5\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 18, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(pm2p5)\", \"optionName\": \"metric_q0mtqysm0u_gicaerq3il\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"pm2p5\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 18, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(pm2p5)\", \"optionName\": \"metric_xflton55sjl_6w8w51o6qdt\", \"sqlExpression\": null}], \"number_format\": \"SMART_NUMBER\", \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"rose_area_proportion\": true, \"row_limit\": null, \"slice_id\": 56, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"rose\", \"remote_id\": 191, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: PM2p5 daily concentration(min, max & avg)",
+                            "viz_type": "rose"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 192,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"date_time_format\": \"smart_date\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"MIN\", \"column\": {\"column_name\": \"pm10\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 17, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MIN(pm10)\", \"optionName\": \"metric_qbx1j2xzwl8_n6unm5oeere\", \"sqlExpression\": null}, {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"pm10\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 17, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(pm10)\", \"optionName\": \"metric_81so6i30na9_q40q7htt6f\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"pm10\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 17, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(pm10)\", \"optionName\": \"metric_nm4msoisbo_6elfpjag4pg\", \"sqlExpression\": null}], \"number_format\": \"SMART_NUMBER\", \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"rose_area_proportion\": true, \"row_limit\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"rose\", \"remote_id\": 192, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: PM10 daily concentration(min, max & avg)",
+                            "viz_type": "rose"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 193,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"date_time_format\": \"smart_date\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"MIN\", \"column\": {\"column_name\": \"o3\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 16, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MIN(o3)\", \"optionName\": \"metric_84toc53987v_44j1updyqn9\", \"sqlExpression\": null}, {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"o3\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 16, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(o3)\", \"optionName\": \"metric_qjuopmkk4h_743aeesqqmn\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"o3\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 16, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(o3)\", \"optionName\": \"metric_tlpq17x8ih_0b1n9e58kf8p\", \"sqlExpression\": null}], \"number_format\": \"SMART_NUMBER\", \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"rose_area_proportion\": true, \"row_limit\": null, \"slice_id\": 58, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"rose\", \"remote_id\": 193, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: O3 daily concentration(min, max & avg)",
+                            "viz_type": "rose"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 194,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"date_time_format\": \"smart_date\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"MIN\", \"column\": {\"column_name\": \"no2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 15, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MIN(no2)\", \"optionName\": \"metric_pnqta0ink8d_xxe0597smn\", \"sqlExpression\": null}, {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"no2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 15, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(no2)\", \"optionName\": \"metric_dbbsnc8cvt4_k0w44ciy4gq\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"no2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 15, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(no2)\", \"optionName\": \"metric_96d9vvwejir_05zdgpnedadh\", \"sqlExpression\": null}], \"number_format\": \"SMART_NUMBER\", \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"rose_area_proportion\": true, \"row_limit\": null, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"rose\", \"remote_id\": 194, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: NO2 daily concentration(min, max & avg)",
+                            "viz_type": "rose"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 195,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"date_time_format\": \"smart_date\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {\"AVG(airQualityIndex)\": \"#FCC700\", \"AVG(illuminance)\": \"#5AC189\", \"AVG(no2)\": \"#B2B2B2\", \"AVG(o3)\": \"#3CCCCB\", \"AVG(pm10)\": \"#E04355\", \"AVG(so2)\": \"#A1A6BD\", \"CO\": \"#5AC189\", \"GOOD\": \"#A868B7\", \"MAX(airQualityIndex)\": \"#FF7F44\", \"MAX(no2)\": \"#EFA1AA\", \"MAX(o3)\": \"#A38F79\", \"MAX(pm10)\": \"#FCC700\", \"MAX(so2)\": \"#ACE1C4\", \"MIN(airQualityIndex)\": \"#666666\", \"MIN(no2)\": \"#FDE380\", \"MIN(o3)\": \"#8FD3E4\", \"MIN(pm10)\": \"#A868B7\", \"MIN(so2)\": \"#FEC0A1\", \"MODERATE\": \"#3CCCCB\", \"NO2\": \"#1FA8C9\", \"O3\": \"#454E7C\", \"PM10\": \"#FF7F44\", \"PM2.5\": \"#666666\", \"POOR\": \"#A38F79\", \"SATISFACTORY\": \"#8FD3E4\", \"SO2\": \"#E04355\", \"VERY_POOR\": \"#A1A6BD\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/vadodara-env-aqm/02f7e7ee-29d6-c1c1-4d98-8f74981d9683\": \"#ACE1C4\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/vadodara-env-aqm/146a3c4f-c6e4-959f-e967-f0cfd5b03dcb\": \"#FEC0A1\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/vadodara-env-aqm/169af06f-bfee-3513-56e5-b9ddd7b863f0\": \"#B2B2B2\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/vadodara-env-aqm/17429134-c3d7-da41-0057-388a28723913\": \"#EFA1AA\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/vadodara-env-aqm/388977ff-210f-b2f4-19e6-c619669708a2\": \"#FDE380\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/vadodara-env-aqm/67ae0343-59e4-e88f-bc4a-f55e7789df44\": \"#D3B3DA\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/vadodara-env-aqm/a70a062d-1bc8-ba77-a530-af9b5d4f2145\": \"#9EE5E5\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/vadodara-env-aqm/c7b8f786-2f89-116f-d98d-8c54bfc7caaf\": \"#D1C6BC\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/vadodara-env-aqm/d824fa46-223b-f248-493e-80bb5bdeda68\": \"#1FA8C9\", \"datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/vadodara-env-aqm/d90466f6-a69a-6989-e54a-eddb4dc47fd4\": \"#454E7C\"}, \"metrics\": [{\"aggregate\": \"MIN\", \"column\": {\"column_name\": \"so2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 20, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MIN(so2)\", \"optionName\": \"metric_zwb17enip9_z55paisva8a\", \"sqlExpression\": null}, {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"so2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 20, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(so2)\", \"optionName\": \"metric_1hsgso4dt6r_px8w848pj3\", \"sqlExpression\": null}, {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"so2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 20, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"MAX(so2)\", \"optionName\": \"metric_bbw89pmjxvp_834phvx5oek\", \"sqlExpression\": null}], \"number_format\": \"SMART_NUMBER\", \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"rose_area_proportion\": true, \"row_limit\": null, \"slice_id\": 60, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"rose\", \"remote_id\": 195, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: SO2 daily concentration(min, max & avg)",
+                            "viz_type": "rose"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 196,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"3__table\", \"date_filter\": true, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"id\", \"key\": \"1Rnmr6_II\", \"multiple\": true, \"searchAllOptions\": false}], \"granularity_sqla\": \"__time\", \"instant_filtering\": false, \"show_druid_time_granularity\": false, \"show_sqla_time_granularity\": false, \"slice_id\": 196, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 196, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\"}",
+                            "slice_name": "Dangerous Gases filter",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 199,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": [\"co2\"], \"color_scheme\": \"supersetColors\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"link_length\": \"50\", \"row_limit\": null, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"histogram\", \"x_axis_label\": \"CO2 Concentration\", \"y_axis_label\": \"Number of data points\", \"remote_id\": 199, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: CO2 histogram",
+                            "viz_type": "histogram"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 200,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": [\"co\"], \"color_scheme\": \"supersetColors\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"link_length\": \"50\", \"row_limit\": null, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"histogram\", \"x_axis_label\": \"CO Concentration\", \"y_axis_label\": \"Number of data points\", \"remote_id\": 200, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: CO Concentration histogram",
+                            "viz_type": "histogram"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 201,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": [\"illuminance\"], \"color_scheme\": \"supersetColors\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"link_length\": \"50\", \"row_limit\": null, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"histogram\", \"x_axis_label\": \"Illuminance\", \"y_axis_label\": \"Number of data points\", \"remote_id\": 201, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: Illuminance histogram",
+                            "viz_type": "histogram"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 202,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": [\"no2\"], \"color_scheme\": \"supersetColors\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"link_length\": \"50\", \"row_limit\": null, \"slice_id\": 68, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"histogram\", \"x_axis_label\": \"NO2 Concentration\", \"y_axis_label\": \"Number of data points\", \"remote_id\": 202, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: NO2 Concentration histogram",
+                            "viz_type": "histogram"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 203,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": [\"o3\"], \"color_scheme\": \"supersetColors\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"link_length\": \"50\", \"row_limit\": null, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"histogram\", \"x_axis_label\": \"O3 Concentration\", \"y_axis_label\": \"Number of data points\", \"remote_id\": 203, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: O3 Concentration histogram",
+                            "viz_type": "histogram"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 204,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": [\"pm10\"], \"color_scheme\": \"supersetColors\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"link_length\": \"50\", \"row_limit\": null, \"slice_id\": 70, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"histogram\", \"x_axis_label\": \"PM10 Concentration\", \"y_axis_label\": \"Number of data points\", \"remote_id\": 204, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: PM10 Concentration Index histogram",
+                            "viz_type": "histogram"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 205,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": [\"pm2p5\"], \"color_scheme\": \"supersetColors\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"link_length\": \"50\", \"row_limit\": null, \"slice_id\": 71, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"histogram\", \"x_axis_label\": \"PM2p5 Concentration \", \"y_axis_label\": \"Number of data points\", \"remote_id\": 205, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: PM2p5 Concentration histogram",
+                            "viz_type": "histogram"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 206,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": [\"relativeHumidity\"], \"color_scheme\": \"supersetColors\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"link_length\": \"50\", \"row_limit\": null, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"histogram\", \"x_axis_label\": \"Relative Humidity\", \"y_axis_label\": \"Number of data points\", \"remote_id\": 206, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: Relative Humidity histogram",
+                            "viz_type": "histogram"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 207,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": [\"so2\"], \"color_scheme\": \"supersetColors\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"link_length\": \"50\", \"row_limit\": null, \"slice_id\": 73, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"histogram\", \"x_axis_label\": \"SO2 Concentration\", \"y_axis_label\": \"Number of data points\", \"remote_id\": 207, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: SO2 Concentration  histogram",
+                            "viz_type": "histogram"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 208,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": [\"uv\"], \"color_scheme\": \"supersetColors\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"link_length\": \"50\", \"row_limit\": null, \"slice_id\": 74, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"histogram\", \"x_axis_label\": \"UV Concentration\", \"y_axis_label\": \"Number of data points\", \"remote_id\": 208, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: UV Concentration histogram",
+                            "viz_type": "histogram"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 210,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"basis\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"co\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 8, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(co)\", \"optionName\": \"metric_qtfrk56ny0h_2e7xiocg9or\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_brush\": \"auto\", \"show_markers\": true, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"Datetime\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"CO Concentration\", \"remote_id\": 210, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "itms-1: CO Concentration trend overtime (hourly)",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 211,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"basis\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"co2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 9, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(co2)\", \"optionName\": \"metric_6ulwm4qodw_p2g53f4bra\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_brush\": \"auto\", \"show_markers\": true, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"Datetime\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"CO2 Concentration\", \"remote_id\": 211, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "itms-1: CO2 Concentration trend overtime (hourly)",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 212,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"basis\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"illuminance\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 12, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(illuminance)\", \"optionName\": \"metric_6ln9ty79q9t_m23huhawdo8\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_brush\": \"auto\", \"show_markers\": true, \"slice_id\": 78, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"Datetime\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"Illuminance\", \"remote_id\": 212, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "itms-1: Illuminance trend overtime (hourly)",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 213,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"basis\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"no2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 15, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(no2)\", \"optionName\": \"metric_hdn1caazde_x0fusskhzlh\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_brush\": \"auto\", \"show_markers\": true, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"Datetime\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"NO2 Concentration\", \"remote_id\": 213, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "itms-1: NO2 Concentration trend overtime (hourly)",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 214,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"basis\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"o3\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 16, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(o3)\", \"optionName\": \"metric_g5h3os5z48_jiacdyf8db\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_brush\": \"auto\", \"show_markers\": true, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"Datetime\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"O3 Concentration \", \"remote_id\": 214, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "itms-1: O3 Concentration trend overtime (hourly)",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 215,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"basis\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"pm10\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 17, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(pm10)\", \"optionName\": \"metric_vmufrcfvgo_kk542day2e\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_brush\": \"auto\", \"show_markers\": true, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"Datetime\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"PM10 Concentration\", \"remote_id\": 215, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "itms-1: PM10 Concentration trend overtime (hourly)",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 216,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"basis\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"pm2p5\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 18, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(pm2p5)\", \"optionName\": \"metric_o1mpkz3m2ks_2jwhakge4cw\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_brush\": \"auto\", \"show_markers\": true, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"Datetime\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"PM2p5 Concentration\", \"remote_id\": 216, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "itms-1: PM2p5 Concentration trend overtime (hourly)",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 217,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"basis\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"relativeHumidity\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 19, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(relativeHumidity)\", \"optionName\": \"metric_re1c65pgqb_55tgq2304e\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_brush\": \"auto\", \"show_markers\": true, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"Datetime\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"Relative Humidity\", \"remote_id\": 217, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "itms-1: Relative Humidity trend overtime (hourly)",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 218,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"basis\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"so2\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 20, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(so2)\", \"optionName\": \"metric_dtl90u6a65l_pkqafr65qvc\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_brush\": \"auto\", \"show_markers\": true, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"Datetime\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"SO2 Concentration\", \"remote_id\": 218, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "itms-1: SO2 Concentration trend overtime (hourly)",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 219,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"basis\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"uv\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 21, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(uv)\", \"optionName\": \"metric_z04qc0zt9vr_q2qa8bnov9b\", \"sqlExpression\": null}], \"order_desc\": false, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_brush\": \"auto\", \"show_markers\": true, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"Datetime\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"UV Value\", \"remote_id\": 219, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "itms-1: UV trend overtime (hourly)",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 221,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"longitude\", \"all_columns_y\": \"latitude\", \"clustering_radius\": \"40\", \"datasource\": \"1__table\", \"global_opacity\": 1, \"granularity_sqla\": \"__time\", \"groupby\": [], \"mapbox_color\": \"rgb(0, 122, 135)\", \"mapbox_label\": [\"co\"], \"mapbox_style\": \"mapbox://styles/mapbox/streets-v9\", \"pandas_aggfunc\": \"mean\", \"point_radius\": \"Auto\", \"point_radius_unit\": \"Pixels\", \"render_while_dragging\": true, \"row_limit\": null, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport_latitude\": 18.509957532525004, \"viewport_longitude\": 73.85324249998013, \"viewport_zoom\": 11.901924471990721, \"viz_type\": \"mapbox\", \"remote_id\": 221, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: CO Concentration per sensor",
+                            "viz_type": "mapbox"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 222,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"longitude\", \"all_columns_y\": \"latitude\", \"clustering_radius\": \"40\", \"datasource\": \"1__table\", \"global_opacity\": 1, \"granularity_sqla\": \"__time\", \"groupby\": [], \"mapbox_color\": \"rgb(0, 122, 135)\", \"mapbox_label\": [\"co2\"], \"mapbox_style\": \"mapbox://styles/mapbox/streets-v9\", \"pandas_aggfunc\": \"mean\", \"point_radius\": \"Auto\", \"point_radius_unit\": \"Pixels\", \"render_while_dragging\": true, \"row_limit\": null, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport_latitude\": 18.509957532525004, \"viewport_longitude\": 73.85324249998013, \"viewport_zoom\": 11.901924471990721, \"viz_type\": \"mapbox\", \"remote_id\": 222, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: CO2 Concentration per sensor",
+                            "viz_type": "mapbox"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 223,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"longitude\", \"all_columns_y\": \"latitude\", \"clustering_radius\": \"40\", \"datasource\": \"1__table\", \"global_opacity\": 1, \"granularity_sqla\": \"__time\", \"groupby\": [], \"mapbox_color\": \"rgb(0, 122, 135)\", \"mapbox_label\": [\"illuminance\"], \"mapbox_style\": \"mapbox://styles/mapbox/streets-v9\", \"pandas_aggfunc\": \"mean\", \"point_radius\": \"Auto\", \"point_radius_unit\": \"Pixels\", \"render_while_dragging\": true, \"row_limit\": null, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport_latitude\": 18.509957532525004, \"viewport_longitude\": 73.85324249998013, \"viewport_zoom\": 11.901924471990721, \"viz_type\": \"mapbox\", \"remote_id\": 223, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: Illuminance per sensor",
+                            "viz_type": "mapbox"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 224,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"longitude\", \"all_columns_y\": \"latitude\", \"clustering_radius\": \"40\", \"datasource\": \"1__table\", \"global_opacity\": 1, \"granularity_sqla\": \"__time\", \"groupby\": [], \"mapbox_color\": \"rgb(0, 122, 135)\", \"mapbox_label\": [\"no2\"], \"mapbox_style\": \"mapbox://styles/mapbox/streets-v9\", \"pandas_aggfunc\": \"mean\", \"point_radius\": \"Auto\", \"point_radius_unit\": \"Pixels\", \"render_while_dragging\": true, \"row_limit\": null, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport_latitude\": 18.509957532525004, \"viewport_longitude\": 73.85324249998013, \"viewport_zoom\": 11.901924471990721, \"viz_type\": \"mapbox\", \"remote_id\": 224, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: NO2 Concentration per sensor",
+                            "viz_type": "mapbox"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 225,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"longitude\", \"all_columns_y\": \"latitude\", \"clustering_radius\": \"40\", \"datasource\": \"1__table\", \"global_opacity\": 1, \"granularity_sqla\": \"__time\", \"groupby\": [], \"mapbox_color\": \"rgb(0, 122, 135)\", \"mapbox_label\": [\"o3\"], \"mapbox_style\": \"mapbox://styles/mapbox/streets-v9\", \"pandas_aggfunc\": \"mean\", \"point_radius\": \"Auto\", \"point_radius_unit\": \"Pixels\", \"render_while_dragging\": true, \"row_limit\": null, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport_latitude\": 18.509957532525004, \"viewport_longitude\": 73.85324249998013, \"viewport_zoom\": 11.901924471990721, \"viz_type\": \"mapbox\", \"remote_id\": 225, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: O3 Concentration per sensor",
+                            "viz_type": "mapbox"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 226,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"longitude\", \"all_columns_y\": \"latitude\", \"clustering_radius\": \"40\", \"datasource\": \"1__table\", \"global_opacity\": 1, \"granularity_sqla\": \"__time\", \"groupby\": [], \"mapbox_color\": \"rgb(0, 122, 135)\", \"mapbox_label\": [\"pm10\"], \"mapbox_style\": \"mapbox://styles/mapbox/streets-v9\", \"pandas_aggfunc\": \"mean\", \"point_radius\": \"Auto\", \"point_radius_unit\": \"Pixels\", \"render_while_dragging\": true, \"row_limit\": null, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport_latitude\": 18.509957532525004, \"viewport_longitude\": 73.85324249998013, \"viewport_zoom\": 11.901924471990721, \"viz_type\": \"mapbox\", \"remote_id\": 226, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: PM10 Concentration per sensor",
+                            "viz_type": "mapbox"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 227,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"longitude\", \"all_columns_y\": \"latitude\", \"clustering_radius\": \"40\", \"datasource\": \"1__table\", \"global_opacity\": 1, \"granularity_sqla\": \"__time\", \"groupby\": [], \"mapbox_color\": \"rgb(0, 122, 135)\", \"mapbox_label\": [\"pm2p5\"], \"mapbox_style\": \"mapbox://styles/mapbox/streets-v9\", \"pandas_aggfunc\": \"mean\", \"point_radius\": \"Auto\", \"point_radius_unit\": \"Pixels\", \"render_while_dragging\": true, \"row_limit\": null, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport_latitude\": 18.509957532525004, \"viewport_longitude\": 73.85324249998013, \"viewport_zoom\": 11.901924471990721, \"viz_type\": \"mapbox\", \"remote_id\": 227, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: PM2p5 Concentration per sensor",
+                            "viz_type": "mapbox"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 228,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"longitude\", \"all_columns_y\": \"latitude\", \"clustering_radius\": \"40\", \"datasource\": \"1__table\", \"global_opacity\": 1, \"granularity_sqla\": \"__time\", \"groupby\": [], \"mapbox_color\": \"rgb(0, 122, 135)\", \"mapbox_label\": [\"relativeHumidity\"], \"mapbox_style\": \"mapbox://styles/mapbox/streets-v9\", \"pandas_aggfunc\": \"mean\", \"point_radius\": \"Auto\", \"point_radius_unit\": \"Pixels\", \"render_while_dragging\": true, \"row_limit\": null, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport_latitude\": 18.509957532525004, \"viewport_longitude\": 73.85324249998013, \"viewport_zoom\": 11.901924471990721, \"viz_type\": \"mapbox\", \"remote_id\": 228, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: Relative Humidity per sensor",
+                            "viz_type": "mapbox"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 229,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"longitude\", \"all_columns_y\": \"latitude\", \"clustering_radius\": \"40\", \"datasource\": \"1__table\", \"global_opacity\": 1, \"granularity_sqla\": \"__time\", \"groupby\": [], \"mapbox_color\": \"rgb(0, 122, 135)\", \"mapbox_label\": [\"so2\"], \"mapbox_style\": \"mapbox://styles/mapbox/streets-v9\", \"pandas_aggfunc\": \"mean\", \"point_radius\": \"Auto\", \"point_radius_unit\": \"Pixels\", \"render_while_dragging\": true, \"row_limit\": null, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport_latitude\": 18.509957532525004, \"viewport_longitude\": 73.85324249998013, \"viewport_zoom\": 11.901924471990721, \"viz_type\": \"mapbox\", \"remote_id\": 229, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: SO2 Concentration per sensor",
+                            "viz_type": "mapbox"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 230,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"longitude\", \"all_columns_y\": \"latitude\", \"clustering_radius\": \"40\", \"datasource\": \"1__table\", \"global_opacity\": 1, \"granularity_sqla\": \"__time\", \"groupby\": [], \"mapbox_color\": \"rgb(0, 122, 135)\", \"mapbox_label\": [\"uv\"], \"mapbox_style\": \"mapbox://styles/mapbox/streets-v9\", \"pandas_aggfunc\": \"mean\", \"point_radius\": \"Auto\", \"point_radius_unit\": \"Pixels\", \"render_while_dragging\": true, \"row_limit\": null, \"slice_id\": 97, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport_latitude\": 18.509957532525004, \"viewport_longitude\": 73.85324249998013, \"viewport_zoom\": 11.901924471990721, \"viz_type\": \"mapbox\", \"remote_id\": 230, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: UV Concentration per sensor",
+                            "viz_type": "mapbox"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 231,
+                            "params": "{\"adhoc_filters\": [], \"all_columns\": [], \"color_pn\": true, \"datasource\": \"1__table\", \"granularity_sqla\": \"__time\", \"groupby\": [\"id\"], \"metrics\": [\"count\"], \"order_by_cols\": [], \"order_desc\": false, \"percent_metrics\": [], \"query_mode\": \"aggregate\", \"row_limit\": null, \"show_cell_bars\": true, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": \"count\", \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 231, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: Weekly readings from each Sensor",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.vadodara-aqm",
+                            "datasource_type": "table",
+                            "id": 232,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"longitude\", \"all_columns_y\": \"latitude\", \"clustering_radius\": \"60\", \"datasource\": \"1__table\", \"global_opacity\": 1, \"granularity_sqla\": \"__time\", \"groupby\": [\"id\", \"latitude\", \"longitude\"], \"mapbox_color\": \"rgb(128, 0, 128)\", \"mapbox_label\": [], \"mapbox_style\": \"mapbox://styles/mapbox/streets-v9\", \"pandas_aggfunc\": \"sum\", \"point_radius\": \"Auto\", \"point_radius_unit\": \"Pixels\", \"render_while_dragging\": true, \"row_limit\": null, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport_latitude\": 18.509957532525004, \"viewport_longitude\": 73.85324249998013, \"viewport_zoom\": 11.901924471990721, \"viz_type\": \"mapbox\", \"remote_id\": 232, \"datasource_name\": \"vadodara-aqm\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "vadodara AQM Sensors Locations",
+                            "viz_type": "mapbox"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.sensor_grouped_average_vadodara",
+                            "datasource_type": "table",
+                            "id": 233,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"datasource\": \"21__table\", \"granularity_sqla\": \"__time\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 194, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"STRING\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT_DISTINCT(id)\", \"optionName\": \"metric_h6ogznslg0q_s3kq8kekfs\", \"sqlExpression\": null}, \"rolling_type\": \"None\", \"show_trend_line\": true, \"slice_id\": 233, \"start_y_axis_at_zero\": true, \"subheader_font_size\": 0.15, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 233, \"datasource_name\": \"sensor_grouped_average_vadodara\", \"schema\": \"druid\", \"database_name\": \"aqm\"}",
+                            "slice_name": "aqm-1: Active sensors (per hour)",
+                            "viz_type": "big_number"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "druid.sensor_grouped_average_vadodara",
+                            "datasource_type": "table",
+                            "id": 234,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"19__table\", \"granularity_sqla\": \"__time\", \"header_font_size\": 0.4, \"metric\": {\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 194, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"STRING\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT_DISTINCT(id)\", \"optionName\": \"metric_p7i3vpxobdf_nmhd3evrxe\", \"sqlExpression\": null}, \"slice_id\": 103, \"subheader_font_size\": 0.15, \"time_range\": \"Last year\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 234, \"datasource_name\": \"sensor_grouped_average_vadodara\", \"schema\": \"druid\", \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                            "slice_name": "aqm-1: Total AQM sensors in vadodara",
+                            "viz_type": "big_number_total"
                         }
                     }
                 ],
@@ -77,149 +572,24 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "column_name": "__time",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 630,
-                            "is_active": true,
-                            "is_dttm": true,
-                            "python_date_format": null,
-                            "table_id": 17,
-                            "type": "LONG",
-                            "uuid": "c42acb09-efe0-4695-b203-80175235592f",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "column_name": "airTemperature",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 631,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 17,
-                            "type": "FLOAT",
-                            "uuid": "3c13b08e-2576-4344-96e0-caaf5f3b6263",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "column_name": "ambientNoise",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 632,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 17,
-                            "type": "FLOAT",
-                            "uuid": "cb4cfcec-8575-4e4d-8df8-02fb86c35a45",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "column_name": "co",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 633,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 17,
-                            "type": "FLOAT",
-                            "uuid": "de937223-ea93-431c-a9eb-c30bebcf3cab",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "column_name": "co2",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 634,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 17,
-                            "type": "FLOAT",
-                            "uuid": "39487597-9b8b-44f0-9fbf-c9e43d786764",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:54:07"
                             },
                             "column_name": "id",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:52:50"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 635,
-                            "is_active": true,
+                            "id": 234,
+                            "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 17,
+                            "table_id": 21,
                             "type": "STRING",
-                            "uuid": "57e76525-356c-4c48-8c2c-0d763a9953f3",
+                            "uuid": "40f252c0-87ef-4c92-a45f-4694193a165a",
                             "verbose_name": null
                         }
                     },
@@ -227,24 +597,199 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:54:07"
+                            },
+                            "column_name": "airQualityIndex",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-06-09T14:52:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 235,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 21,
+                            "type": "INT",
+                            "uuid": "01017d72-799f-44f8-86dd-b5ae42f66bc8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-06-09T14:54:07"
+                            },
+                            "column_name": "airTemperature",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-06-09T14:52:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 236,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 21,
+                            "type": "FLOAT",
+                            "uuid": "3630afbb-c117-40fe-a499-a780cfa79ba1",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-06-09T14:54:07"
+                            },
+                            "column_name": "ambientNoise",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-06-09T14:52:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 237,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 21,
+                            "type": "FLOAT",
+                            "uuid": "2b6a8c0d-f280-49ab-ab98-ecb07e4d5698",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-06-09T14:54:07"
+                            },
+                            "column_name": "aqiMajorPollutant",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-06-09T14:52:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 238,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 21,
+                            "type": "FLOAT",
+                            "uuid": "b72778ff-c151-4cab-91d3-10266b901e92",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-06-09T14:54:07"
+                            },
+                            "column_name": "atmosphericPressure",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-06-09T14:52:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 239,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 21,
+                            "type": "FLOAT",
+                            "uuid": "6440ad55-35e3-467f-bcc9-c4b1bcd62cf7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-06-09T14:54:07"
+                            },
+                            "column_name": "co",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-06-09T14:52:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 240,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 21,
+                            "type": "FLOAT",
+                            "uuid": "4f282e74-8171-43da-a82b-cea32a88cf0e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-06-09T14:54:07"
+                            },
+                            "column_name": "co2",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-06-09T14:52:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 241,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 21,
+                            "type": "FLOAT",
+                            "uuid": "aa7a4dc2-8d8c-4e4a-8115-6f72e53367b3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-06-09T14:54:07"
                             },
                             "column_name": "illuminance",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:52:50"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 636,
-                            "is_active": true,
+                            "id": 242,
+                            "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 17,
+                            "table_id": 21,
                             "type": "FLOAT",
-                            "uuid": "47d0900c-cc21-4258-8e31-11c749927f0e",
+                            "uuid": "75076a81-ac77-4492-a582-7891d5013f95",
                             "verbose_name": null
                         }
                     },
@@ -252,74 +797,24 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "column_name": "latitude",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 637,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 17,
-                            "type": "FLOAT",
-                            "uuid": "7fbf9c51-ecc4-419b-93ba-9381203f11b0",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "column_name": "longitude",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 638,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 17,
-                            "type": "FLOAT",
-                            "uuid": "7b484fa1-664d-4e3a-b5c0-a85c6694981e",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:54:07"
                             },
                             "column_name": "no2",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:52:50"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 639,
-                            "is_active": true,
+                            "id": 243,
+                            "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 17,
+                            "table_id": 21,
                             "type": "FLOAT",
-                            "uuid": "ff5b3677-4d5b-41c5-a34c-6b1d6b6e397d",
+                            "uuid": "b4529eda-38bb-4474-be53-7fc96455f06a",
                             "verbose_name": null
                         }
                     },
@@ -327,24 +822,24 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:54:07"
                             },
                             "column_name": "o3",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:52:50"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 640,
-                            "is_active": true,
+                            "id": 244,
+                            "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 17,
+                            "table_id": 21,
                             "type": "FLOAT",
-                            "uuid": "da47eb16-ab0c-45df-8665-5a05782d4e34",
+                            "uuid": "a3c04829-b672-4846-b4c3-9f4c99aacb69",
                             "verbose_name": null
                         }
                     },
@@ -352,24 +847,24 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:54:07"
                             },
                             "column_name": "pm10",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:52:50"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 641,
-                            "is_active": true,
+                            "id": 245,
+                            "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 17,
+                            "table_id": 21,
                             "type": "FLOAT",
-                            "uuid": "214c22dc-d61c-44dd-8a27-3848ec3aa0be",
+                            "uuid": "d1988b65-7ed7-4c6c-9b25-c8e17f639f66",
                             "verbose_name": null
                         }
                     },
@@ -377,24 +872,24 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:54:07"
                             },
                             "column_name": "pm2p5",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:52:50"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 642,
-                            "is_active": true,
+                            "id": 246,
+                            "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 17,
+                            "table_id": 21,
                             "type": "FLOAT",
-                            "uuid": "b5a07a1b-b519-48dd-8cf7-95a4bb4a480c",
+                            "uuid": "d1cb57c8-8dd4-4e25-a014-dfdcbcca99ea",
                             "verbose_name": null
                         }
                     },
@@ -402,24 +897,24 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:54:07"
                             },
                             "column_name": "relativeHumidity",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:52:50"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 643,
-                            "is_active": true,
+                            "id": 247,
+                            "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 17,
+                            "table_id": 21,
                             "type": "FLOAT",
-                            "uuid": "7accc9a7-88ee-475e-9d55-64e24a0d9738",
+                            "uuid": "9a3c47a4-e7e7-41b7-9c02-5d9108470cf3",
                             "verbose_name": null
                         }
                     },
@@ -427,54 +922,624 @@
                         "__TableColumn__": {
                             "changed_by_fk": 1,
                             "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "column_name": "so2",
-                            "created_by_fk": 1,
-                            "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
-                            },
-                            "description": null,
-                            "expression": null,
-                            "filterable": true,
-                            "groupby": true,
-                            "id": 644,
-                            "is_active": true,
-                            "is_dttm": false,
-                            "python_date_format": null,
-                            "table_id": 17,
-                            "type": "FLOAT",
-                            "uuid": "d70da24e-58f9-4ffd-b96e-18bd5a0e4675",
-                            "verbose_name": null
-                        }
-                    },
-                    {
-                        "__TableColumn__": {
-                            "changed_by_fk": 1,
-                            "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:54:07"
                             },
                             "column_name": "uv",
                             "created_by_fk": 1,
                             "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-09T14:52:50"
                             },
                             "description": null,
                             "expression": null,
                             "filterable": true,
                             "groupby": true,
-                            "id": 645,
-                            "is_active": true,
+                            "id": 248,
+                            "is_active": null,
                             "is_dttm": false,
                             "python_date_format": null,
-                            "table_id": 17,
+                            "table_id": 21,
                             "type": "FLOAT",
-                            "uuid": "b4dd8e30-ae91-493f-a907-0f23461558e4",
+                            "uuid": "f16b6c8a-bbec-424b-bb8a-e6e211abc62e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-06-09T14:54:07"
+                            },
+                            "column_name": "__time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-06-09T14:52:50"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 249,
+                            "is_active": null,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 21,
+                            "type": "STRING",
+                            "uuid": "6b449fd3-0060-4bb2-89a5-aecd845f1e07",
                             "verbose_name": null
                         }
                     }
                 ],
-                "database_id": 4,
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-06-09T14:52:50"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-06-09T14:52:50"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 20,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 21,
+                            "uuid": "96bf9de7-23ae-4a1d-9746-e68a06e65f95",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 21, \"database_name\": \"aqm\", \"import_time\": 1623230570}",
+                "schema": "druid",
+                "sql": "SELECT \nid, __time,\nAVG(airTemperature) as airTemperature,\nAVG(ambientNoise) as ambientNoise,\nAVG(co) as co,\nAVG(co2) as co2,\nAVG(illuminance) as illuminance,\nAVG(no2) as no2,\nAVG(o3) as o3,\nAVG(pm10) as pm10,\nAVG(pm2p5) as pm2p5,\nAVG(relativeHumidity) as relativeHumidity,\nAVG(uv) as uv\nFROM \n\"vadodara-aqm\"\nGROUP BY __time, id \n",
+                "table_name": "sensor_grouped_average_vadodara",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "__time",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 41,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "LONG",
+                            "uuid": "649c2b8c-62c0-4020-9f89-9a2528fbaf1f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "airTemperature",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 42,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "FLOAT",
+                            "uuid": "005414e1-cc85-4c77-9185-8d5b32c2fdff",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "ambientNoise",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 43,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "FLOAT",
+                            "uuid": "09da8de3-8018-4db4-bdc4-086b5d5324e9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "co",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 44,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "FLOAT",
+                            "uuid": "179e1b65-6148-4512-b6d9-4f71c465524b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "co2",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 45,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "FLOAT",
+                            "uuid": "ad2d3801-5d5e-49a7-bed6-4dd39fc8a023",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "id",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 46,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "STRING",
+                            "uuid": "a77ee718-b5f1-48dd-8107-b613a50e8643",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "illuminance",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 47,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "FLOAT",
+                            "uuid": "285a5e2a-d720-4089-8549-e95289abe880",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 48,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "FLOAT",
+                            "uuid": "438cc3e0-75d1-4fd9-9ad1-7d6d3679c86f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 49,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "FLOAT",
+                            "uuid": "8d2e7591-14a7-43bc-a544-552503b97685",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "no2",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 50,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "FLOAT",
+                            "uuid": "006878e5-46c6-4bc4-97e1-cb4d2c5640a9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "o3",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 51,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "FLOAT",
+                            "uuid": "2c6eac40-b5c6-4cac-97f9-77e5e856588b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "pm10",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 52,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "FLOAT",
+                            "uuid": "dd21cad2-0e58-44d8-99bf-0e1428ad7b82",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "pm2p5",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 53,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "FLOAT",
+                            "uuid": "3b59d935-f2c4-41bb-9745-d53b564f64c5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "relativeHumidity",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 54,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "FLOAT",
+                            "uuid": "685e6f73-ec86-4e54-8cca-bf4265d89691",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "so2",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 55,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "FLOAT",
+                            "uuid": "82681337-4e17-4fc3-b3ef-5ce512b77308",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "column_name": "uv",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-06-01T16:17:35"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 56,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "FLOAT",
+                            "uuid": "279a4cb7-7d94-42e0-981d-4b8bbdd6c5d7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-06-09T11:23:01"
+                            },
+                            "column_name": "airQualityIndex",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-06-09T11:23:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 210,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "LONG",
+                            "uuid": "0fcab100-728c-4ca9-add8-ee7ffc7fd807",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-06-09T11:23:01"
+                            },
+                            "column_name": "airQualityLevel",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-06-09T11:23:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 211,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "STRING",
+                            "uuid": "61bc2352-b3b5-4978-b449-c81a3a078fe5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-06-09T11:23:01"
+                            },
+                            "column_name": "aqiMajorPollutant",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-06-09T11:23:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 212,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "STRING",
+                            "uuid": "46afc288-8628-4f5c-a608-11da2effa823",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-06-09T11:23:01"
+                            },
+                            "column_name": "atmosphericPressure",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-06-09T11:23:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 213,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "FLOAT",
+                            "uuid": "44a970fa-7ec1-4f58-b375-01a3aa4208f3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2021-06-09T11:23:01"
+                            },
+                            "column_name": "deviceStatus",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2021-06-09T11:23:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 214,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "STRING",
+                            "uuid": "1589f967-3cce-4f1c-9ce8-807650ddf59e",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
                 "default_endpoint": null,
                 "description": null,
                 "extra": null,
@@ -484,32 +1549,32 @@
                 "metrics": [
                     {
                         "__SqlMetric__": {
-                            "changed_by_fk": 1,
+                            "changed_by_fk": null,
                             "changed_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-01T16:17:35"
                             },
-                            "created_by_fk": 1,
+                            "created_by_fk": null,
                             "created_on": {
-                                "__datetime__": "2021-03-09T08:31:34"
+                                "__datetime__": "2021-06-01T16:17:35"
                             },
                             "d3format": null,
                             "description": null,
                             "expression": "COUNT(*)",
                             "extra": null,
-                            "id": 25,
+                            "id": 3,
                             "metric_name": "count",
                             "metric_type": "count",
-                            "table_id": 17,
-                            "uuid": "6d825292-4318-4dd4-99e8-6e7f593a9b37",
+                            "table_id": 3,
+                            "uuid": "689f56bf-76f0-44c7-b21f-5213b5a4f728",
                             "verbose_name": "COUNT(*)",
                             "warning_text": null
                         }
                     }
                 ],
                 "offset": 0,
-                "params": "{\"remote_id\": 17, \"database_name\": \"aqm\"}",
+                "params": "{\"remote_id\": 3, \"database_name\": \"aqm\", \"import_time\": 1623230570}",
                 "schema": "druid",
-                "sql": null,
+                "sql": "",
                 "table_name": "vadodara-aqm",
                 "template_params": null
             }

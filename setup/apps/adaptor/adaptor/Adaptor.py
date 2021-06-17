@@ -109,8 +109,9 @@ class Adaptor():
     """RMQ Callback
     """
     def default_callback(self, channel, method, properties, body):
-        data = self.user_callback(body)
-        self.publish(self.kafka_topic, data)
+        if (method.routing_key == self.routing_key):
+            data = self.user_callback(body)
+            self.publish(self.kafka_topic, data)
         
 
     def set_user_callback(self, callback):

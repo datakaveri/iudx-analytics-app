@@ -2,31 +2,22 @@ from adaptor.Adaptor import Adaptor
 import json
 import requests
 
-adaptor_id = "vadodara-aqm-ingestion"
-config_path = "/config.json"
+adaptor_id = "surat-itms-ingestion"
+config_path = "./configs/config.json"
 
-grp_id = "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-env-aqm"
-api = "https://api.catalogue.iudx.org.in/iudx/cat/v1/relationship?id=xx&rel=resource"
-api = api.replace("xx", grp_id)
-data = requests.get(api).json()["results"]
-lookup = {}
-
-for d in data:
-    lookup[d["id"]] = {}
-    coords = d["location"]["geometry"]["coordinates"]
-    lookup[d["id"]]["latitude"] = coords[1]
-    lookup[d["id"]]["longitude"] = coords[0]
+grp_id = "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda/rs.iudx.org.in/surat-itms-realtime-info/surat-itms-live-eta"
 
 
 def user_callback(body):
-    global lookup
     x = json.loads(body)
     ks = list(x.keys())
-    for k in ks:
-        x["latitude"] =  lookup[x["id"]]["latitude"]
-        x["longitude"] =  lookup[x["id"]]["longitude"]
-        if (isinstance(x[k], dict) and "instValue" in  list(x[k].keys())):
-            x[k] = x[k]["instValue"]
+    try:
+        x["latitude"] =  x['location']["coordinates"][1]
+        x["longitude"] =  x['location']["coordinates"][0]
+        x.pop("location")
+    except Exception as e:
+        print(e)
+
     body = json.dumps(x).encode('utf-8')
     return body
 
@@ -50,7 +41,7 @@ def main():
 
     adaptor_obj.set_bootstrap_server("kafka:19092")
     adaptor_obj.create_producer()
-    adaptor_obj.set_kafkatopic("vadodara-aqm")
+    adaptor_obj.set_kafkatopic("surat-itms")
 
     adaptor_obj.set_user_callback(user_callback)
 

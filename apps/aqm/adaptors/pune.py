@@ -33,7 +33,6 @@ def user_callback(body):
 
 def main():
     
-
     config = {}
     with open(config_path, "r") as f:
         config = json.load(f)[adaptor_id]
