@@ -1,3 +1,4 @@
 ./README.html
 ./setup/kafka/zk-single-kafka-single
 ./scripts/configs/config.json
+./configs/config.json
