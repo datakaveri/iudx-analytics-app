@@ -15,7 +15,7 @@ db_formatter = "%Y-%m-%dT%H:%M:%S+05:30"
 time_formatter = "%Y-%m-%dT%H:%M:%S+05:30"
 
 adaptor_id = "surat-itms-scheduled-ingestion"
-config_path = "./configs/config.json"
+config_path = "./config.json"
 
 
 out_data = []
