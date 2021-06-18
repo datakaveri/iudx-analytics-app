@@ -8,8 +8,8 @@ services:
 
   kafkainit:
     build: 
-      dockerfile: ../images/Dockerfile
-      context: .
+      dockerfile: ${PROJECT_ROOT}/setup/apps/Dockerfile
+      context: ${PROJECT_ROOT}/setup/apps 
     volumes: 
       - ${TOPICS_FILE}:/usr/share/apps/scripts/topics.json
     environment:
@@ -21,8 +21,8 @@ services:
 
   druidinit:
     build: 
-      dockerfile: ../images/Dockerfile
-      context: .
+      dockerfile: ${PROJECT_ROOT}/setup/apps/Dockerfile
+      context: ${PROJECT_ROOT}/setup/apps 
     volumes: 
       - ${SPEC_PATH}:/specs/
     environment:
@@ -33,8 +33,8 @@ services:
 
   adaptors:
     build: 
-      dockerfile: ../images/Dockerfile.adaptors
-      context: .
+      dockerfile: ${PROJECT_ROOT}/setup/apps/Dockerfile
+      context: ${PROJECT_ROOT}/setup/apps 
     volumes: 
       - ${ADAPTORS_PATH}:/adaptors/
       - ${CONFIG_FILE}:/config.json

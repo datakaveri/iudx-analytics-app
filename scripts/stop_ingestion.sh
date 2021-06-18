@@ -1,12 +1,13 @@
 #/bin/bash
 
+PROJECT_ROOT="$PWD/../"
+export PROJECT_ROOT=$PROJECT_ROOT
+
 docker network rm analytics-net
 
-(cd ../setup/zookeeper/ \
-    && docker-compose down -v)
 
-(cd ../setup/kafka/ \
-    && docker-compose down -v)
-
-(cd ../setup/apps/ \
-    && docker-compose down -v)
+docker-compose \
+    -f $PROJECT_ROOT/setup/zookeeper/docker-compose.yml \
+    -f $PROJECT_ROOT/setup/kafka/docker-compose.yml \
+    -f $PROJECT_ROOT/setup/apps/docker-compose.yml \
+    down -v

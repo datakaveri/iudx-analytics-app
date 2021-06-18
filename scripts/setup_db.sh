@@ -1,8 +1,18 @@
 #/bin/bash
 
 PROJECT_ROOT="$PWD/../"
+export PROJECT_ROOT=$PROJECT_ROOT
 
-export SPEC_PATH="$PROJECT_ROOT/apps/aqm/druid/"
+
+echo "[1] AQM  [2] ITMS"
+read appname
+
+if [[ $appname -eq 1 ]]
+then
+    export SPEC_PATH="$PROJECT_ROOT/apps/aqm/druid/"
+else
+    export SPEC_PATH="$PROJECT_ROOT/apps/itms/druid/"
+fi
 
 docker network create analytics-net
 
