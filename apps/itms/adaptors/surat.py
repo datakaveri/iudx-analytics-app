@@ -3,7 +3,7 @@ import json
 import requests
 
 adaptor_id = "surat-itms-ingestion"
-config_path = "./config.json"
+config_path = "/config.json"
 
 grp_id = "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda/rs.iudx.org.in/surat-itms-realtime-info/surat-itms-live-eta"
 
