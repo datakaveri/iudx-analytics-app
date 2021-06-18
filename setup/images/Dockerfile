@@ -10,4 +10,9 @@ RUN pip install confluent-kafka \
     && pip install pika \
     && pip install retry \
     && cd adaptor \
-    && pip install .
+    && pip install .\
+    && pip install python-dateutil\
+    && pip install pytz\
+    && pip install wheel\
+    && pip install pandas\
+    && pip install schedule

@@ -3,7 +3,7 @@ import json
 import requests
 
 adaptor_id = "surat-itms-ingestion"
-config_path = "./configs/config.json"
+config_path = "./config.json"
 
 grp_id = "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda/rs.iudx.org.in/surat-itms-realtime-info/surat-itms-live-eta"
 
@@ -41,7 +41,7 @@ def main():
 
     adaptor_obj.set_bootstrap_server("kafka:19092")
     adaptor_obj.create_producer()
-    adaptor_obj.set_kafkatopic("surat-itms")
+    adaptor_obj.set_kafkatopic("surat-itms-live")
 
     adaptor_obj.set_user_callback(user_callback)
 
