@@ -35,7 +35,7 @@ services:
     build: 
       dockerfile: ${PROJECT_ROOT}/setup/apps/Dockerfile
       context: ${PROJECT_ROOT}/setup/apps 
-    container_name: adaptors-${ADAPTOR_NAME}
+    container_name: adaptors
     volumes: 
       - ${ADAPTORS_PATH}:/adaptors/
       - ${CONFIG_FILE}:/config.json
