@@ -10,6 +10,8 @@ services:
     build: 
       dockerfile: ${PROJECT_ROOT}/setup/apps/Dockerfile
       context: ${PROJECT_ROOT}/setup/apps 
+    depends_on:
+      - kafka
     volumes: 
       - ${TOPICS_FILE}:/usr/share/apps/scripts/topics.json
     environment:
@@ -36,6 +38,8 @@ services:
       dockerfile: ${PROJECT_ROOT}/setup/apps/Dockerfile
       context: ${PROJECT_ROOT}/setup/apps 
     container_name: adaptors
+    depends_on:
+      - kafka
     volumes: 
       - ${ADAPTORS_PATH}:/adaptors/
       - ${CONFIG_FILE}:/config.json
