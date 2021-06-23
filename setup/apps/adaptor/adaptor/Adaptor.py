@@ -20,7 +20,7 @@ class Adaptor():
         self.vhost: str = "vhost"
         self.port : int = 9092
         self.queue_name: str = "queue_name"
-        self.routing_key: str = "routing_key"
+        self.routing_key: str = ""
         self.kafka_topic: str = "kafka_topic"
         self.user_callback = None
 
@@ -109,6 +109,9 @@ class Adaptor():
     """RMQ Callback
     """
     def default_callback(self, channel, method, properties, body):
+        if (self.routing_key == ""):
+            data = self.user_callback(body)
+            self.publish(self.kafka_topic, data)
         if (method.routing_key == self.routing_key):
             data = self.user_callback(body)
             self.publish(self.kafka_topic, data)
