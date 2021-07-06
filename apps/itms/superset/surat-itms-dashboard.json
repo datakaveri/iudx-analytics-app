@@ -146,7 +146,7 @@
                             "datasource_name": "druid.itms_sch_1",
                             "datasource_type": "table",
                             "id": 256,
-                            "params": "{\"adhoc_filters\": [], \"datasource\": \"29__table\", \"date_filter\": false, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"trip_id\", \"key\": \"to4OrKmuV\", \"multiple\": true, \"searchAllOptions\": false}], \"granularity_sqla\": \"__time\", \"instant_filtering\": false, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"show_sqla_time_column\": false, \"show_sqla_time_granularity\": false, \"slice_id\": 256, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 256, \"datasource_name\": \"itms_sch_1\", \"schema\": \"druid\", \"database_name\": \"ITMS2\"}",
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"29__table\", \"date_filter\": false, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"trip_id\", \"key\": \"to4OrKmuV\", \"multiple\": true, \"searchAllOptions\": false}], \"granularity_sqla\": \"__time\", \"instant_filtering\": false, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"show_sqla_time_column\": false, \"show_sqla_time_granularity\": false, \"slice_id\": 256, \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 256, \"datasource_name\": \"itms_sch_1\", \"schema\": \"druid\", \"database_name\": \"ITMS\"}",
                             "slice_name": "Scheduled trip filter",
                             "viz_type": "filter_box"
                         }
@@ -2061,7 +2061,7 @@
                     }
                 ],
                 "offset": 0,
-                "params": "{\"remote_id\": 29, \"database_name\": \"ITMS2\"}",
+                "params": "{\"remote_id\": 29, \"database_name\": \"ITMS\"}",
                 "schema": "druid",
                 "sql": "",
                 "table_name": "itms_sch_1",
