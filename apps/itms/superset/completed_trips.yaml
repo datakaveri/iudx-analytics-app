@@ -1,10 +1,9 @@
 - columns:
-  - column_name: __time
-    is_dttm: true
-    type: STRING
   - column_name: location.coordinates
     type: STRING
   - column_name: location.type
+    type: STRING
+  - column_name: trip_id0
     type: STRING
   - column_name: latitude
     type: FLOAT
@@ -12,6 +11,10 @@
     type: FLOAT
   - column_name: longitude
     type: FLOAT
+  - column_name: scheduled_last_stop
+    type: STRING
+  - column_name: __time
+    type: STRING
   - column_name: vehicle_label
     type: STRING
   - column_name: license_plate
@@ -35,12 +38,10 @@
   metrics:
   - expression: count(*)
     metric_name: count
-  params: '{"remote_id": 12, "database_name": "ITMS", "import_time": 1623400445}'
   schema: druid
-  sql: "SELECT \n*\nFROM \nitms_eta_1 \nWHERE trip_id in\n(\n  SELECT \n  trip_id\n\
-    \  from\n  itms_eta_1\n  where __time >= TIMESTAMP '2021-01-02 00:00:00' AND __time\
-    \ <= TIMESTAMP '2021-01-02 01:00:00' \n  GROUP BY trip_id\n)\n\n\nAND  last_stop_arrival_time\
-    \ in\n(\n  SELECT \n  max(last_stop_arrival_time) as last_time\n  from\n  itms_eta_1\n\
-    \  where __time >= TIMESTAMP '2021-01-02 00:00:00' AND __time <= TIMESTAMP '2021-01-02\
-    \ 01:00:00' \n  GROUP BY trip_id\n)"
-  table_name: grouped_trip_maps
+  sql: "SELECT *\nFROM itms_eta_1 as eta\nINNER JOIN\n(\n    SELECT trip_id, stop_id\
+    \ as scheduled_last_stop\n    FROM itms_sch_1 \n    WHERE (itms_sch_1.trip_id,\
+    \ itms_sch_1.stop_sequence) \n    in \n    (select trip_id, MAX(stop_sequence)\
+    \ as max_sequence\n    FROM itms_sch_1 \n    GROUP BY trip_id)\n) as sch_lasts\n\
+    ON \neta.trip_id = sch_lasts.trip_id \n\nWHERE eta.last_stop_id = sch_lasts.scheduled_last_stop"
+  table_name: completed_trips

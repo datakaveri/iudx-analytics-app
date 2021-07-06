@@ -26,7 +26,7 @@
   metrics:
   - expression: count(*)
     metric_name: count
-  params: '{"remote_id": 14, "database_name": "ITMS", "import_time": 1622547112}'
+  params: '{"remote_id": 14, "database_name": "ITMS", "import_time": 1623401054}'
   schema: druid
   sql: "SELECT \n*\nFROM \n  (\n  SELECT \n  __time as sch_time,\n  trip_id, \n  max(arrival_time)\
     \ as sch_end_time, \n  min(departure_time) as sch_start_time, \n  (max(arrival_time)-min(departure_time))/60\

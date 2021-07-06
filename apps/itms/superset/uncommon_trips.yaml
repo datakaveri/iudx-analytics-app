@@ -15,7 +15,7 @@
   - column_name: stop_sequence
     type: INT
   metrics: []
-  params: '{"remote_id": 4, "database_name": "ITMS", "import_time": 1622547112}'
+  params: '{"remote_id": 8, "database_name": "ITMS", "import_time": 1623401054}'
   schema: druid
   sql: 'SELECT
 

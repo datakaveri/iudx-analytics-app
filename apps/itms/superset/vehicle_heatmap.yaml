@@ -9,6 +9,7 @@
   metrics:
   - expression: count(*)
     metric_name: count
+  params: '{"remote_id": 18, "database_name": "ITMS", "import_time": 1623401054}'
   schema: druid
   sql: "SELECT \n__time, license_plate, COUNT(*) as message_count\nFROM \nitms_eta_1\
     \ \nGROUP BY __time, license_plate"

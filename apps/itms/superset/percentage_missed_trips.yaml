@@ -17,7 +17,7 @@
   metrics:
   - expression: count(*)
     metric_name: count
-  params: '{"remote_id": 9, "database_name": "ITMS", "import_time": 1622547112}'
+  params: '{"remote_id": 7, "database_name": "ITMS", "import_time": 1623401054}'
   schema: druid
   sql: "SELECT\n__time,\ntrip_id,\nlicense_plate,\nlast_stop_id,\ntotal_live_stops,\n\
     total_scheduled_stops,\n(total_scheduled_stops - total_live_stops)*100/total_scheduled_stops\

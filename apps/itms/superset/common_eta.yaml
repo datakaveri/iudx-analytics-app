@@ -35,7 +35,7 @@
   - expression: COUNT(*)
     metric_name: count
     verbose_name: COUNT(*)
-  params: '{"remote_id": 6, "database_name": "ITMS", "import_time": 1622547112}'
+  params: '{"remote_id": 17, "database_name": "ITMS", "import_time": 1623401054}'
   schema: druid
   sql: "\n-- Query to get the full data in eta based on common trips in schedule and\
     \ eta live data    \n\nselect * from itms_eta_1 where trip_id in\n(\n  select\
