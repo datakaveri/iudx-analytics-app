@@ -15,7 +15,7 @@
   metrics:
   - expression: count(*)
     metric_name: count
-  params: '{"remote_id": 5, "database_name": "ITMS", "import_time": 1622547112}'
+  params: '{"remote_id": 16, "database_name": "ITMS", "import_time": 1623401054}'
   schema: druid
   sql: "SELECT e.__time, trip_id, e.license_plate, e.last_stop_id, seating_capacity,\
     \ standing_capacity \nFROM \nitms_eta_1 as e\nINNER JOIN\nitms_vehicle as v\n\

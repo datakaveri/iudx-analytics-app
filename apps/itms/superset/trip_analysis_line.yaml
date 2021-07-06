@@ -15,7 +15,7 @@
   metrics:
   - expression: count(*)
     metric_name: count
-  params: '{"remote_id": 17, "database_name": "ITMS", "import_time": 1622547112}'
+  params: '{"remote_id": 10, "database_name": "ITMS", "import_time": 1623401054}'
   schema: druid
   sql: "SELECT \nee.__time,\ntotal_live_trips,\ntotal_scheduled_trips,\n\ntotal_live_trips*100/total_scheduled_trips\
     \ as live_percentage,\ntotal_scheduled_trips - total_live_trips as trips_late,\n\
