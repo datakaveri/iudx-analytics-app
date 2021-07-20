@@ -33,3 +33,4 @@ services:
       - analytics-net
     volumes:
       - kafkadata:/var/lib/kafka/data
+    restart: always

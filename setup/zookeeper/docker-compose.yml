@@ -24,4 +24,4 @@ services:
       - zkdatalog:/datalog
     networks: 
       - analytics-net
-
+    restart: always

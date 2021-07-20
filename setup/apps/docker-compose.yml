@@ -20,6 +20,7 @@ services:
     networks: 
       - analytics-net
     command: "python3 create_topics.py"
+    restart: always
 
   druidinit:
     build: 
@@ -32,6 +33,7 @@ services:
     networks: 
       - analytics-net
     command: "python3 create_supervisors.py"
+    restart: always
 
   adaptors:
     build: 
@@ -45,5 +47,4 @@ services:
       - ${CONFIG_FILE}:/config.json
     networks: 
       - analytics-net
-
-
+    restart: always
