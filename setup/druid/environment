@@ -11,9 +11,14 @@ druid_metadata_storage_connector_connectURI=jdbc:postgresql://postgres:5432/drui
 druid_metadata_storage_connector_user=druid
 druid_metadata_storage_connector_password=somepassword
 
+
+druid_storage_storageDirectory = druid/
 druid_storage_type=s3
 druid_storage_bucket=test-druid298
-druid_storage_baseKey=druid/segments
+druid_storage_baseKey=druid_segments
 druid_s3_accessKey=AKIAROAMFPEM3TFOQFDU
 druid_s3_secretKey=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
 druid_s3_endpoint_url = https://s3-website.ap-south-1.amazonaws.com
+druid_storage_archiveBucket=tester
+druid_storage_archiveBaseKey=undertest
+druid_s3_enablePathStyleAccess=true
