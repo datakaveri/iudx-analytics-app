@@ -1,8 +1,9 @@
 druid_emitter_logging_logLevel=error
 
-druid_extensions_loadList=["druid-histogram", "druid-datasketches", "druid-lookups-cached-global", "postgresql-metadata-storage", "druid-hdfs-storage", "druid-kafka-indexing-service"]
+druid_extensions_loadList=["druid-s3-extensions","druid-histogram", "druid-datasketches", "druid-lookups-cached-global", "postgresql-metadata-storage", "druid-hdfs-storage", "druid-kafka-indexing-service"]
 
 druid_zk_service_host=zook
+
 
 druid_metadata_storage_host=
 druid_metadata_storage_type=postgresql
@@ -10,5 +11,9 @@ druid_metadata_storage_connector_connectURI=jdbc:postgresql://postgres:5432/drui
 druid_metadata_storage_connector_user=druid
 druid_metadata_storage_connector_password=somepassword
 
-druid_storage_type=local
-druid_storage_storageDirectory=/opt/data/segments
+druid_storage_type=s3
+druid_storage_bucket=test-druid298
+druid_storage_baseKey=druid/segments
+druid_s3_accessKey=AKIAROAMFPEM3TFOQFDU
+druid_s3_secretKey=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
+druid_s3_endpoint_url = https://s3-website.ap-south-1.amazonaws.com
