@@ -24,7 +24,7 @@ services:
       - POSTGRES_DB=druid
     networks: 
       - analytics-net
-
+    restart: always
 
   coordinator:
     image: apache/druid:0.21.0
@@ -43,6 +43,7 @@ services:
       - ./environment
     networks: 
       - analytics-net
+    restart: always
 
   broker:
     image: apache/druid:0.21.0
@@ -61,6 +62,7 @@ services:
       - environment
     networks: 
       - analytics-net
+    restart: always
 
   historical:
     image: apache/druid:0.21.0
@@ -80,6 +82,7 @@ services:
       - environment
     networks: 
       - analytics-net
+    restart: always
 
   middlemanager:
     image: apache/druid:0.21.0
@@ -100,6 +103,7 @@ services:
       - ./environment
     networks: 
       - analytics-net
+    restart: always
 
   router:
     image: apache/druid:0.21.0
@@ -118,3 +122,4 @@ services:
       - environment
     networks: 
       - analytics-net
+    restart: always
