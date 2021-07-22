@@ -14,11 +14,9 @@ druid_metadata_storage_connector_password=somepassword
 
 druid_storage_storageDirectory = druid/
 druid_storage_type=s3
-druid_storage_bucket=test-druid298
-druid_storage_baseKey=druid_segments
-druid_s3_accessKey=AKIAROAMFPEM3TFOQFDU
-druid_s3_secretKey=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
-druid_s3_endpoint_url = https://s3-website.ap-south-1.amazonaws.com
-druid_storage_archiveBucket=tester
-druid_storage_archiveBaseKey=undertest
+druid_storage_bucket=test-druid299
+druid_storage_baseKey=druidsegments
+druid_s3_accessKey=minio
+druid_s3_secretKey=minio123
+druid_s3_endpoint_url = http://minio1:9000
 druid_s3_enablePathStyleAccess=true
