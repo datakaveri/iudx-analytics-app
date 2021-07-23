@@ -1,0 +1,25 @@
+version: '3'
+
+networks:
+  analytics-net:
+    external: true
+
+volumes:
+  postgresbackup:
+
+services:
+  backup:
+    build: 
+      dockerfile: ./Dockerfile
+      context: .
+    container_name: miniobackup
+    environment:
+      ALIAS: minio
+      ENDPOINT_URI: http://minio1:9000
+      USERNAME: minio
+      PASSWORD: minio123
+      BUCKET_NAME: backupbucket
+    volumes:
+      - ./postgresbackup:/postgresbackup
+    networks:
+      - analytics-net
