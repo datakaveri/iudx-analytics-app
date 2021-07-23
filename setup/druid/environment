@@ -12,9 +12,8 @@ druid_metadata_storage_connector_user=druid
 druid_metadata_storage_connector_password=somepassword
 
 
-druid_storage_storageDirectory = druid/
 druid_storage_type=s3
-druid_storage_bucket=test-druid299
+druid_storage_bucket=test-druid298
 druid_storage_baseKey=druidsegments
 druid_s3_accessKey=minio
 druid_s3_secretKey=minio123
